@@ -9,45 +9,45 @@ import Footer from "@/components/Footer";
 const Blog = () => {
   const featuredPost = {
     id: 1,
-    title: "✨ Como Descobrir Sua Missão de Alma através da Numerologia",
-    excerpt: "Descobrir sua missão de alma é como abrir um mapa sagrado que revela o caminho para sua verdadeira realização. A numerologia é uma das ferramentas mais poderosas para essa jornada de autoconhecimento.",
-    category: "Numerologia",
-    date: "Janeiro 2025",
+    title: "✨ How to Discover Your Soul Mission through Numerology",
+    excerpt: "Discovering your soul mission is like opening a sacred map that reveals the path to your true fulfillment. Numerology is one of the most powerful tools for this journey of self-discovery.",
+    category: "Numerology",
+    date: "January 2025",
     readTime: "8 min",
     fullContent: false,
-    link: "/missao-alma-numerologia"
+    link: "/soul-mission-numerology"
   };
 
   const allPosts = [
     {
       id: 2,
-      title: "Os 7 Chakras e Sua Conexão com os Signos do Zodíaco",
-      excerpt: "Descubra como alinhar seus centros de energia com os signos astrológicos para desbloquear seu poder interior",
-      category: "Astrologia",
+      title: "The 7 Chakras and Their Connection to Zodiac Signs",
+      excerpt: "Discover how to align your energy centers with astrological signs to unlock your inner power",
+      category: "Astrology",
       date: "12 Nov 2024",
       readTime: "12 min",
       fullContent: false,
-      link: "/chakras-zodiaco"
+      link: "/chakras-zodiac"
     },
     {
       id: 3,
-      title: "Registros Akáshicos: Portal para Vidas Passadas",
-      excerpt: "Entenda como acessar as memórias da sua alma e curar traumas ancestrais através dos registros cósmicos que guardam toda a sabedoria universal.",
-      category: "Registros Akáshicos",
+      title: "Akashic Records: Portal to Past Lives",
+      excerpt: "Understand how to access your soul's memories and heal ancestral traumas through cosmic records that hold all universal wisdom.",
+      category: "Akashic Records",
       date: "10 Nov 2024",
       readTime: "15 min",
       fullContent: false,
-      link: "/registros-akashicos"
+      link: "/akashic-records"
     },
     {
       id: 4,
-      title: "Limpeza Energética: Rituais de Proteção Espiritual",
-      excerpt: "Aprenda técnicas poderosas para proteger sua energia e manter sua aura sempre limpa e fortalecida contra influências negativas.",
-      category: "Espiritualidade",
+      title: "Energy Cleansing: Spiritual Protection Rituals",
+      excerpt: "Learn powerful techniques to protect your energy and keep your aura always clean and strengthened against negative influences.",
+      category: "Spirituality",
       date: "08 Nov 2024",
       readTime: "6 min",
       fullContent: false,
-      link: "/limpeza-energetica"
+      link: "/energy-cleansing"
     }
   ];
 
@@ -59,21 +59,21 @@ const Blog = () => {
         {/* Back to Home */}
         <Link to="/" className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors mb-8">
           <ArrowLeft className="w-4 h-4" />
-          Voltar ao Início
+          Back to Home
         </Link>
 
         {/* Blog Header */}
         <div className="text-center mb-16">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Sparkles className="w-6 h-6 text-primary" />
-            <span className="text-primary font-semibold">Blog Celestia</span>
+            <span className="text-primary font-semibold">Celestia Blog</span>
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">Sabedoria</span>{" "}
-            <span className="bg-gradient-to-r from-divine via-luxury to-cosmic bg-clip-text text-transparent">Espiritual</span>
+            <span className="bg-gradient-to-r from-primary via-purple-500 to-pink-500 bg-clip-text text-transparent">Spiritual</span>{" "}
+            <span className="bg-gradient-to-r from-divine via-luxury to-cosmic bg-clip-text text-transparent">Wisdom</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Artigos, guias e insights para acelerar sua jornada de despertar espiritual e autoconhecimento profundo
+            Articles, guides and insights to accelerate your spiritual awakening journey and deep self-discovery
           </p>
         </div>
 
@@ -83,7 +83,7 @@ const Blog = () => {
             <CardContent className="p-8 md:p-12">
               <div className="flex items-center gap-3 mb-6">
                 <Badge className="bg-gradient-to-r from-primary to-purple-600 text-white border-0 font-semibold">
-                  Artigo em Destaque
+                  Featured Article
                 </Badge>
                 <div className="flex items-center gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-1">
@@ -118,7 +118,7 @@ const Blog = () => {
                   size="lg" 
                   className="bg-gradient-to-r from-primary to-purple-600 hover:from-primary/90 hover:to-purple-600/90"
                 >
-                  Ler Artigo Completo
+                  Read Full Article
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
@@ -128,7 +128,7 @@ const Blog = () => {
 
         {/* Other Articles Grid */}
         <div className="mb-16">
-          <h2 className="text-3xl font-bold text-center mb-12">Mais Artigos</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">More Articles</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {allPosts.map((post) => (
               <Card 
@@ -170,7 +170,7 @@ const Blog = () => {
                      to={post.link || "#"}
                      className="inline-flex items-center gap-1 font-medium text-primary hover:text-primary/80 group/link transition-colors"
                    >
-                     Continuar Lendo
+                     Continue Reading
                      <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                    </Link>
                 </CardContent>
