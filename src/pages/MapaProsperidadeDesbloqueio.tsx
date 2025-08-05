@@ -132,7 +132,7 @@ const MapaProsperidadeDesbloqueio = () => {
   const testimonials = [
     {
       text: "After following the prosperity plan, my business took off in 6 months. The karmic blocks really made a difference!",
-      author: "Robert Santos"
+      author: "Robert S."
     },
     {
       text: "I discovered talents I didn't even know I had! The prosperity number completely changed my view on money.",
