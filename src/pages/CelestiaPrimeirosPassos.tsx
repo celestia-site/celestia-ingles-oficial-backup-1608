@@ -142,11 +142,11 @@ const CelestiaPrimeirosPassos = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
                   <div className="text-center sm:text-left">
-                    <div className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$9.99</div>
+                    <div className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$19.7</div>
                     <div className="text-sm text-muted-foreground">one time</div>
                   </div>
                   <div className="text-center sm:text-left">
-                    <div className="text-lg font-semibold text-foreground">3x of $3.33</div>
+                    <div className="text-lg font-semibold text-foreground">US$ 19.7</div>
                     <div className="text-sm text-muted-foreground">no interest</div>
                   </div>
                 </div>
