@@ -36,9 +36,9 @@ const CelestiaPrimeirosPassos = () => {
     setIsSubmitting(true);
 
     try {
-      // Validação básica
+      // Basic validation
       if (!formData.fullName || !formData.email || !formData.whatsapp || !formData.birthDate || !formData.birthCity || !formData.birthState || !formData.birthCountry) {
-        toast.error("Por favor, preencha todos os campos obrigatórios.");
+        toast.error("Please fill in all required fields.");
         return;
       }
 
@@ -55,8 +55,8 @@ const CelestiaPrimeirosPassos = () => {
       });
 
       if (error) {
-        console.error('Erro ao enviar:', error);
-        toast.error("Erro ao enviar formulário. Tente novamente.");
+        console.error('Error sending:', error);
+        toast.error("Error submitting form. Please try again.");
         return;
       }
 
@@ -71,7 +71,7 @@ const CelestiaPrimeirosPassos = () => {
           birth_city: formData.birthCity,
           birth_state: formData.birthState,
           birth_country: formData.birthCountry,
-          produto: 'Celestia Primeiros Passos',
+          produto: 'Celestia First Steps',
           status: 'pending',
           created_at: new Date().toISOString()
         };
@@ -81,17 +81,17 @@ const CelestiaPrimeirosPassos = () => {
         });
 
         if (exportError) {
-          console.error('Erro ao exportar para Google Sheets:', exportError);
+          console.error('Error exporting to Google Sheets:', exportError);
           // Don't show error to user since the main form submission was successful
         }
       } catch (exportError) {
-        console.error('Erro ao exportar para Google Sheets:', exportError);
+        console.error('Error exporting to Google Sheets:', exportError);
         // Don't show error to user since the main form submission was successful
       }
 
-      toast.success("Solicitação enviada com sucesso! Redirecionando para o pagamento...");
+      toast.success("Request submitted successfully! Redirecting to payment...");
       
-      // Limpar formulário
+      // Clear form
       setFormData({
         fullName: '',
         email: '',
@@ -103,14 +103,14 @@ const CelestiaPrimeirosPassos = () => {
         birthCountry: ''
       });
 
-      // Redirecionar para o link de pagamento da Cakto após 2 segundos
+      // Redirect to Cakto payment link after 2 seconds
       setTimeout(() => {
         window.open('https://pay.cakto.com.br/xybdvtr_483604', '_blank');
       }, 2000);
 
     } catch (error) {
-      console.error('Erro:', error);
-      toast.error("Erro inesperado. Tente novamente.");
+      console.error('Error:', error);
+      toast.error("Unexpected error. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -128,32 +128,32 @@ const CelestiaPrimeirosPassos = () => {
               <div>
                 <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full mb-6">
                   <Star className="w-4 h-4" />
-                  <span className="text-sm font-medium text-white">INICIANTE</span>
+                  <span className="text-sm font-medium text-white">BEGINNER</span>
                 </div>
                 
                 <h1 className="text-5xl md:text-6xl font-bold mb-6">
                   <span className="bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">Celestia - </span>
-                  <span className="bg-gradient-to-r from-blue-800 to-purple-500 bg-clip-text text-transparent">Primeiros Passos</span>
+                  <span className="bg-gradient-to-r from-blue-800 to-purple-500 bg-clip-text text-transparent">First Steps</span>
                 </h1>
                 
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-                  Seu mapa espiritual em 1ª visão. Descubra os códigos essenciais da sua alma com base no seu nome e data de nascimento. Um diagnóstico rápido, poderoso e revelador para iniciar sua jornada espiritual.
+                  Your spiritual map in first glance. Discover your soul's essential codes based on your name and birth date. A quick, powerful, and revealing assessment to start your spiritual journey.
                 </p>
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
                   <div className="text-center sm:text-left">
-                    <div className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">R$ 29,70</div>
-                    <div className="text-sm text-muted-foreground">à vista</div>
+                    <div className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$9.99</div>
+                    <div className="text-sm text-muted-foreground">one time</div>
                   </div>
                   <div className="text-center sm:text-left">
-                    <div className="text-lg font-semibold text-foreground">7x de R$ 5,03</div>
-                    <div className="text-sm text-muted-foreground">sem juros</div>
+                    <div className="text-lg font-semibold text-foreground">3x of $3.33</div>
+                    <div className="text-sm text-muted-foreground">no interest</div>
                   </div>
                 </div>
 
                 <Button className="w-full sm:w-auto h-14 px-8 text-lg font-semibold bg-blue-600 hover:bg-blue-700 transition-colors text-white border-0">
                   <Gift className="w-5 h-5 mr-2" />
-                  Adquirir Agora
+                  Get Now
                 </Button>
               </div>
 
@@ -161,7 +161,7 @@ const CelestiaPrimeirosPassos = () => {
                 <div className="relative overflow-hidden rounded-2xl shadow-luxury">
                   <img 
                     src="/lovable-uploads/b9812cd9-93b7-47ac-b9e4-73ebd9268137.png" 
-                    alt="Chakras e meditação - Primeiros passos na jornada espiritual"
+                    alt="Chakras and meditation - First steps in the spiritual journey"
                     className="w-full h-96 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
@@ -176,7 +176,7 @@ const CelestiaPrimeirosPassos = () => {
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold mb-6">
-                <span className="bg-gradient-text-primary bg-clip-text text-transparent">O que está incluído no seu Celestia</span>
+                <span className="bg-gradient-text-primary bg-clip-text text-transparent">What's included in your Celestia</span>
               </h2>
             </div>
 
@@ -184,28 +184,28 @@ const CelestiaPrimeirosPassos = () => {
               {[
                 {
                   icon: Star,
-                  title: "Número de Nascimento",
-                  description: "Descubra sua essência numerológica e como ela influencia sua jornada de vida"
+                  title: "Birth Number",
+                  description: "Discover your numerological essence and how it influences your life journey"
                 },
                 {
                   icon: Sparkles,
-                  title: "Signo Solar",
-                  description: "Análise detalhada do seu signo e como ele molda sua personalidade"
+                  title: "Sun Sign",
+                  description: "Detailed analysis of your zodiac sign and how it shapes your personality"
                 },
                 {
                   icon: Zap,
-                  title: "Animal do Horóscopo Chinês",
-                  description: "Características únicas do seu animal protetor e sua influência energética"
+                  title: "Chinese Zodiac Animal",
+                  description: "Unique characteristics of your protective animal and its energetic influence"
                 },
                 {
                   icon: Heart,
-                  title: "Chakra Dominante",
-                  description: "Identifique seu centro energético principal e como fortalecê-lo"
+                  title: "Dominant Chakra",
+                  description: "Identify your main energy center and how to strengthen it"
                 },
                 {
                   icon: Eye,
-                  title: "Mensagem Canalizada Intuitiva",
-                  description: "Receba uma mensagem personalizada diretamente do universo para você"
+                  title: "Channeled Intuitive Message",
+                  description: "Receive a personalized message directly from the universe for you"
                 }
               ].map((feature, index) => (
                 <Card key={index} className="bg-card/50 border-primary/30 hover:border-primary/60 transition-cosmic backdrop-blur-sm">
@@ -235,12 +235,12 @@ const CelestiaPrimeirosPassos = () => {
                 
                 <h3 className="text-2xl font-bold mb-4">
                   <span className="bg-gradient-text-primary bg-clip-text text-transparent">
-                    Ideal como primeiro passo no autoconhecimento
+                    Perfect as your first step in self-discovery
                   </span>
                 </h3>
                 
                 <p className="text-muted-foreground leading-relaxed">
-                  Perfeito para quem está começando a jornada espiritual ou quer uma visão geral rápida e poderosa dos seus códigos essenciais.
+                  Perfect for those just starting their spiritual journey or wanting a quick and powerful overview of their essential codes.
                 </p>
               </CardContent>
             </Card>
@@ -253,7 +253,7 @@ const CelestiaPrimeirosPassos = () => {
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">
-                  Transformações reais de nossos clientes
+                  Real transformations from our clients
                 </span>
               </h2>
             </div>
@@ -261,19 +261,19 @@ const CelestiaPrimeirosPassos = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
               {[
                 {
-                  text: "O Celestia me ajudou a entender finalmente quem eu sou. A mensagem canalizada chegou no momento perfeito da minha vida!",
-                  name: "Ana Silva",
-                  initials: "AS"
+                  text: "Celestia helped me finally understand who I am. The channeled message came at the perfect time in my life!",
+                  name: "Sarah Johnson",
+                  initials: "SJ"
                 },
                 {
-                  text: "Impressionante como tudo fez sentido. O relatório é muito detalhado e me deu clareza sobre meu propósito.",
-                  name: "Carlos Mendes",
-                  initials: "CM"
+                  text: "Amazing how everything made sense. The report is very detailed and gave me clarity about my purpose.",
+                  name: "Michael Davis",
+                  initials: "MD"
                 },
                 {
-                  text: "Recomendo para quem está começando no autoconhecimento. É um guia completo e muito preciso.",
-                  name: "Mariana Costa",
-                  initials: "MC"
+                  text: "I recommend it for anyone starting their self-discovery journey. It's a complete and very accurate guide.",
+                  name: "Emma Wilson",
+                  initials: "EW"
                 }
               ].map((testimonial, index) => (
                 <Card key={index} className="bg-card/10 border-purple-500/30 backdrop-blur-sm">
@@ -310,24 +310,24 @@ const CelestiaPrimeirosPassos = () => {
             <div className="text-center mb-12">
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 <span className="bg-gradient-to-r from-purple-400 to-violet-400 bg-clip-text text-transparent">
-                  Comece sua jornada espiritual hoje
+                  Start your spiritual journey today
                 </span>
               </h2>
               <p className="text-gray-300 text-lg mb-8">
-                Preencha o formulário abaixo e receba seu relatório personalizado em até 48 horas
+                Fill out the form below and receive your personalized report within 24 hours
               </p>
 
               {/* Pricing Box */}
               <Card className="bg-card/10 border-purple-500/30 backdrop-blur-sm max-w-md mx-auto mb-12">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">7x de R$ 5,03</div>
-                  <div className="text-gray-300 mb-4">ou R$ 29,70 à vista</div>
+                  <div className="text-3xl font-bold text-purple-400 mb-2">3x of $3.33</div>
+                  <div className="text-gray-300 mb-4">or $9.99 one time</div>
                   <div className="inline-flex items-center bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-2">
                     40% OFF
                   </div>
                   <div className="flex items-center justify-center gap-2 text-orange-400 text-sm">
                     <Clock className="w-4 h-4" />
-                    Oferta especial por tempo limitado
+                    Limited time special offer
                   </div>
                 </CardContent>
               </Card>
@@ -338,10 +338,10 @@ const CelestiaPrimeirosPassos = () => {
               <CardContent className="p-8">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-purple-400 mb-2">
-                    Solicite Seu Celestia - Primeiros Passos
+                    Request Your Celestia - First Steps
                   </h3>
                   <p className="text-gray-300">
-                    Preencha seus dados para receber seu mapa personalizado
+                    Fill in your details to receive your personalized map
                   </p>
                 </div>
 
@@ -352,18 +352,18 @@ const CelestiaPrimeirosPassos = () => {
                       <div className="w-6 h-6 bg-purple-500 rounded flex items-center justify-center">
                         <span className="text-white text-sm">👤</span>
                       </div>
-                      <h4 className="text-lg font-semibold text-purple-400">Informações Pessoais</h4>
+                      <h4 className="text-lg font-semibold text-purple-400">Personal Information</h4>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <label className="block text-sm text-gray-300 mb-2">Nome Completo *</label>
+                        <label className="block text-sm text-gray-300 mb-2">Full Name *</label>
                         <input 
                           type="text" 
                           name="fullName"
                           value={formData.fullName}
                           onChange={handleInputChange}
-                          placeholder="Seu nome completo"
+                          placeholder="Your full name"
                           className="w-full p-3 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
                           required
                         />
@@ -375,7 +375,7 @@ const CelestiaPrimeirosPassos = () => {
                           name="email"
                           value={formData.email}
                           onChange={handleInputChange}
-                          placeholder="seu@email.com"
+                          placeholder="your@email.com"
                           className="w-full p-3 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
                           required
                         />
@@ -389,7 +389,7 @@ const CelestiaPrimeirosPassos = () => {
                         name="whatsapp"
                         value={formData.whatsapp}
                         onChange={handleInputChange}
-                        placeholder="(11) 99999-9999"
+                        placeholder="+1 (555) 123-4567"
                         className="w-full p-3 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
                         required
                       />
@@ -402,12 +402,12 @@ const CelestiaPrimeirosPassos = () => {
                       <div className="w-6 h-6 bg-purple-500 rounded flex items-center justify-center">
                         <span className="text-white text-sm">📅</span>
                       </div>
-                      <h4 className="text-lg font-semibold text-purple-400">Informações de Nascimento</h4>
+                      <h4 className="text-lg font-semibold text-purple-400">Birth Information</h4>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div>
-                        <label className="block text-sm text-gray-300 mb-2">Data de Nascimento *</label>
+                        <label className="block text-sm text-gray-300 mb-2">Birth Date *</label>
                         <input 
                           type="date" 
                           name="birthDate"
@@ -418,7 +418,7 @@ const CelestiaPrimeirosPassos = () => {
                         />
                       </div>
                       <div>
-                        <label className="block text-sm text-gray-300 mb-2">Hora de Nascimento (opcional)</label>
+                        <label className="block text-sm text-gray-300 mb-2">Birth Time (optional)</label>
                         <input 
                           type="time" 
                           name="birthTime"
@@ -426,43 +426,43 @@ const CelestiaPrimeirosPassos = () => {
                           onChange={handleInputChange}
                           className="w-full p-3 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
                         />
-                        <p className="text-xs text-gray-400 mt-1">Se souber, isso tornará seu relatório mais preciso</p>
+                        <p className="text-xs text-gray-400 mt-1">If you know it, this will make your report more accurate</p>
                       </div>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                       <div>
-                        <label className="block text-sm text-gray-300 mb-2">Cidade *</label>
+                        <label className="block text-sm text-gray-300 mb-2">City *</label>
                         <input 
                           type="text" 
                           name="birthCity"
                           value={formData.birthCity}
                           onChange={handleInputChange}
-                          placeholder="São Paulo"
+                          placeholder="New York"
                           className="w-full p-3 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
                           required
                         />
                       </div>
                       <div>
-                        <label className="block text-sm text-gray-300 mb-2">Estado *</label>
+                        <label className="block text-sm text-gray-300 mb-2">State *</label>
                         <input 
                           type="text" 
                           name="birthState"
                           value={formData.birthState}
                           onChange={handleInputChange}
-                          placeholder="SP"
+                          placeholder="NY"
                           className="w-full p-3 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
                           required
                         />
                       </div>
                       <div>
-                        <label className="block text-sm text-gray-300 mb-2">País *</label>
+                        <label className="block text-sm text-gray-300 mb-2">Country *</label>
                         <input 
                           type="text" 
                           name="birthCountry"
                           value={formData.birthCountry}
                           onChange={handleInputChange}
-                          placeholder="Brasil"
+                          placeholder="United States"
                           className="w-full p-3 bg-gray-800/50 border border-gray-600 rounded-lg text-white placeholder-gray-400 focus:border-purple-400 focus:outline-none"
                           required
                         />
@@ -476,10 +476,10 @@ const CelestiaPrimeirosPassos = () => {
                       <div className="w-5 h-5 bg-purple-500 rounded-full flex items-center justify-center">
                         <span className="text-white text-xs">🔒</span>
                       </div>
-                      <span className="text-purple-400 font-semibold">Seus dados estão seguros</span>
+                      <span className="text-purple-400 font-semibold">Your data is secure</span>
                     </div>
                     <p className="text-sm text-gray-300">
-                      Todas as informações são criptografadas e utilizadas apenas para a criação do seu relatório personalizado.
+                      All information is encrypted and used only to create your personalized report.
                     </p>
                   </div>
 
@@ -490,14 +490,14 @@ const CelestiaPrimeirosPassos = () => {
                     className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors disabled:opacity-50"
                   >
                     <Sparkles className="w-5 h-5 mr-2" />
-                    {isSubmitting ? 'Enviando...' : 'Solicitar Meu Celestia Agora'}
+                    {isSubmitting ? 'Sending...' : 'Request My Celestia Now'}
                   </Button>
 
                   {/* Delivery Note */}
                   <div className="text-center">
                     <div className="flex items-center justify-center gap-2 text-gray-400">
                       <Clock className="w-4 h-4" />
-                      <span className="text-sm">Entrega em até 24 horas no seu e-mail</span>
+                      <span className="text-sm">Delivered within 24 hours to your email</span>
                     </div>
                   </div>
                 </form>
