@@ -19,7 +19,7 @@ const ChakrasZodiaco = () => {
         {/* Back to Blog */}
         <Link to="/blog" className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors mb-8">
           <ArrowLeft className="w-4 h-4" />
-          Voltar ao Blog
+          Back to Blog
         </Link>
 
         {/* Article Header */}
@@ -29,7 +29,7 @@ const ChakrasZodiaco = () => {
               <div className="mb-8">
                 <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
                   <Badge className="bg-gradient-to-r from-cosmic to-luxury text-white border-0">
-                    Astrologia
+                    Astrology
                   </Badge>
                   <div className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
@@ -37,16 +37,16 @@ const ChakrasZodiaco = () => {
                   </div>
                   <div className="flex items-center gap-1">
                     <Clock className="w-4 h-4" />
-                    <span>12 min de leitura</span>
+                    <span>12 min read</span>
                   </div>
                 </div>
                 
                 <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-                  Os 7 Chakras e Sua Conexão com os Signos do Zodíaco
+                  The 7 Chakras and Their Connection with Zodiac Signs
                 </h1>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Descubra como alinhar seus centros de energia com os signos astrológicos para desbloquear seu poder interior e harmonizar sua essência cósmica.
+                  Discover how to align your energy centers with astrological signs to unlock your inner power and harmonize your cosmic essence.
                 </p>
               </div>
 
@@ -54,102 +54,102 @@ const ChakrasZodiaco = () => {
               <div className="prose prose-lg max-w-none space-y-8">
                 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🌟 A Dança Sagrada entre Chakras e Zodíaco</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🌟 The Sacred Dance between Chakras and Zodiac</h2>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Desde tempos ancestrais, a humanidade busca compreender as forças invisíveis que regem nossa existência. Os chakras, centros energéticos oriundos da tradição védica, e o zodíaco, mapa celeste da astrologia ocidental, são duas linguagens que se complementam de forma magistral.
+                    Since ancient times, humanity has sought to understand the invisible forces that govern our existence. Chakras, energy centers from the Vedic tradition, and the zodiac, celestial map of western astrology, are two languages that complement each other masterfully.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Quando integramos essas duas sabedorias, descobrimos um portal de autoconhecimento que nos permite não apenas equilibrar nossa energia interna, mas também navegar com mais consciência pelas influências planetárias que nos cercam.
+                    When we integrate these two wisdoms, we discover a portal of self-knowledge that allows us not only to balance our internal energy, but also to navigate more consciously through the planetary influences that surround us.
                   </p>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">⚡ Os 7 Chakras: Portais de Luz Interior</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">⚡ The 7 Chakras: Portals of Inner Light</h2>
                   <p className="text-muted-foreground leading-relaxed mb-6">
-                    Os chakras são vórtices energéticos localizados ao longo da coluna vertebral, cada um vibrando em uma frequência específica e governando diferentes aspectos da nossa experiência humana:
+                    Chakras are energy vortexes located along the spine, each vibrating at a specific frequency and governing different aspects of our human experience:
                   </p>
                   
                   <div className="space-y-4">
                     <Card className="bg-gradient-to-r from-red-500/10 to-red-600/10 border-red-300/30">
                       <CardContent className="p-4">
-                        <h3 className="font-bold text-red-600 mb-2">🔴 1º Chakra - Muladhara (Raiz)</h3>
+                        <h3 className="font-bold text-red-600 mb-2">🔴 1st Chakra - Muladhara (Root)</h3>
                         <p className="text-sm text-muted-foreground">
-                          <strong>Localização:</strong> Base da coluna | <strong>Elemento:</strong> Terra | <strong>Cor:</strong> Vermelho
+                          <strong>Location:</strong> Base of spine | <strong>Element:</strong> Earth | <strong>Color:</strong> Red
                         </p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          Governa segurança, sobrevivência, enraizamento e conexão com o mundo físico.
+                          Governs security, survival, grounding and connection with the physical world.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-gradient-to-r from-orange-500/10 to-orange-600/10 border-orange-300/30">
                       <CardContent className="p-4">
-                        <h3 className="font-bold text-orange-600 mb-2">🟠 2º Chakra - Svadhisthana (Sacral)</h3>
+                        <h3 className="font-bold text-orange-600 mb-2">🟠 2nd Chakra - Svadhisthana (Sacral)</h3>
                         <p className="text-sm text-muted-foreground">
-                          <strong>Localização:</strong> Baixo ventre | <strong>Elemento:</strong> Água | <strong>Cor:</strong> Laranja
+                          <strong>Location:</strong> Lower abdomen | <strong>Element:</strong> Water | <strong>Color:</strong> Orange
                         </p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          Centro da criatividade, sexualidade, prazer e fluxo emocional.
+                          Center of creativity, sexuality, pleasure and emotional flow.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-gradient-to-r from-yellow-500/10 to-yellow-600/10 border-yellow-300/30">
                       <CardContent className="p-4">
-                        <h3 className="font-bold text-yellow-600 mb-2">🟡 3º Chakra - Manipura (Plexo Solar)</h3>
+                        <h3 className="font-bold text-yellow-600 mb-2">🟡 3rd Chakra - Manipura (Solar Plexus)</h3>
                         <p className="text-sm text-muted-foreground">
-                          <strong>Localização:</strong> Estômago | <strong>Elemento:</strong> Fogo | <strong>Cor:</strong> Amarelo
+                          <strong>Location:</strong> Stomach | <strong>Element:</strong> Fire | <strong>Color:</strong> Yellow
                         </p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          Poder pessoal, autoestima, confiança e força de vontade.
+                          Personal power, self-esteem, confidence and willpower.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-gradient-to-r from-green-500/10 to-green-600/10 border-green-300/30">
                       <CardContent className="p-4">
-                        <h3 className="font-bold text-green-600 mb-2">🟢 4º Chakra - Anahata (Coração)</h3>
+                        <h3 className="font-bold text-green-600 mb-2">🟢 4th Chakra - Anahata (Heart)</h3>
                         <p className="text-sm text-muted-foreground">
-                          <strong>Localização:</strong> Centro do peito | <strong>Elemento:</strong> Ar | <strong>Cor:</strong> Verde
+                          <strong>Location:</strong> Center of chest | <strong>Element:</strong> Air | <strong>Color:</strong> Green
                         </p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          Amor incondicional, compaixão, empatia e conexão universal.
+                          Unconditional love, compassion, empathy and universal connection.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-gradient-to-r from-blue-500/10 to-blue-600/10 border-blue-300/30">
                       <CardContent className="p-4">
-                        <h3 className="font-bold text-blue-600 mb-2">🔵 5º Chakra - Vishuddha (Garganta)</h3>
+                        <h3 className="font-bold text-blue-600 mb-2">🔵 5th Chakra - Vishuddha (Throat)</h3>
                         <p className="text-sm text-muted-foreground">
-                          <strong>Localização:</strong> Garganta | <strong>Elemento:</strong> Éter | <strong>Cor:</strong> Azul
+                          <strong>Location:</strong> Throat | <strong>Element:</strong> Ether | <strong>Color:</strong> Blue
                         </p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          Comunicação autêntica, expressão da verdade e criatividade verbal.
+                          Authentic communication, expression of truth and verbal creativity.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-gradient-to-r from-indigo-500/10 to-indigo-600/10 border-indigo-300/30">
                       <CardContent className="p-4">
-                        <h3 className="font-bold text-indigo-600 mb-2">🟣 6º Chakra - Ajna (Terceiro Olho)</h3>
+                        <h3 className="font-bold text-indigo-600 mb-2">🟣 6th Chakra - Ajna (Third Eye)</h3>
                         <p className="text-sm text-muted-foreground">
-                          <strong>Localização:</strong> Entre as sobrancelhas | <strong>Elemento:</strong> Luz | <strong>Cor:</strong> Índigo
+                          <strong>Location:</strong> Between eyebrows | <strong>Element:</strong> Light | <strong>Color:</strong> Indigo
                         </p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          Intuição, clarividência, sabedoria interior e percepção além do físico.
+                          Intuition, clairvoyance, inner wisdom and perception beyond the physical.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-gradient-to-r from-purple-500/10 to-purple-600/10 border-purple-300/30">
                       <CardContent className="p-4">
-                        <h3 className="font-bold text-purple-600 mb-2">🟣 7º Chakra - Sahasrara (Coronário)</h3>
+                        <h3 className="font-bold text-purple-600 mb-2">🟣 7th Chakra - Sahasrara (Crown)</h3>
                         <p className="text-sm text-muted-foreground">
-                          <strong>Localização:</strong> Topo da cabeça | <strong>Elemento:</strong> Pensamento | <strong>Cor:</strong> Violeta/Branco
+                          <strong>Location:</strong> Top of head | <strong>Element:</strong> Thought | <strong>Color:</strong> Violet/White
                         </p>
                         <p className="text-sm text-muted-foreground mt-2">
-                          Conexão com o divino, iluminação espiritual e consciência cósmica.
+                          Connection with the divine, spiritual illumination and cosmic consciousness.
                         </p>
                       </CardContent>
                     </Card>
@@ -157,45 +157,45 @@ const ChakrasZodiaco = () => {
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🌙 A Influência Zodiacal nos Chakras</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🌙 The Zodiacal Influence on Chakras</h2>
                   <p className="text-muted-foreground leading-relaxed mb-6">
-                    Cada signo do zodíaco ressoa naturalmente com determinados chakras, criando uma sinfonia energética única. Conhecer essas correspondências permite:
+                    Each zodiac sign naturally resonates with certain chakras, creating a unique energetic symphony. Knowing these correspondences allows:
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4 mb-6">
-                    <li>Identificar quais chakras precisam de mais atenção baseado no seu mapa astral</li>
-                    <li>Trabalhar os desequilíbrios energéticos através das qualidades planetárias</li>
-                    <li>Potencializar seus dons naturais alinhando chakras com planetas regentes</li>
-                    <li>Compreender ciclos pessoais através dos trânsitos planetários</li>
+                    <li>Identify which chakras need more attention based on your natal chart</li>
+                    <li>Work on energy imbalances through planetary qualities</li>
+                    <li>Enhance your natural gifts by aligning chakras with ruling planets</li>
+                    <li>Understand personal cycles through planetary transits</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-6">✨ Correspondências Chakra-Signo</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-6">✨ Chakra-Sign Correspondences</h2>
 
                   <div className="space-y-6">
                     <Card className="bg-gradient-to-r from-red-500/5 to-orange-500/5 border border-red-300/30">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-red-600 mb-3">🔥 Signos de Fogo + Chakras de Ação</h3>
+                        <h3 className="text-xl font-bold text-red-600 mb-3">🔥 Fire Signs + Action Chakras</h3>
                         
                         <div className="space-y-4">
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♈ Áries → 1º Chakra (Raiz) + 3º Chakra (Plexo Solar)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♈ Aries → 1st Chakra (Root) + 3rd Chakra (Solar Plexus)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Áries conecta-se profundamente com o chakra da raiz (instinto de sobrevivência) e plexo solar (liderança e coragem). Pessoas com Sol, Lua ou Ascendente em Áries podem trabalhar estes chakras para canalizar melhor sua energia pioneira.
+                              Aries connects deeply with the root chakra (survival instinct) and solar plexus (leadership and courage). People with Sun, Moon or Ascendant in Aries can work these chakras to better channel their pioneering energy.
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♌ Leão → 3º Chakra (Plexo Solar) + 4º Chakra (Coração)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♌ Leo → 3rd Chakra (Solar Plexus) + 4th Chakra (Heart)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Leão ressoa com o poder pessoal (plexo solar) e a generosidade do coração. Equilibrar estes chakras ajuda leoninos a brilhar sem ofuscar, irradiando amor e confiança.
+                              Leo resonates with personal power (solar plexus) and generosity of the heart. Balancing these chakras helps Leos shine without overshadowing, radiating love and confidence.
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♐ Sagitário → 6º Chakra (Terceiro Olho) + 7º Chakra (Coronário)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♐ Sagittarius → 6th Chakra (Third Eye) + 7th Chakra (Crown)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Sagitário busca sabedoria superior, conectando-se com a intuição (terceiro olho) e espiritualidade (coronário). Ideal para práticas de meditação e expansão de consciência.
+                              Sagittarius seeks higher wisdom, connecting with intuition (third eye) and spirituality (crown). Ideal for meditation practices and consciousness expansion.
                             </p>
                           </div>
                         </div>
@@ -204,27 +204,27 @@ const ChakrasZodiaco = () => {
 
                     <Card className="bg-gradient-to-r from-green-500/5 to-blue-500/5 border border-green-300/30">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-green-600 mb-3">🌍 Signos de Terra + Chakras de Manifestação</h3>
+                        <h3 className="text-xl font-bold text-green-600 mb-3">🌍 Earth Signs + Manifestation Chakras</h3>
                         
                         <div className="space-y-4">
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♉ Touro → 1º Chakra (Raiz) + 2º Chakra (Sacral)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♉ Taurus → 1st Chakra (Root) + 2nd Chakra (Sacral)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Touro governa a estabilidade material (raiz) e prazeres sensoriais (sacral). Trabalhar estes chakras ajuda taurinos a manifestar abundância sem apego excessivo.
+                              Taurus governs material stability (root) and sensory pleasures (sacral). Working these chakras helps Taurus manifest abundance without excessive attachment.
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♍ Virgem → 3º Chakra (Plexo Solar) + 6º Chakra (Terceiro Olho)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♍ Virgo → 3rd Chakra (Solar Plexus) + 6th Chakra (Third Eye)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Virgem combina eficiência prática (plexo solar) com discernimento intuitivo (terceiro olho). O equilíbrio permite servir aos outros com sabedoria.
+                              Virgo combines practical efficiency (solar plexus) with intuitive discernment (third eye). Balance allows serving others with wisdom.
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♑ Capricórnio → 1º Chakra (Raiz) + 7º Chakra (Coronário)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♑ Capricorn → 1st Chakra (Root) + 7th Chakra (Crown)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Capricórnio mescla responsabilidade terrena (raiz) com autoridade espiritual (coronário). O desafio é construir sucesso material com propósito elevado.
+                              Capricorn blends earthly responsibility (root) with spiritual authority (crown). The challenge is building material success with elevated purpose.
                             </p>
                           </div>
                         </div>
@@ -233,27 +233,27 @@ const ChakrasZodiaco = () => {
 
                     <Card className="bg-gradient-to-r from-blue-500/5 to-purple-500/5 border border-blue-300/30">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-blue-600 mb-3">💨 Signos de Ar + Chakras de Comunicação</h3>
+                        <h3 className="text-xl font-bold text-blue-600 mb-3">💨 Air Signs + Communication Chakras</h3>
                         
                         <div className="space-y-4">
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♊ Gêmeos → 5º Chakra (Garganta)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♊ Gemini → 5th Chakra (Throat)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Gêmeos é o mestre da comunicação, ressonando diretamente com o chakra da garganta. Equilibrar este centro permite expressar ideias com clareza e autenticidade.
+                              Gemini is the master of communication, resonating directly with the throat chakra. Balancing this center allows expressing ideas with clarity and authenticity.
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♎ Libra → 4º Chakra (Coração) + 5º Chakra (Garganta)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♎ Libra → 4th Chakra (Heart) + 5th Chakra (Throat)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Libra busca harmonia (coração) através da comunicação diplomática (garganta). O desafio é manter o equilíbrio sem perder a própria verdade.
+                              Libra seeks harmony (heart) through diplomatic communication (throat). The challenge is maintaining balance without losing one's own truth.
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♒ Aquário → 5º Chakra (Garganta) + 6º Chakra (Terceiro Olho) + 7º Chakra (Coronário)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♒ Aquarius → 5th Chakra (Throat) + 6th Chakra (Third Eye) + 7th Chakra (Crown)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Aquário é visionário, conectando comunicação inovadora (garganta), intuição revolucionária (terceiro olho) e consciência coletiva (coronário).
+                              Aquarius is visionary, connecting innovative communication (throat), revolutionary intuition (third eye) and collective consciousness (crown).
                             </p>
                           </div>
                         </div>
@@ -262,27 +262,27 @@ const ChakrasZodiaco = () => {
 
                     <Card className="bg-gradient-to-r from-purple-500/5 to-pink-500/5 border border-purple-300/30">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-purple-600 mb-3">🌊 Signos de Água + Chakras Emocionais</h3>
+                        <h3 className="text-xl font-bold text-purple-600 mb-3">🌊 Water Signs + Emotional Chakras</h3>
                         
                         <div className="space-y-4">
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♋ Câncer → 2º Chakra (Sacral) + 4º Chakra (Coração)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♋ Cancer → 2nd Chakra (Sacral) + 4th Chakra (Heart)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Câncer governa as emoções profundas (sacral) e o cuidado maternal (coração). Equilibrar estes chakras permite nutrir sem se drenar.
+                              Cancer governs deep emotions (sacral) and maternal care (heart). Balancing these chakras allows nurturing without draining.
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♏ Escorpião → 1º Chakra (Raiz) + 2º Chakra (Sacral) + 6º Chakra (Terceiro Olho)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♏ Scorpio → 1st Chakra (Root) + 2nd Chakra (Sacral) + 6th Chakra (Third Eye)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Escorpião trabalha com transformação profunda através da energia sexual (sacral), poder pessoal (raiz) e percepção psíquica (terceiro olho).
+                              Scorpio works with deep transformation through sexual energy (sacral), personal power (root) and psychic perception (third eye).
                             </p>
                           </div>
 
                           <div>
-                            <h4 className="font-semibold text-foreground mb-2">♓ Peixes → 4º Chakra (Coração) + 6º Chakra (Terceiro Olho) + 7º Chakra (Coronário)</h4>
+                            <h4 className="font-semibold text-foreground mb-2">♓ Pisces → 4th Chakra (Heart) + 6th Chakra (Third Eye) + 7th Chakra (Crown)</h4>
                             <p className="text-sm text-muted-foreground">
-                              Peixes é naturalmente conectado com a compaixão universal (coração), intuição (terceiro olho) e transcendência espiritual (coronário).
+                              Pisces is naturally connected with universal compassion (heart), intuition (third eye) and spiritual transcendence (crown).
                             </p>
                           </div>
                         </div>
@@ -292,44 +292,44 @@ const ChakrasZodiaco = () => {
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🔄 Práticas de Alinhamento Chakra-Zodíaco</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🔄 Chakra-Zodiac Alignment Practices</h2>
                   
                   <div className="space-y-4">
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">🧘‍♀️ Meditação Zodiacal por Estação</h3>
+                        <h3 className="text-xl font-bold text-primary mb-3">🧘‍♀️ Seasonal Zodiacal Meditation</h3>
                         <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                          <li><strong>Primavera (Áries, Touro, Gêmeos):</strong> Foque no 1º, 2º e 5º chakras</li>
-                          <li><strong>Verão (Câncer, Leão, Virgem):</strong> Trabalhe o 4º, 3º e 6º chakras</li>
-                          <li><strong>Outono (Libra, Escorpião, Sagitário):</strong> Equilibre o 4º, 2º e 6º chakras</li>
-                          <li><strong>Inverno (Capricórnio, Aquário, Peixes):</strong> Conecte-se com o 1º, 5º e 7º chakras</li>
+                          <li><strong>Spring (Aries, Taurus, Gemini):</strong> Focus on 1st, 2nd and 5th chakras</li>
+                          <li><strong>Summer (Cancer, Leo, Virgo):</strong> Work the 4th, 3rd and 6th chakras</li>
+                          <li><strong>Fall (Libra, Scorpio, Sagittarius):</strong> Balance the 4th, 2nd and 6th chakras</li>
+                          <li><strong>Winter (Capricorn, Aquarius, Pisces):</strong> Connect with 1st, 5th and 7th chakras</li>
                         </ul>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">🌙 Ritual de Luna Nova</h3>
-                        <p className="text-muted-foreground mb-3">A cada lua nova, trabalhe o chakra correspondente ao signo lunar:</p>
+                        <h3 className="text-xl font-bold text-primary mb-3">🌙 New Moon Ritual</h3>
+                        <p className="text-muted-foreground mb-3">Each new moon, work the chakra corresponding to the lunar sign:</p>
                         <ol className="list-decimal list-inside space-y-2 text-muted-foreground ml-4">
-                          <li>Identifique o signo da lua nova</li>
-                          <li>Escolha o(s) chakra(s) correspondente(s)</li>
-                          <li>Acenda uma vela da cor do chakra</li>
-                          <li>Medite por 21 minutos visualizando o chakra</li>
-                          <li>Finalize com afirmações do signo</li>
+                          <li>Identify the new moon sign</li>
+                          <li>Choose the corresponding chakra(s)</li>
+                          <li>Light a candle of the chakra's color</li>
+                          <li>Meditate for 21 minutes visualizing the chakra</li>
+                          <li>Finish with affirmations of the sign</li>
                         </ol>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">💎 Cristais Zodiacais para Chakras</h3>
-                        <p className="text-muted-foreground mb-3">Combine cristais do seu signo solar com pedras dos chakras:</p>
+                        <h3 className="text-xl font-bold text-primary mb-3">💎 Zodiacal Crystals for Chakras</h3>
+                        <p className="text-muted-foreground mb-3">Combine crystals from your sun sign with chakra stones:</p>
                         <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                          <li><strong>Signos de Fogo:</strong> Ágata vermelha, Citrino, Cornalina</li>
-                          <li><strong>Signos de Terra:</strong> Hematita, Jaspe, Quartzo fumê</li>
-                          <li><strong>Signos de Ar:</strong> Sodalita, Água-marinha, Ametista</li>
-                          <li><strong>Signos de Água:</strong> Pedra da lua, Labradorita, Quartzo rosa</li>
+                          <li><strong>Fire Signs:</strong> Red Agate, Citrine, Carnelian</li>
+                          <li><strong>Earth Signs:</strong> Hematite, Jasper, Smoky Quartz</li>
+                          <li><strong>Air Signs:</strong> Sodalite, Aquamarine, Amethyst</li>
+                          <li><strong>Water Signs:</strong> Moonstone, Labradorite, Rose Quartz</li>
                         </ul>
                       </CardContent>
                     </Card>
@@ -337,46 +337,46 @@ const ChakrasZodiaco = () => {
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">⚠️ Sinais de Desequilíbrio</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">⚠️ Signs of Imbalance</h2>
                   <p className="text-muted-foreground mb-4">
-                    Quando os chakras relacionados ao seu signo estão bloqueados, você pode experienciar:
+                    When the chakras related to your sign are blocked, you may experience:
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                    <li>Dificuldade em expressar as qualidades positivas do seu signo</li>
-                    <li>Exacerbação dos aspectos desafiadores do elemento</li>
-                    <li>Sensação de estar "fora de sintonia" consigo mesmo</li>
-                    <li>Problemas recorrentes nas áreas da vida governadas pelos chakras</li>
-                    <li>Resistência às influências astrológicas positivas</li>
+                    <li>Difficulty expressing the positive qualities of your sign</li>
+                    <li>Exacerbation of the challenging aspects of the element</li>
+                    <li>Feeling "out of tune" with yourself</li>
+                    <li>Recurring problems in areas of life governed by the chakras</li>
+                    <li>Resistance to positive astrological influences</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🌟 Conclusão: Sua Mandala Energética Única</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🌟 Conclusion: Your Unique Energy Mandala</h2>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    A combinação entre chakras e astrologia revela que você é uma mandala energética única, onde cada chakra dança em harmonia com as influências celestiais do seu mapa natal.
+                    The combination of chakras and astrology reveals that you are a unique energy mandala, where each chakra dances in harmony with the celestial influences of your natal chart.
                   </p>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Ao trabalhar conscientemente com essas energias, você não apenas equilibra seu sistema energético interno, mas também se alinha com o fluxo cósmico, permitindo que sua essência mais autêntica floresça.
+                    By consciously working with these energies, you not only balance your internal energy system, but also align with the cosmic flow, allowing your most authentic essence to flourish.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Lembre-se: não se trata de "consertar" algo quebrado, mas de afinar seu instrumento interior para tocar a sinfonia da sua alma com maestria e beleza.
+                    Remember: it's not about "fixing" something broken, but about tuning your inner instrument to play your soul's symphony with mastery and beauty.
                   </p>
                 </section>
 
                 <section className="bg-gradient-to-br from-primary/5 to-purple-500/5 p-6 rounded-lg border border-primary/20">
-                  <h3 className="text-xl font-bold text-primary mb-3">✨ Próximos Passos</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">✨ Next Steps</h3>
                   <p className="text-muted-foreground mb-4">
-                    Pronto para aprofundar ainda mais sua jornada de autoconhecimento? Explore nossos outros produtos:
+                    Ready to deepen your self-knowledge journey even further? Explore our other products:
                   </p>
                   <div className="space-y-2">
-                    <Link to="/analise-compatibilidade-amorosa" className="block text-primary hover:text-primary/80 font-medium">
-                      → Análise de Compatibilidade Amorosa
+                    <Link to="/love-compatibility-analysis" className="block text-primary hover:text-primary/80 font-medium">
+                      → Love Compatibility Analysis
                     </Link>
-                    <Link to="/mapa-prosperidade-desbloqueio" className="block text-primary hover:text-primary/80 font-medium">
-                      → Mapa de Prosperidade e Desbloqueio
+                    <Link to="/prosperity-unlock-map" className="block text-primary hover:text-primary/80 font-medium">
+                      → Prosperity and Unlock Map
                     </Link>
-                    <Link to="/registros-akashicos" className="block text-primary hover:text-primary/80 font-medium">
-                      → Registros Akáshicos: Portal para Vidas Passadas
+                    <Link to="/akashic-records" className="block text-primary hover:text-primary/80 font-medium">
+                      → Akashic Records: Portal to Past Lives
                     </Link>
                   </div>
                 </section>
