@@ -29,6 +29,21 @@ const App = () => (
         <Routes>
           <Route path="/" element={<Index />} />
           <Route path="/blog" element={<Blog />} />
+          
+          {/* English routes */}
+          <Route path="/celestia-first-steps" element={<CelestiaPrimeirosPassos />} />
+          <Route path="/prosperity-map-unlock" element={<MapaProsperidadeDesbloqueio />} />
+          <Route path="/love-compatibility-analysis" element={<AnaliseCompatibilidadeAmorosa />} />
+          <Route path="/akashic-records" element={<RegistrosAkashicos />} />
+          <Route path="/chakras-zodiac" element={<ChakrasZodiaco />} />
+          <Route path="/soul-mission-numerology" element={<MissaoAlmaNumerologia />} />
+          <Route path="/energy-cleansing" element={<LimpezaEnergetica />} />
+          <Route path="/privacy-policy" element={<PoliticaPrivacidade />} />
+          <Route path="/terms-of-use" element={<TermosUso />} />
+          <Route path="/how-it-works" element={<ComoFunciona />} />
+          <Route path="/thank-you" element={<Obrigado />} />
+          
+          {/* Portuguese routes (legacy) */}
           <Route path="/celestia-primeiros-passos" element={<CelestiaPrimeirosPassos />} />
           <Route path="/mapa-prosperidade-desbloqueio" element={<MapaProsperidadeDesbloqueio />} />
           <Route path="/analise-compatibilidade-amorosa" element={<AnaliseCompatibilidadeAmorosa />} />
@@ -40,7 +55,7 @@ const App = () => (
           <Route path="/termos-uso" element={<TermosUso />} />
           <Route path="/como-funciona" element={<ComoFunciona />} />
           <Route path="/obrigado" element={<Obrigado />} />
-          {/* Registros Akáshicos route - Portal para Vidas Passadas */}
+          
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
