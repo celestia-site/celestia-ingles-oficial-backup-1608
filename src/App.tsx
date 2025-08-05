@@ -33,6 +33,7 @@ const App = () => (
           {/* English routes */}
           <Route path="/celestia-first-steps" element={<CelestiaPrimeirosPassos />} />
           <Route path="/prosperity-map-unlock" element={<MapaProsperidadeDesbloqueio />} />
+          <Route path="/prosperity-unlock-map" element={<MapaProsperidadeDesbloqueio />} />
           <Route path="/love-compatibility-analysis" element={<AnaliseCompatibilidadeAmorosa />} />
           <Route path="/akashic-records" element={<RegistrosAkashicos />} />
           <Route path="/chakras-zodiac" element={<ChakrasZodiaco />} />
