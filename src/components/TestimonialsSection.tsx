@@ -26,7 +26,7 @@ const TestimonialsSection = () => {
     },
     {
       text: "I was lost professionally until I got the astrological analysis. I discovered my purpose and now work aligned with my essence. Life transformed!",
-      name: "Roberto Santos",
+      name: "R.S.",
       role: "Teacher",
       initials: "RS",
       color: "bg-violet-500"
