@@ -4,54 +4,54 @@ import { Card, CardContent } from "@/components/ui/card";
 const TestimonialsSection = () => {
   const testimonials = [
     {
-      text: "O relatório de numerologia da Celestia mudou completamente minha perspectiva de vida. Descobri minha verdadeira missão e hoje tenho clareza sobre meus próximos passos. Recomendo demais!",
+      text: "The Celestia numerology report completely changed my life perspective. I discovered my true mission and now have clarity about my next steps. Highly recommend!",
       name: "Marina Silva",
-      role: "Empresária",
+      role: "Entrepreneur",
       initials: "MS",
       color: "bg-purple-500"
     },
     {
-      text: "A leitura dos registros akáshicos foi uma experiência transformadora. Consegui curar traumas antigos e despertar dons que nem sabia que tinha. Gratidão eterna!",
+      text: "The Akashic Records reading was a transformative experience. I was able to heal old traumas and awaken gifts I didn't even know I had. Eternal gratitude!",
       name: "Carlos Mendes",
-      role: "Terapeuta",
+      role: "Therapist",
       initials: "CM",
       color: "bg-blue-500"
     },
     {
-      text: "O Plano de Ascensão Esotérica é incrível! O conteúdo é profundo e as mentorias ao vivo são ouro puro. Minha evolução espiritual acelerou exponencialmente.",
+      text: "The Esoteric Ascension Plan is incredible! The content is deep and the live mentorships are pure gold. My spiritual evolution accelerated exponentially.",
       name: "Ana Beatriz",
-      role: "Coach Espiritual",
+      role: "Spiritual Coach",
       initials: "AB",
       color: "bg-indigo-500"
     },
     {
-      text: "Estava perdido profissionalmente até fazer a análise astrológica. Descobri meu propósito e hoje trabalho alinhado com minha essência. Vida transformada!",
+      text: "I was lost professionally until I got the astrological analysis. I discovered my purpose and now work aligned with my essence. Life transformed!",
       name: "Roberto Santos",
-      role: "Professor",
+      role: "Teacher",
       initials: "RS",
       color: "bg-violet-500"
     },
     {
-      text: "As consultas de tarot me guiaram nos momentos mais desafiadores. A precisão e o amor nas orientações são impressionantes. Celestia é luz pura!",
+      text: "The tarot consultations guided me through the most challenging moments. The accuracy and love in the guidance are impressive. Celestia is pure light!",
       name: "Luciana Costa",
-      role: "Artista",
+      role: "Artist",
       initials: "LC",
       color: "bg-pink-500"
     },
     {
-      text: "O combo numerologia + astrologia me mostrou meus ciclos pessoais e como aproveitá-los melhor. Meus negócios decolaram depois das orientações!",
+      text: "The numerology + astrology combo showed me my personal cycles and how to make better use of them. My business took off after the guidance!",
       name: "Felipe Oliveira",
-      role: "Empreendedor",
+      role: "Entrepreneur",
       initials: "FO",
       color: "bg-cyan-500"
     }
   ];
 
   const stats = [
-    { number: "1500+", label: "Clientes Satisfeitos" },
-    { number: "4.9/5", label: "Avaliação Média" },
-    { number: "98%", label: "Recomendação" },
-    { number: "3 Anos", label: "de Experiência" }
+    { number: "1500+", label: "Satisfied Clients" },
+    { number: "4.9/5", label: "Average Rating" },
+    { number: "98%", label: "Recommendation" },
+    { number: "3 Years", label: "of Experience" }
   ];
 
   return (
@@ -61,16 +61,16 @@ const TestimonialsSection = () => {
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full mb-6">
             <Star className="w-4 h-4" />
-            <span className="text-sm font-medium">Transformações Reais</span>
+            <span className="text-sm font-medium">Real Transformations</span>
           </div>
           
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Vidas </span>
-            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Transformadas</span>
+            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Lives </span>
+            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Transformed</span>
           </h2>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Mais de 1.500 pessoas já despertaram seu potencial espiritual conosco. Confira alguns depoimentos reais de nossa comunidade.
+            Over 1,500 people have already awakened their spiritual potential with us. Check out some real testimonials from our community.
           </p>
         </div>
 
