@@ -45,8 +45,7 @@ const ProductsSection = () => {
               "Dominant chakra",
               "Intuitive channeled message"
             ]}
-            price="$29.70"
-            installments="7x $5.03"
+            price="$19.70"
             badgeColor="primary"
             link="/celestia-first-steps"
           />
@@ -63,8 +62,7 @@ const ProductsSection = () => {
               "Love predictions",
               "Strengthening rituals"
             ]}
-            price="$97"
-            installments="12x $11.28"
+            price="UD$ 37.7"
             badgeColor="mystic"
             link="/love-compatibility-analysis"
           />
@@ -81,8 +79,7 @@ const ProductsSection = () => {
               "Financial activation mantras and rituals",
               "Daily prosperity plan"
             ]}
-            price="$97"
-            installments="12x $11.28"
+            price="UD$ 37.7"
             badgeColor="divine"
             link="/prosperity-unlock-map"
           />
