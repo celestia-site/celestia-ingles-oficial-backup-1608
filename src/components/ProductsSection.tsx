@@ -156,8 +156,8 @@ const ProductsSection = () => {
             </Button>
             
             <div className="text-center">
-              <span className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$497</span>
-              <span className="text-lg text-muted-foreground line-through ml-2">$897</span>
+              <span className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$197</span>
+              <span className="text-lg text-muted-foreground line-through ml-2">$497</span>
             </div>
           </CardContent>
         </Card>
