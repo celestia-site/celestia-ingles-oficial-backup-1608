@@ -24,11 +24,11 @@ const Obrigado = () => {
             </div>
             
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
-              Parabéns! Sua Jornada Começou
+              Congratulations! Your Journey Has Begun
             </h1>
             
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Sua compra foi processada com sucesso! Em breve você receberá seu relatório espiritual personalizado.
+              Your purchase has been processed successfully! You will soon receive your personalized spiritual report.
             </p>
           </div>
 
@@ -37,7 +37,7 @@ const Obrigado = () => {
             <CardContent className="p-8">
               <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-2">
                 <Sparkles className="w-6 h-6 text-purple-400" />
-                Próximos Passos
+                Next Steps
               </h2>
               
               <div className="space-y-6">
@@ -46,9 +46,9 @@ const Obrigado = () => {
                     <span className="text-white font-bold text-sm">1</span>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Verifique seu e-mail</h3>
+                    <h3 className="text-lg font-semibold text-white mb-2">Check your email</h3>
                     <p className="text-gray-300">
-                      Você receberá um e-mail de confirmação em instantes com um formulário para preencher seus dados espirituais. Caso já tenha preenchido antes do pagamento, aguarde seu relatório em até 24 horas.
+                      You will receive a confirmation email momentarily with a form to fill out your spiritual data. If you have already completed it before payment, expect your report within 24 hours.
                     </p>
                   </div>
                 </div>
@@ -58,9 +58,9 @@ const Obrigado = () => {
                     <span className="text-white font-bold text-sm">2</span>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Preencha seus dados completos</h3>
+                    <h3 className="text-lg font-semibold text-white mb-2">Complete your information</h3>
                     <p className="text-gray-300">
-                      Para garantir a precisão do seu relatório, é essencial que todos os dados estejam corretos e completos.
+                      To ensure the accuracy of your report, it is essential that all data is correct and complete.
                     </p>
                   </div>
                 </div>
@@ -70,9 +70,9 @@ const Obrigado = () => {
                     <span className="text-white font-bold text-sm">3</span>
                   </div>
                   <div>
-                    <h3 className="text-lg font-semibold text-white mb-2">Receba seu relatório</h3>
+                    <h3 className="text-lg font-semibold text-white mb-2">Receive your report</h3>
                     <p className="text-gray-300">
-                      Em até 24 horas, você receberá seu relatório espiritual personalizado em formato PDF.
+                      Within 24 hours, you will receive your personalized spiritual report in PDF format.
                     </p>
                   </div>
                 </div>
@@ -85,9 +85,9 @@ const Obrigado = () => {
             <Card className="bg-blue-500/10 border border-blue-400/30">
               <CardContent className="p-6 text-center">
                 <Mail className="w-8 h-8 text-blue-400 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-white mb-2">Verifique sua Caixa de Entrada</h3>
+                <h3 className="text-lg font-bold text-white mb-2">Check Your Inbox</h3>
                 <p className="text-gray-300 text-sm">
-                  O e-mail pode levar alguns minutos para chegar. Não esqueça de verificar sua pasta de spam.
+                  The email may take a few minutes to arrive. Don't forget to check your spam folder.
                 </p>
               </CardContent>
             </Card>
@@ -95,9 +95,9 @@ const Obrigado = () => {
             <Card className="bg-amber-500/10 border border-amber-400/30">
               <CardContent className="p-6 text-center">
                 <Clock className="w-8 h-8 text-amber-400 mx-auto mb-4" />
-                <h3 className="text-lg font-bold text-white mb-2">Entrega em 24 Horas</h3>
+                <h3 className="text-lg font-bold text-white mb-2">24-Hour Delivery</h3>
                 <p className="text-gray-300 text-sm">
-                  Seu relatório será criado com cuidado e entregue no prazo máximo de 24 horas.
+                  Your report will be carefully created and delivered within a maximum of 24 hours.
                 </p>
               </CardContent>
             </Card>
@@ -107,9 +107,9 @@ const Obrigado = () => {
           <Card className="bg-white/5 border border-white/10 mb-12">
             <CardContent className="p-8 text-center">
               <Heart className="w-8 h-8 text-purple-400 mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-white mb-4">Precisa de Ajuda?</h3>
+              <h3 className="text-xl font-bold text-white mb-4">Need Help?</h3>
               <p className="text-gray-300 mb-6">
-                Nossa equipe está aqui para apoiar sua jornada espiritual. Se tiver dúvidas, não hesite em entrar em contato.
+                Our team is here to support your spiritual journey. If you have any questions, don't hesitate to contact us.
               </p>
               <a 
                 href="mailto:help@celestia.guru" 
@@ -125,7 +125,7 @@ const Obrigado = () => {
             <Link to="/">
               <Button size="lg" className="bg-purple-600 hover:bg-purple-700 text-white px-8">
                 <Sparkles className="w-5 h-5 mr-2" />
-                Voltar ao Início
+                Back to Home
               </Button>
             </Link>
           </div>
