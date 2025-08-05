@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Celestia Design System - Cosmic & Mystical Theme 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Cosmic Background */
+    --background: 251 100% 4%;
+    --foreground: 280 15% 92%;
+
+    /* Celestial Cards */
+    --card: 251 45% 8%;
+    --card-foreground: 280 15% 92%;
+
+    --popover: 251 45% 8%;
+    --popover-foreground: 280 15% 92%;
+
+    /* Mystical Primary - Purple Cosmic */
+    --primary: 280 65% 40%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Ethereal Secondary - Light Purple */
+    --secondary: 280 45% 60%;
+    --secondary-foreground: 251 100% 4%;
+
+    /* Cosmic Muted */
+    --muted: 251 35% 12%;
+    --muted-foreground: 280 25% 70%;
+
+    /* Celestial Accent - Deep Blue */
+    --accent: 240 80% 45%;
+    --accent-foreground: 0 0% 100%;
+
+    /* Divine Lilac */
+    --divine: 280 70% 65%;
+    --divine-foreground: 251 100% 4%;
+
+    /* Mystic Pink-Purple */
+    --mystic: 300 80% 70%;
+    --mystic-foreground: 251 100% 4%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 280 35% 20%;
+    --input: 280 35% 15%;
+    --ring: 280 65% 40%;
+
+    --radius: 0.75rem;
+
+    /* Celestia Gradients - Elegant & Sophisticated */
+    --gradient-cosmic: linear-gradient(135deg, hsl(280, 80%, 8%), hsl(320, 70%, 12%), hsl(270, 85%, 6%));
+    --gradient-divine: linear-gradient(135deg, hsl(280, 70%, 65%), hsl(45, 80%, 75%), hsl(300, 75%, 70%));
+    --gradient-ethereal: linear-gradient(180deg, hsl(280, 45%, 60%), hsl(300, 45%, 70%), hsl(320, 50%, 65%));
+    --gradient-celestial: linear-gradient(135deg, hsl(240, 80%, 45%), hsl(280, 65%, 40%), hsl(300, 70%, 55%));
+    --gradient-mystic: linear-gradient(135deg, hsl(300, 80%, 70%), hsl(280, 70%, 65%), hsl(320, 75%, 75%));
+    --gradient-luxury: linear-gradient(135deg, hsl(280, 65%, 40%), hsl(45, 70%, 70%), hsl(300, 70%, 50%));
+    --gradient-aurora: linear-gradient(135deg, hsl(280, 65%, 40%), hsl(240, 80%, 45%), hsl(300, 80%, 70%), hsl(45, 70%, 75%));
+    --gradient-text-primary: linear-gradient(135deg, hsl(280, 65%, 55%), hsl(240, 80%, 50%), hsl(300, 70%, 65%));
+    --gradient-text-divine: linear-gradient(135deg, hsl(280, 70%, 70%), hsl(45, 70%, 75%), hsl(300, 75%, 75%));
+    --gradient-text-ethereal: linear-gradient(135deg, hsl(280, 45%, 70%), hsl(300, 45%, 80%), hsl(240, 60%, 65%));
+    
+    /* Cosmic Effects - Enhanced */
+    --shadow-cosmic: 0 10px 40px -10px hsl(280 65% 40% / 0.4), 0 0 60px -20px hsl(320 65% 50% / 0.2);
+    --shadow-divine: 0 0 30px hsl(45 100% 60% / 0.3), 0 0 60px -15px hsl(35 100% 70% / 0.2);
+    --shadow-neon: 0 0 20px hsl(280 65% 40% / 0.6), 0 0 40px -10px hsl(320 65% 50% / 0.3);
+    --shadow-luxury: 0 15px 50px -15px hsl(280 65% 40% / 0.5), 0 0 80px -25px hsl(45 100% 60% / 0.2);
+    
+    /* Mystical Animations */
+    --transition-cosmic: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  
+  html, body {
+    height: auto;
+    min-height: 100vh;
+  }
+}
