@@ -13,200 +13,200 @@ const PoliticaPrivacidade = () => {
             <div className="flex items-center justify-center gap-2 mb-4">
               <Sparkles className="w-8 h-8 text-purple-400" />
               <h1 className="text-4xl md:text-5xl font-bold text-white">
-                Política de Privacidade
+                Privacy Policy
               </h1>
             </div>
             <p className="text-purple-200">Celestia</p>
-            <p className="text-gray-300 mt-2">Última atualização: 01 de Agosto de 2025</p>
+            <p className="text-gray-300 mt-2">Last updated: August 1st, 2025</p>
           </div>
 
           <div className="prose prose-invert max-w-none">
             <div className="bg-white/5 backdrop-blur-sm rounded-3xl p-8 border border-white/10">
               <p className="text-gray-300 leading-relaxed mb-8">
-                A Celestia valoriza profundamente sua privacidade e está comprometida com a proteção dos seus dados pessoais, espirituais e sensíveis. Esta Política de Privacidade explica como coletamos, utilizamos, armazenamos e protegemos suas informações, em conformidade com a Lei Geral de Proteção de Dados (LGPD - Brasil), o Regulamento Geral de Proteção de Dados (GDPR - Europa) e boas práticas internacionais de privacidade.
+                Celestia deeply values your privacy and is committed to protecting your personal, spiritual, and sensitive data. This Privacy Policy explains how we collect, use, store, and protect your information, in compliance with data protection regulations and international privacy best practices.
               </p>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  📌 Informações Coletadas
+                  📌 Information Collected
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  Durante a navegação no site ou aquisição de nossos produtos, poderemos coletar as seguintes informações:
+                  During website navigation or acquisition of our products, we may collect the following information:
                 </p>
                 
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold text-purple-300 mb-3">a. Dados Pessoais</h3>
+                  <h3 className="text-xl font-semibold text-purple-300 mb-3">a. Personal Data</h3>
                   <ul className="text-gray-300 space-y-2 ml-4">
-                    <li>• Nome completo</li>
-                    <li>• Gênero</li>
-                    <li>• Data, hora e local de nascimento</li>
-                    <li>• Nome dos pais</li>
-                    <li>• Nome do(a) parceiro(a)</li>
-                    <li>• E-mail e telefone</li>
-                    <li>• Profissão e informações financeiras estimadas (quando aplicável)</li>
+                    <li>• Full name</li>
+                    <li>• Gender</li>
+                    <li>• Date, time, and place of birth</li>
+                    <li>• Parents' names</li>
+                    <li>• Partner's name</li>
+                    <li>• Email and phone</li>
+                    <li>• Profession and estimated financial information (when applicable)</li>
                   </ul>
                 </div>
 
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold text-purple-300 mb-3">b. Dados Sensíveis e Espirituais</h3>
+                  <h3 className="text-xl font-semibold text-purple-300 mb-3">b. Sensitive and Spiritual Data</h3>
                   <ul className="text-gray-300 space-y-2 ml-4">
-                    <li>• Dados astrológicos e numerológicos</li>
-                    <li>• Informações energéticas, espirituais ou emocionais fornecidas voluntariamente</li>
-                    <li>• Dados de crenças e práticas espirituais (ex: objetivos, bloqueios, temas recorrentes)</li>
+                    <li>• Astrological and numerological data</li>
+                    <li>• Energetic, spiritual, or emotional information provided voluntarily</li>
+                    <li>• Data on beliefs and spiritual practices (e.g., goals, blocks, recurring themes)</li>
                   </ul>
                 </div>
 
                 <div className="mb-6">
-                  <h3 className="text-xl font-semibold text-purple-300 mb-3">c. Dados de Navegação</h3>
+                  <h3 className="text-xl font-semibold text-purple-300 mb-3">c. Navigation Data</h3>
                   <ul className="text-gray-300 space-y-2 ml-4">
-                    <li>• Cookies, endereço IP, tipo de dispositivo, tempo de acesso e comportamento no site</li>
+                    <li>• Cookies, IP address, device type, access time, and website behavior</li>
                   </ul>
                 </div>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  🎯 Finalidade da Coleta
+                  🎯 Purpose of Collection
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  Seus dados são coletados para fins estritamente espirituais e de autoconhecimento, com as seguintes finalidades:
+                  Your data is collected for strictly spiritual and self-knowledge purposes, with the following objectives:
                 </p>
                 <ul className="text-gray-300 space-y-2 ml-4">
-                  <li>• Entrega de produtos digitais personalizados (relatórios, mapas, diagnósticos)</li>
-                  <li>• Melhoria da experiência do usuário</li>
-                  <li>• Comunicação com o cliente (suporte, notificações, marketing com consentimento)</li>
-                  <li>• Cumprimento de obrigações legais e fiscais</li>
-                  <li>• Análises estatísticas internas e melhorias de produto</li>
+                  <li>• Delivery of personalized digital products (reports, maps, diagnostics)</li>
+                  <li>• User experience improvement</li>
+                  <li>• Customer communication (support, notifications, marketing with consent)</li>
+                  <li>• Compliance with legal and fiscal obligations</li>
+                  <li>• Internal statistical analysis and product improvements</li>
                 </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  🔐 Armazenamento e Segurança
+                  🔐 Storage and Security
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  A Celestia adota medidas rigorosas de criptografia, firewall, controle de acesso e backup para garantir que seus dados estejam seguros e protegidos contra acessos não autorizados, perdas ou vazamentos.
+                  Celestia adopts rigorous encryption, firewall, access control, and backup measures to ensure your data is safe and protected against unauthorized access, loss, or breaches.
                 </p>
                 <ul className="text-gray-300 space-y-2 ml-4">
-                  <li>• Seus dados são armazenados em servidores seguros e plataformas compatíveis com a LGPD e GDPR.</li>
-                  <li>• Utilizamos ferramentas de automação com integração de sistemas para geração dos relatórios, sempre com anonimização e proteção nos fluxos internos.</li>
-                  <li>• O acesso aos seus dados é restrito à equipe responsável e apenas para os fins declarados.</li>
+                  <li>• Your data is stored on secure servers and platforms compliant with data protection regulations.</li>
+                  <li>• We use automation tools with system integration for report generation, always with anonymization and protection in internal flows.</li>
+                  <li>• Access to your data is restricted to the responsible team and only for the declared purposes.</li>
                 </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  🌍 Transferência Internacional
+                  🌍 International Transfer
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  Seus dados poderão ser processados em servidores localizados fora do Brasil, como parte do uso de ferramentas globais. Nesses casos:
+                  Your data may be processed on servers located outside your country as part of using global tools. In these cases:
                 </p>
                 <ul className="text-gray-300 space-y-2 ml-4">
-                  <li>• Garantimos que as transferências ocorrem em conformidade com a LGPD e GDPR</li>
-                  <li>• Apenas parceiros com cláusulas contratuais específicas de proteção de dados são utilizados</li>
-                  <li>• O nível de proteção oferecido é equivalente ou superior às exigências brasileiras e europeias</li>
+                  <li>• We ensure transfers occur in compliance with applicable data protection regulations</li>
+                  <li>• Only partners with specific contractual data protection clauses are used</li>
+                  <li>• The level of protection offered is equivalent to or higher than international requirements</li>
                 </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  📝 Consentimento e Direitos do Usuário
+                  📝 Consent and User Rights
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  Ao fornecer suas informações, você concorda expressamente com o tratamento dos dados conforme esta política.
+                  By providing your information, you expressly agree to data processing according to this policy.
                 </p>
-                <p className="text-gray-300 mb-4">Você tem o direito de:</p>
+                <p className="text-gray-300 mb-4">You have the right to:</p>
                 <ul className="text-gray-300 space-y-2 ml-4 mb-4">
-                  <li>• Confirmar a existência de tratamento de dados</li>
-                  <li>• Acessar seus dados</li>
-                  <li>• Corrigir dados incompletos, inexatos ou desatualizados</li>
-                  <li>• Solicitar anonimização ou exclusão (exceto quando houver obrigações legais)</li>
-                  <li>• Revogar o consentimento a qualquer momento</li>
-                  <li>• Solicitar a portabilidade dos dados, quando aplicável</li>
+                  <li>• Confirm the existence of data processing</li>
+                  <li>• Access your data</li>
+                  <li>• Correct incomplete, inaccurate, or outdated data</li>
+                  <li>• Request anonymization or deletion (except when there are legal obligations)</li>
+                  <li>• Revoke consent at any time</li>
+                  <li>• Request data portability, when applicable</li>
                 </ul>
                 <p className="text-gray-300">
-                  Solicitações podem ser feitas através do e-mail: <a href="mailto:help@celestia.guru" className="text-purple-400 hover:text-purple-300">help@celestia.guru</a>
+                  Requests can be made through email: <a href="mailto:help@celestia.guru" className="text-purple-400 hover:text-purple-300">help@celestia.guru</a>
                 </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  🍪 Cookies e Tecnologias de Rastreamento
+                  🍪 Cookies and Tracking Technologies
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  Utilizamos cookies para melhorar sua experiência no site. Você pode, a qualquer momento, configurar seu navegador para bloquear ou remover cookies.
+                  We use cookies to improve your website experience. You can, at any time, configure your browser to block or remove cookies.
                 </p>
                 <ul className="text-gray-300 space-y-2 ml-4">
-                  <li>• Cookies de sessão: utilizados para lembrar suas preferências temporárias</li>
-                  <li>• Cookies analíticos: utilizados para entender como você navega no site e melhorar nossos serviços</li>
+                  <li>• Session cookies: used to remember your temporary preferences</li>
+                  <li>• Analytical cookies: used to understand how you navigate the site and improve our services</li>
                 </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  📩 Comunicações e Marketing
+                  📩 Communications and Marketing
                 </h2>
-                <p className="text-gray-300 mb-4">Enviaremos e-mails apenas mediante seu consentimento, com:</p>
+                <p className="text-gray-300 mb-4">We will send emails only with your consent, including:</p>
                 <ul className="text-gray-300 space-y-2 ml-4 mb-4">
-                  <li>• Entrega dos relatórios adquiridos</li>
-                  <li>• Atualizações de produtos e conteúdos espirituais</li>
-                  <li>• Ofertas, promoções e eventos da Celestia</li>
+                  <li>• Delivery of purchased reports</li>
+                  <li>• Product updates and spiritual content</li>
+                  <li>• Offers, promotions, and Celestia events</li>
                 </ul>
                 <p className="text-gray-300">
-                  Você pode se descadastrar a qualquer momento utilizando o link de opt-out presente nas mensagens.
+                  You can unsubscribe at any time using the opt-out link present in the messages.
                 </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  🧾 Retenção dos Dados
+                  🧾 Data Retention
                 </h2>
                 <p className="text-gray-300">
-                  Seus dados serão armazenados pelo tempo necessário à prestação dos serviços e cumprimento de obrigações legais, ou até que você solicite a exclusão.
+                  Your data will be stored for the time necessary to provide services and comply with legal obligations, or until you request deletion.
                 </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  👥 Compartilhamento com Terceiros
+                  👥 Sharing with Third Parties
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  A Celestia não vende nem compartilha seus dados com terceiros para fins comerciais. O compartilhamento ocorre apenas com:
+                  Celestia does not sell or share your data with third parties for commercial purposes. Sharing occurs only with:
                 </p>
                 <ul className="text-gray-300 space-y-2 ml-4">
-                  <li>• Plataformas parceiras para geração dos relatórios (sistemas integrados)</li>
-                  <li>• Processadores de pagamento</li>
-                  <li>• Autoridades legais, mediante obrigação judicial</li>
+                  <li>• Partner platforms for report generation (integrated systems)</li>
+                  <li>• Payment processors</li>
+                  <li>• Legal authorities, under judicial obligation</li>
                 </ul>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  👁️‍🗨️ Alterações desta Política
+                  👁️‍🗨️ Changes to This Policy
                 </h2>
                 <p className="text-gray-300">
-                  Reservamo-nos o direito de alterar esta política a qualquer momento, sendo que as mudanças serão publicadas neste mesmo local com data atualizada. Recomendamos a leitura periódica.
+                  We reserve the right to change this policy at any time, with changes being published in this same location with an updated date. We recommend periodic reading.
                 </p>
               </section>
 
               <section className="mb-8">
                 <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                  📞 Contato
+                  📞 Contact
                 </h2>
                 <p className="text-gray-300 mb-4">
-                  Se você tiver dúvidas, solicitações ou reclamações sobre nossa política de privacidade ou o tratamento de seus dados:
+                  If you have questions, requests, or complaints about our privacy policy or the treatment of your data:
                 </p>
                 <p className="text-gray-300 mb-2">
-                  📧 E-mail: <a href="mailto:contato@celestia.guru" className="text-purple-400 hover:text-purple-300">contato@celestia.guru</a>
+                  📧 Email: <a href="mailto:help@celestia.guru" className="text-purple-400 hover:text-purple-300">help@celestia.guru</a>
                 </p>
                 <p className="text-gray-300">
-                  🌐 Site: <a href="https://br.celestia.guru" className="text-purple-400 hover:text-purple-300">https://br.celestia.guru</a>
+                  🌐 Website: <a href="https://celestia.guru" className="text-purple-400 hover:text-purple-300">https://celestia.guru</a>
                 </p>
               </section>
 
               <div className="text-center border-t border-white/10 pt-8">
-                <p className="text-purple-300 font-semibold mb-2">🕊 A espiritualidade começa no respeito à sua privacidade.</p>
-                <p className="text-gray-300">Na Celestia, seu caminho de autoconhecimento é sagrado — e seus dados também.</p>
+                <p className="text-purple-300 font-semibold mb-2">🕊 Spirituality begins with respect for your privacy.</p>
+                <p className="text-gray-300">At Celestia, your journey of self-knowledge is sacred — and so is your data.</p>
               </div>
             </div>
           </div>
