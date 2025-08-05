@@ -5,7 +5,7 @@ const TestimonialsSection = () => {
   const testimonials = [
     {
       text: "The Celestia numerology report completely changed my life perspective. I discovered my true mission and now have clarity about my next steps. Highly recommend!",
-      name: "Marina Silva",
+      name: "M.S.",
       role: "Entrepreneur",
       initials: "MS",
       color: "bg-purple-500"
