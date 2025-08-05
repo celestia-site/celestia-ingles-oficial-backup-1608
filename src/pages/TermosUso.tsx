@@ -51,7 +51,7 @@ const TermosUso = () => {
                     💳 2. Payment and Confirmation
                   </h2>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    Payment is processed at the time of purchase through the payment platforms integrated into our website. After payment confirmation, you will be redirected to fill out an <strong>exclusive form</strong>, where you must enter your complete data so that the report can be prepared correctly.
+                    Payment is processed at the time of purchase through the payment platforms integrated into our website. After payment confirmation, you will be redirected to fill out an <strong>exclusive form</strong> (in some cases you filled the form before payment), where you must enter your complete data so that the report can be prepared correctly.
                   </p>
                   
                   <div className="bg-yellow-900/20 border border-yellow-500/30 rounded-lg p-4 mb-4">
