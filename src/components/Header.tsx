@@ -27,40 +27,40 @@ const Header = () => {
               Home
             </Link>
             <Link 
-              to="/#produtos" 
+              to="/#products" 
               className="text-foreground hover:text-primary transition-cosmic"
               onClick={() => {
                 if (window.location.pathname === '/') {
-                  document.getElementById('produtos')?.scrollIntoView({ behavior: 'smooth' });
+                  document.getElementById('products')?.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
             >
-              Produtos
+              Products
             </Link>
             <Link 
-              to="/#sobre" 
+              to="/#about" 
               className="text-foreground hover:text-primary transition-cosmic"
               onClick={() => {
                 if (window.location.pathname === '/') {
-                  document.getElementById('sobre')?.scrollIntoView({ behavior: 'smooth' });
+                  document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
             >
-              Sobre
+              About
             </Link>
             <Link to="/blog" className="text-foreground hover:text-primary transition-cosmic">
               Blog
             </Link>
             <Link 
-              to="/#contato" 
+              to="/#contact" 
               className="text-foreground hover:text-primary transition-cosmic"
               onClick={() => {
                 if (window.location.pathname === '/') {
-                  document.getElementById('contato')?.scrollIntoView({ behavior: 'smooth' });
+                  document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
             >
-              Contato
+              Contact
             </Link>
           </div>
 

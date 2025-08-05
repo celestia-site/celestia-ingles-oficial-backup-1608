@@ -5,42 +5,42 @@ import { Link } from "react-router-dom";
 
 const BlogSection = () => {
   const featuredPost = {
-    title: "Como Descobrir Sua Missão de Alma através da Numerologia",
-    excerpt: "Aprenda a calcular e interpretar seus números pessoais para entender qual é sua verdadeira missão nesta vida.",
-    category: "Numerologia",
+    title: "How to Discover Your Soul Mission through Numerology",
+    excerpt: "Learn to calculate and interpret your personal numbers to understand what your true mission is in this life.",
+    category: "Numerology",
     date: "15 Nov 2024",
     readTime: "8 min",
     featured: true,
-    link: "/missao-alma-numerologia"
+    link: "/soul-mission-numerology"
   };
 
   const regularPosts = [
     {
       id: 1,
-      title: "Os 7 Chakras e Sua Conexão com os Signos do Zodíaco",
-      excerpt: "Descubra como alinhar seus chakras de acordo com sua carta astral para potencializar sua energia espiritual.",
-      category: "Astrologia",
+      title: "The 7 Chakras and Their Connection with Zodiac Signs",
+      excerpt: "Discover how to align your chakras according to your astrological chart to enhance your spiritual energy.",
+      category: "Astrology",
       date: "12 Nov 2024",
       readTime: "12 min",
-      link: "/chakras-zodiaco"
+      link: "/chakras-zodiac"
     },
     {
       id: 2,
-      title: "Registros Akáshicos: Portal para Vidas Passadas",
-      excerpt: "Entenda como acessar as memórias da sua alma e curar traumas ancestrais através dos registros cósmicos.",
-      category: "Registros Akáshicos",
+      title: "Akashic Records: Portal to Past Lives",
+      excerpt: "Understand how to access your soul's memories and heal ancestral traumas through cosmic records.",
+      category: "Akashic Records",
       date: "10 Nov 2024",
       readTime: "15 min",
-      link: "/registros-akashicos"
+      link: "/akashic-records"
     },
     {
       id: 3,
-      title: "Limpeza Energética: Rituais de Proteção Espiritual",
-      excerpt: "Aprenda técnicas poderosas para proteger sua energia e manter sua aura sempre limpa e fortalecida.",
-      category: "Espiritualidade",
+      title: "Energy Cleansing: Spiritual Protection Rituals",
+      excerpt: "Learn powerful techniques to protect your energy and keep your aura always clean and strengthened.",
+      category: "Spirituality",
       date: "08 Nov 2024",
       readTime: "6 min",
-      link: "/limpeza-energetica"
+      link: "/energy-cleansing"
     }
   ];
 
@@ -50,15 +50,15 @@ const BlogSection = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <Badge variant="outline" className="mb-4 border-primary/50 bg-gradient-to-r from-primary/20 to-divine/20 text-foreground">
-            📚 Conhecimento Sagrado
+            📚 Sacred Knowledge
           </Badge>
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Sabedoria</span>{" "}
-            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Espiritual</span>
+            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Spiritual</span>{" "}
+            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Wisdom</span>
           </h2>
           <p className="text-foreground/80 text-lg max-w-2xl mx-auto">
-            Artigos, guias e insights para acelerar sua jornada de despertar espiritual e 
-            autoconhecimento profundo.
+            Articles, guides and insights to accelerate your spiritual awakening journey and 
+            deep self-knowledge.
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const BlogSection = () => {
             <div className="flex-1">
               <div className="flex items-center gap-3 mb-4">
                 <Badge className="bg-gradient-divine text-black border-0 font-semibold">
-                  Artigo em Destaque
+                  Featured Article
                 </Badge>
                 <span className="text-foreground/60 text-sm">📅 {featuredPost.date}</span>
               </div>
@@ -93,7 +93,7 @@ const BlogSection = () => {
               
               <Link to={featuredPost.link}>
                 <Button className="bg-gradient-cosmic hover:shadow-cosmic text-white border-0 px-6 py-2 rounded-lg font-semibold transition-all duration-300">
-                  Ler Artigo Completo
+                  Read Full Article
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
@@ -138,7 +138,7 @@ const BlogSection = () => {
                 to={post.link}
                 className="flex items-center gap-2 bg-gradient-text-primary bg-clip-text text-transparent hover:bg-gradient-celestial hover:bg-clip-text font-medium text-sm mt-4 group/link transition-all duration-300"
               >
-                Continuar Lendo
+                Continue Reading
                 <ArrowRight className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
               </Link>
             </article>
@@ -152,7 +152,7 @@ const BlogSection = () => {
               size="lg"
               variant="celestial"
             >
-              📚 Ver Todos os Artigos
+              📚 View All Articles
             </Button>
           </Link>
         </div>

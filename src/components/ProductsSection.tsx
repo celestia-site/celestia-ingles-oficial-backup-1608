@@ -12,22 +12,22 @@ const ProductsSection = () => {
   const loveCompatibilityImage = "/lovable-uploads/57029799-fb2b-4976-82b7-f29b72a53957.png";
 
   return (
-    <section className="py-20 bg-background" id="produtos">
+    <section className="py-20 bg-background" id="products">
       <div className="container mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
           <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full mb-6">
             <Sparkles className="w-4 h-4" />
-            <span className="text-sm font-medium text-white">Produtos Espirituais</span>
+            <span className="text-sm font-medium text-white">Spiritual Products</span>
           </div>
           
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Desperte seu </span>
-            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Potencial Espiritual</span>
+            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Awaken your </span>
+            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Spiritual Potential</span>
           </h2>
           
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Ferramentas sagradas e análises personalizadas para sua jornada de autoconhecimento e transformação espiritual profunda.
+            Sacred tools and personalized analyses for your journey of self-knowledge and deep spiritual transformation.
           </p>
         </div>
 
@@ -35,56 +35,56 @@ const ProductsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <ProductCard
             image="/lovable-uploads/b9812cd9-93b7-47ac-b9e4-73ebd9268137.png"
-            badge="INICIANTE"
-            title="Celestia - Primeiros Passos"
-            description="Seu mapa espiritual em 1ª visão. Descubra os códigos essenciais da sua alma com base no seu nome e data de nascimento. Um diagnóstico rápido, poderoso e revelador para iniciar sua jornada espiritual."
+            badge="BEGINNER"
+            title="Celestia - First Steps"
+            description="Your spiritual map at first sight. Discover your soul's essential codes based on your name and birth date. A quick, powerful and revealing diagnosis to start your spiritual journey."
             features={[
-              "Número de nascimento",
-              "Signo Solar",
-              "Animal do horóscopo Chinês",
-              "Chakra dominante",
-              "Mensagem canalizada intuitiva"
+              "Birth number",
+              "Sun sign",
+              "Chinese horoscope animal",
+              "Dominant chakra",
+              "Intuitive channeled message"
             ]}
-            price="R$ 29,70"
-            installments="7x de R$ 5,03"
+            price="$29.70"
+            installments="7x $5.03"
             badgeColor="primary"
-            link="/celestia-primeiros-passos"
+            link="/celestia-first-steps"
           />
 
           <ProductCard
             image={loveCompatibilityImage}
-            badge="RELACIONAMENTOS"
-            title="Análise de Compatibilidade Amorosa Espiritual"
-            description="Uma leitura espiritual profunda da relação entre duas almas: compatibilidades, lições, karmas e missão conjunta."
+            badge="RELATIONSHIPS"
+            title="Spiritual Love Compatibility Analysis"
+            description="A deep spiritual reading of the relationship between two souls: compatibilities, lessons, karmas and joint mission."
             features={[
-              "Sinastria astrológica e numerológica",
-              "Missão espiritual do casal",
-              "Lições e débitos kármicos",
-              "Previsões amorosas",
-              "Rituais para fortalecimento"
+              "Astrological and numerological synastry",
+              "Couple's spiritual mission",
+              "Karmic lessons and debts",
+              "Love predictions",
+              "Strengthening rituals"
             ]}
-            price="R$ 97"
-            installments="12x de R$ 11,28"
+            price="$97"
+            installments="12x $11.28"
             badgeColor="mystic"
-            link="/analise-compatibilidade-amorosa"
+            link="/love-compatibility-analysis"
           />
 
           <ProductCard
             image="/lovable-uploads/c7614452-e7f5-44ca-ab2d-dec9862d0647.png"
-            badge="ABUNDÂNCIA"
-            title="Mapa Espiritual da Prosperidade e Desbloqueio Financeiro"
-            description="Desbloqueie seus dons de abundância. Um estudo espiritual para liberar bloqueios financeiros, ativar dons ocultos e alinhar missão e riqueza."
+            badge="ABUNDANCE"
+            title="Spiritual Prosperity Map and Financial Unlock"
+            description="Unlock your abundance gifts. A spiritual study to release financial blocks, activate hidden gifts and align mission and wealth."
             features={[
-              "Número da prosperidade",
-              "Diagnóstico de débitos e heranças kármicas",
-              "Potenciais ocultos de riqueza",
-              "Mantras e rituais de ativação financeira",
-              "Plano diário de prosperidade"
+              "Prosperity number",
+              "Karmic debts and inheritances diagnosis",
+              "Hidden wealth potentials",
+              "Financial activation mantras and rituals",
+              "Daily prosperity plan"
             ]}
-            price="R$ 97"
-            installments="12x de R$ 11,28"
+            price="$97"
+            installments="12x $11.28"
             badgeColor="divine"
-            link="/mapa-prosperidade-desbloqueio"
+            link="/prosperity-unlock-map"
           />
         </div>
 
@@ -97,20 +97,20 @@ const ProductsSection = () => {
             
             <h3 className="text-4xl font-bold mb-6">
               <span className="bg-gradient-luxury bg-clip-text text-transparent">
-                Plano de Ascensão Esotérica
+                Esoteric Ascension Plan
               </span>
             </h3>
             
             <p className="text-lg text-gray-300 mb-8 leading-relaxed max-w-xl mx-auto">
-              Estamos preparando um plano exclusivo, com poucas leituras mensais para o Caminho Sagrado de iniciação e ascensão espiritual baseado em práticas herméticas, vidas passadas e terapias holísticas. Deixe seu nome, WhatsApp e e-mail caso deseje fazer parte da nossa lista VIP no lançamento do plano.
+              We are preparing an exclusive plan, with few monthly readings for the Sacred Path of initiation and spiritual ascension based on hermetic practices, past lives and holistic therapies. Leave your name, WhatsApp and email if you want to be part of our VIP list at the plan launch.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
               <div className="space-y-2">
-                <label className="text-sm text-gray-400 block text-left">Nome Completo</label>
+                <label className="text-sm text-gray-400 block text-left">Full Name</label>
                 <div className="relative">
                   <Input 
-                    placeholder="Seu nome completo" 
+                    placeholder="Your full name" 
                     className="bg-gray-800/50 border-gray-600 text-white placeholder:text-gray-400 focus:border-purple-500 pl-10"
                   />
                   <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
@@ -122,11 +122,11 @@ const ProductsSection = () => {
               </div>
               
               <div className="space-y-2">
-                <label className="text-sm text-gray-400 block text-left">E-mail</label>
+                <label className="text-sm text-gray-400 block text-left">Email</label>
                 <div className="relative">
                   <Input 
                     type="email"
-                    placeholder="seu@email.com" 
+                    placeholder="your@email.com" 
                     className="bg-gray-800/50 border-gray-600 text-white placeholder:text-gray-400 focus:border-purple-500 pl-10"
                   />
                   <div className="absolute left-3 top-1/2 transform -translate-y-1/2">
@@ -155,12 +155,12 @@ const ProductsSection = () => {
 
             <Button className="w-full mb-6 h-12 text-lg font-semibold bg-blue-600 hover:bg-blue-700 hover:shadow-luxury transition-all duration-300 text-white border-0">
               <Sparkles className="w-5 h-5 mr-2" />
-              Quero ser VIP
+              I Want to be VIP
             </Button>
             
             <div className="text-center">
-              <span className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">R$ 497</span>
-              <span className="text-lg text-muted-foreground line-through ml-2">R$ 897</span>
+              <span className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$497</span>
+              <span className="text-lg text-muted-foreground line-through ml-2">$897</span>
             </div>
           </CardContent>
         </Card>

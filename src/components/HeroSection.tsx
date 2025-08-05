@@ -27,26 +27,26 @@ const HeroSection = () => {
         {/* Tag */}
         <div className="inline-flex items-center gap-2 bg-primary/20 text-primary px-4 py-2 rounded-full mb-12 backdrop-blur-sm border border-primary/30">
           <Sparkles className="w-4 h-4" />
-          <span className="text-sm font-medium text-white">✨ Despertar Espiritual Autêntico</span>
+          <span className="text-sm font-medium text-white">✨ Authentic Spiritual Awakening</span>
         </div>
 
         {/* Main Title - Elegant gradient text */}
         <div className="space-y-4 mb-8">
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
-            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Desperte sua Missão</span>
+            <span className="bg-gradient-text-primary bg-clip-text text-transparent">Awaken Your Mission</span>
           </h1>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
-            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Descubra o Código</span>
+            <span className="bg-gradient-text-divine bg-clip-text text-transparent">Discover the Code</span>
           </h1>
           <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold">
-            <span className="bg-gradient-text-ethereal bg-clip-text text-transparent">da sua Alma</span>
+            <span className="bg-gradient-text-ethereal bg-clip-text text-transparent">of Your Soul</span>
           </h1>
         </div>
 
         {/* Subtitle */}
         <p className="text-xl md:text-2xl text-foreground/90 max-w-4xl mx-auto mb-12 leading-relaxed">
-          Transforme sua Vida, ative o fluxo do <span className="bg-gradient-text-divine bg-clip-text text-transparent font-semibold drop-shadow-[0_0_20px_hsl(45,100%,60%)]">Amor, Riqueza e Prosperidade.</span><br />
-          <span className="text-foreground/80">Numerologia, Astrologia, Tarot e Registros Akáshicos para despertar sua verdadeira essência.</span>
+          Transform your Life, activate the flow of <span className="bg-gradient-text-divine bg-clip-text text-transparent font-semibold drop-shadow-[0_0_20px_hsl(45,100%,60%)]">Love, Wealth and Prosperity.</span><br />
+          <span className="text-foreground/80">Numerology, Astrology, Tarot and Akashic Records to awaken your true essence.</span>
         </p>
 
         {/* CTA Buttons - Adjusted colors and positioning */}
@@ -56,12 +56,12 @@ const HeroSection = () => {
             size="xl" 
             className="group px-8 py-4 text-lg"
             onClick={() => {
-              const element = document.getElementById('produtos');
+              const element = document.getElementById('products');
               element?.scrollIntoView({ behavior: 'smooth' });
             }}
           >
             <Star className="w-5 h-5 group-hover:rotate-12 transition-transform" />
-            Comece sua Jornada
+            Start Your Journey
           </Button>
         </div>
 
@@ -69,15 +69,15 @@ const HeroSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 max-w-4xl mx-auto">
           <div className="text-center">
             <div className="text-4xl md:text-5xl font-bold bg-gradient-celestial bg-clip-text text-transparent mb-3">+1700</div>
-            <div className="text-foreground/70 text-lg">Almas Despertadas</div>
+            <div className="text-foreground/70 text-lg">Awakened Souls</div>
           </div>
           <div className="text-center">
             <div className="text-4xl md:text-5xl font-bold bg-gradient-mystic bg-clip-text text-transparent mb-3">+2500</div>
-            <div className="text-foreground/70 text-lg">Relatórios Entregues</div>
+            <div className="text-foreground/70 text-lg">Reports Delivered</div>
           </div>
           <div className="text-center">
             <div className="text-4xl md:text-5xl font-bold bg-gradient-ethereal bg-clip-text text-transparent mb-3">98%</div>
-            <div className="text-foreground/70 text-lg">Satisfação</div>
+            <div className="text-foreground/70 text-lg">Satisfaction</div>
           </div>
         </div>
       </div>

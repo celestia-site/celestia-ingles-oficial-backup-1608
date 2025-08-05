@@ -3,14 +3,14 @@ import { Users, Sparkles } from "lucide-react";
 
 const AboutSection = () => {
   return (
-    <section id="sobre" className="py-20 px-6 bg-gradient-to-b from-slate-900 to-background">
+    <section id="about" className="py-20 px-6 bg-gradient-to-b from-slate-900 to-background">
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left side - Image */}
           <div className="relative">
             <img 
               src="/lovable-uploads/ddf216ca-13e0-444e-9f7b-70773cda3386.png" 
-              alt="Figura espiritual em meditação com elementos místicos"
+              alt="Spiritual figure in meditation with mystical elements"
               className="w-full rounded-2xl"
             />
           </div>
@@ -20,24 +20,24 @@ const AboutSection = () => {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-cosmic border border-primary/50">
               <div className="w-2 h-2 bg-white rounded-full"></div>
-              <span className="text-white text-sm font-medium">Nossa Missão</span>
+              <span className="text-white text-sm font-medium">Our Mission</span>
             </div>
 
             {/* Title */}
             <div>
               <h2 className="text-4xl lg:text-5xl font-bold leading-tight">
-                <span className="bg-gradient-text-primary bg-clip-text text-transparent">Despertar e</span>
+                <span className="bg-gradient-text-primary bg-clip-text text-transparent">Awakening and</span>
                 <br />
-                <span className="bg-gradient-text-divine bg-clip-text text-transparent">Transformar Vidas</span>
+                <span className="bg-gradient-text-divine bg-clip-text text-transparent">Transforming Lives</span>
               </h2>
             </div>
 
             {/* Description */}
             <p className="text-foreground/80 text-lg leading-relaxed">
-              A <span className="bg-gradient-celestial bg-clip-text text-transparent font-semibold">Celestia</span> nasceu da visão de democratizar o acesso ao 
-              autoconhecimento espiritual profundo. Utilizamos ferramentas 
-              sagradas milenares como numerologia, astrologia, tarô e registros 
-              akáshicos para revelar os códigos únicos da sua alma.
+              <span className="bg-gradient-celestial bg-clip-text text-transparent font-semibold">Celestia</span> was born from the vision of democratizing access to 
+              deep spiritual self-knowledge. We use sacred millenary tools 
+              such as numerology, astrology, tarot and akashic records 
+              to reveal your soul's unique codes.
             </p>
 
             {/* Cards - Single card */}
@@ -47,12 +47,12 @@ const AboutSection = () => {
                   <div className="w-10 h-10 rounded-lg bg-gradient-cosmic flex items-center justify-center">
                     <Sparkles className="w-5 h-5 text-white" />
                   </div>
-                  <h3 className="font-bold text-foreground">Saberes Ancestrais</h3>
+                  <h3 className="font-bold text-foreground">Ancestral Wisdom</h3>
                 </div>
                 <p className="text-foreground/70 text-sm">
-                  Uma fusão entre os mistérios antigos e os conhecimentos herméticos, 
-                  combinando práticas espirituais elevadas, rituais de ascensão e as 
-                  leis da criação consciente.
+                  A fusion between ancient mysteries and hermetic knowledge, 
+                  combining elevated spiritual practices, ascension rituals and the 
+                  laws of conscious creation.
                 </p>
               </div>
             </div>
@@ -60,12 +60,12 @@ const AboutSection = () => {
             {/* Quote */}
             <blockquote className="py-4">
               <p className="text-lg italic text-foreground/80 leading-relaxed mb-4">
-                "Cada alma carrega um <span className="bg-gradient-celestial bg-clip-text text-transparent font-semibold">código único</span>, uma <span className="bg-gradient-mystic bg-clip-text text-transparent font-semibold">missão sagrada</span>. Nossa 
-                função é ajudar você a decifrar esse código e despertar para sua 
-                verdadeira essência."
+                "Each soul carries a <span className="bg-gradient-celestial bg-clip-text text-transparent font-semibold">unique code</span>, a <span className="bg-gradient-mystic bg-clip-text text-transparent font-semibold">sacred mission</span>. Our 
+                role is to help you decipher this code and awaken to your 
+                true essence."
               </p>
               <footer className="text-sm text-foreground/60">
-                — Fundadora da Celestia
+                — Founder of Celestia
               </footer>
             </blockquote>
 
