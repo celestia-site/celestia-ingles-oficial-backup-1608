@@ -19,7 +19,7 @@ const MissaoAlmaNumerologia = () => {
         {/* Back to Blog */}
         <Link to="/blog" className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors mb-8">
           <ArrowLeft className="w-4 h-4" />
-          Voltar ao Blog
+          Back to Blog
         </Link>
 
         {/* Article Header */}
@@ -29,24 +29,24 @@ const MissaoAlmaNumerologia = () => {
               <div className="mb-8">
                 <div className="flex items-center gap-4 text-sm text-muted-foreground mb-4">
                   <Badge className="bg-gradient-to-r from-divine to-luxury text-white border-0">
-                    Numerologia
+                    Numerology
                   </Badge>
                   <div className="flex items-center gap-1">
                     <Calendar className="w-4 h-4" />
-                    <span>Janeiro 2025</span>
+                    <span>January 2025</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <Clock className="w-4 h-4" />
-                    <span>8 min de leitura</span>
+                    <span>8 min read</span>
                   </div>
                 </div>
                 
                 <h1 className="text-3xl md:text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-purple-600 bg-clip-text text-transparent">
-                  ✨ Como Descobrir Sua Missão de Alma através da Numerologia
+                  ✨ How to Discover Your Soul Mission through Numerology
                 </h1>
                 
                 <p className="text-lg text-muted-foreground leading-relaxed">
-                  Descobrir sua missão de alma é como abrir um mapa sagrado que revela o caminho para sua verdadeira realização. E a numerologia é uma das ferramentas mais poderosas para essa jornada de autoconhecimento.
+                  Discovering your soul mission is like opening a sacred map that reveals the path to your true fulfillment. And numerology is one of the most powerful tools for this journey of self-discovery.
                 </p>
               </div>
 
@@ -54,82 +54,82 @@ const MissaoAlmaNumerologia = () => {
               <div className="prose prose-lg max-w-none space-y-8">
                 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🔢 O que é a Missão de Alma?</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🔢 What is the Soul Mission?</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    A missão de alma é o propósito espiritual que você escolheu antes de encarnar. É o conjunto de experiências, aprendizados e contribuições que sua alma deseja realizar nesta vida. Ao alinhar-se com essa missão, tudo flui com mais leveza: relacionamentos, prosperidade, saúde e espiritualidade.
+                    The soul mission is the spiritual purpose you chose before incarnating. It's the set of experiences, learnings, and contributions that your soul desires to accomplish in this life. When you align with this mission, everything flows more smoothly: relationships, prosperity, health, and spirituality.
                   </p>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🧙‍♂️ Por que a Numerologia é tão poderosa?</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🧙‍♂️ Why is Numerology so powerful?</h2>
                   <p className="text-muted-foreground leading-relaxed">
-                    A Numerologia revela padrões ocultos presentes no seu nome e data de nascimento. Esses números não são aleatórios — eles vibram em uma frequência espiritual que molda quem você é, seus desafios e seus dons.
+                    Numerology reveals hidden patterns present in your name and birth date. These numbers are not random — they vibrate at a spiritual frequency that shapes who you are, your challenges, and your gifts.
                   </p>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-6">📌 Os 5 Números Fundamentais para Descobrir sua Missão de Alma</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-6">📌 The 5 Fundamental Numbers to Discover Your Soul Mission</h2>
                   
                   <div className="space-y-6">
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">1. Número de Vida (ou Caminho de Vida)</h3>
+                        <h3 className="text-xl font-bold text-primary mb-3">1. Life Number (or Life Path)</h3>
                         <p className="text-muted-foreground mb-2">
-                          <strong>Como calcular:</strong> Some todos os dígitos da sua data de nascimento até reduzir a um único dígito ou número mestre (11, 22, 33).
+                          <strong>How to calculate:</strong> Add all digits of your birth date until reducing to a single digit or master number (11, 22, 33).
                         </p>
                         <p className="text-muted-foreground mb-2">
-                          <strong>Exemplo:</strong> 25/06/1988 → 2+5+0+6+1+9+8+8 = 39 → 3+9 = 12 → 1+2 = 3
+                          <strong>Example:</strong> 06/25/1988 → 0+6+2+5+1+9+8+8 = 39 → 3+9 = 12 → 1+2 = 3
                         </p>
                         <p className="text-muted-foreground">
-                          <strong>Significado:</strong> Representa o caminho principal da alma. O que você veio aprender, desenvolver e expressar.
+                          <strong>Meaning:</strong> Represents the soul's main path. What you came to learn, develop, and express.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">2. Número da Alma</h3>
+                        <h3 className="text-xl font-bold text-primary mb-3">2. Soul Number</h3>
                         <p className="text-muted-foreground mb-2">
-                          <strong>Como calcular:</strong> Some apenas as vogais do seu nome completo, convertendo-as em números (usando a Tabela Pitagórica).
+                          <strong>How to calculate:</strong> Add only the vowels of your full name, converting them to numbers (using the Pythagorean Table).
                         </p>
                         <p className="text-muted-foreground">
-                          <strong>Significado:</strong> Mostra os desejos internos da alma, aquilo que te move profundamente, mesmo que o mundo externo não perceba.
+                          <strong>Meaning:</strong> Shows the soul's inner desires, what moves you deeply, even if the external world doesn't perceive it.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">3. Número da Personalidade</h3>
+                        <h3 className="text-xl font-bold text-primary mb-3">3. Personality Number</h3>
                         <p className="text-muted-foreground mb-2">
-                          <strong>Como calcular:</strong> Some as consoantes do seu nome completo.
+                          <strong>How to calculate:</strong> Add the consonants of your full name.
                         </p>
                         <p className="text-muted-foreground">
-                          <strong>Significado:</strong> Representa a forma como o mundo te enxerga. A armadura da alma.
+                          <strong>Meaning:</strong> Represents how the world sees you. The soul's armor.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">4. Número de Expressão</h3>
+                        <h3 className="text-xl font-bold text-primary mb-3">4. Expression Number</h3>
                         <p className="text-muted-foreground mb-2">
-                          <strong>Como calcular:</strong> Some todas as letras do seu nome completo (vogais + consoantes).
+                          <strong>How to calculate:</strong> Add all letters of your full name (vowels + consonants).
                         </p>
                         <p className="text-muted-foreground">
-                          <strong>Significado:</strong> É o conjunto de dons, talentos e ferramentas espirituais que você trouxe para cumprir sua missão.
+                          <strong>Meaning:</strong> It's the set of gifts, talents, and spiritual tools you brought to fulfill your mission.
                         </p>
                       </CardContent>
                     </Card>
 
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-6">
-                        <h3 className="text-xl font-bold text-primary mb-3">5. Número da Missão</h3>
+                        <h3 className="text-xl font-bold text-primary mb-3">5. Mission Number</h3>
                         <p className="text-muted-foreground mb-2">
-                          Algumas escolas consideram o número de expressão ou uma combinação entre o número de vida e da alma para encontrar esse número.
+                          Some schools consider the expression number or a combination between the life and soul numbers to find this number.
                         </p>
                         <p className="text-muted-foreground">
-                          <strong>Significado:</strong> Aponta como cumprir sua missão com base na integração entre seu interior (alma), potencial (expressão) e caminho (vida).
+                          <strong>Meaning:</strong> Points to how to fulfill your mission based on the integration between your interior (soul), potential (expression), and path (life).
                         </p>
                       </CardContent>
                     </Card>
@@ -137,58 +137,58 @@ const MissaoAlmaNumerologia = () => {
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🪞 Exemplo Completo: Ana Paula Oliveira</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🪞 Complete Example: Sarah Michelle Johnson</h2>
                   <Card className="bg-gradient-to-br from-primary/5 to-purple-500/5 border border-primary/20">
                     <CardContent className="p-6">
-                      <p className="text-muted-foreground mb-4"><strong>Data de nascimento:</strong> 14/03/1993</p>
+                      <p className="text-muted-foreground mb-4"><strong>Birth date:</strong> 03/14/1993</p>
                       <ul className="space-y-2 text-muted-foreground mb-4">
-                        <li><strong>Número de Vida:</strong> 1+4+0+3+1+9+9+3 = 30 → 3</li>
-                        <li><strong>Nome completo:</strong> Ana Paula Oliveira</li>
-                        <li><strong>Alma:</strong> 7 (desejos profundos ligados à espiritualidade)</li>
-                        <li><strong>Expressão:</strong> 5 (versatilidade e comunicação como talentos)</li>
-                        <li><strong>Missão:</strong> Integrar sabedoria interior com liberdade e expressão</li>
+                        <li><strong>Life Number:</strong> 0+3+1+4+1+9+9+3 = 30 → 3</li>
+                        <li><strong>Full name:</strong> Sarah Michelle Johnson</li>
+                        <li><strong>Soul:</strong> 7 (deep desires linked to spirituality)</li>
+                        <li><strong>Expression:</strong> 5 (versatility and communication as talents)</li>
+                        <li><strong>Mission:</strong> Integrate inner wisdom with freedom and expression</li>
                       </ul>
                       <p className="text-muted-foreground">
-                        <strong>Interpretação:</strong> Ana veio desenvolver autoconfiança (vida 3), espalhar luz espiritual (alma 7) e atuar com criatividade, liberdade e cura através da palavra (expressão 5). Sua missão envolve usar sua comunicação para despertar os outros.
+                        <strong>Interpretation:</strong> Sarah came to develop self-confidence (life 3), spread spiritual light (soul 7), and act with creativity, freedom, and healing through words (expression 5). Her mission involves using her communication to awaken others.
                       </p>
                     </CardContent>
                   </Card>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🔮 O que a sua Missão Revela?</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🔮 What does your Mission reveal?</h2>
                   <p className="text-muted-foreground mb-4">
-                    Descobrir sua missão de alma é como acender um farol em meio à neblina. Você passa a entender:
+                    Discovering your soul mission is like lighting a lighthouse in the mist. You begin to understand:
                   </p>
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                    <li>Por que certos padrões se repetem?</li>
-                    <li>Quais são os seus verdadeiros dons?</li>
-                    <li>O que está bloqueando sua prosperidade?</li>
-                    <li>Com que tipo de trabalho ou caminho você se realiza?</li>
+                    <li>Why certain patterns repeat?</li>
+                    <li>What are your true gifts?</li>
+                    <li>What is blocking your prosperity?</li>
+                    <li>What type of work or path fulfills you?</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🧘‍♀️ Missão ≠ Profissão</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🧘‍♀️ Mission ≠ Profession</h2>
                   <p className="text-muted-foreground">
-                    <strong>Importante:</strong> sua missão de alma não é necessariamente sua profissão atual. Mas é possível alinhar as duas, e a numerologia te ajuda a entender como.
+                    <strong>Important:</strong> your soul mission is not necessarily your current profession. But it's possible to align both, and numerology helps you understand how.
                   </p>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🌿 Como se alinhar com sua Missão?</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🌿 How to align with your Mission?</h2>
                   <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                    <li>Reflita sobre os números: o que eles revelam?</li>
-                    <li>Observe seus padrões: o que está sempre presente?</li>
-                    <li>Abrace seus dons naturais: você não precisa ser outra pessoa.</li>
-                    <li>Use os desafios como bússola: onde há dor, há lição de alma.</li>
-                    <li>Busque atividades que façam seus olhos brilharem.</li>
-                    <li>Conecte-se com pessoas que vibram na mesma frequência.</li>
+                    <li>Reflect on the numbers: what do they reveal?</li>
+                    <li>Observe your patterns: what is always present?</li>
+                    <li>Embrace your natural gifts: you don't need to be someone else.</li>
+                    <li>Use challenges as a compass: where there's pain, there's a soul lesson.</li>
+                    <li>Seek activities that make your eyes shine.</li>
+                    <li>Connect with people who vibrate at the same frequency.</li>
                   </ul>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">📊 Tabela Pitagórica Simplificada</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">📊 Simplified Pythagorean Table</h2>
                   <Card className="bg-muted/30 border border-primary/20">
                     <CardContent className="p-6">
                       <div className="grid grid-cols-9 gap-2 text-center mb-4">
@@ -213,147 +213,147 @@ const MissaoAlmaNumerologia = () => {
                         <div className="text-muted-foreground">I R</div>
                       </div>
                       <p className="text-sm text-muted-foreground">
-                        Use esta tabela para converter as letras do seu nome em números e calcular seus números pessoais.
+                        Use this table to convert the letters of your name into numbers and calculate your personal numbers.
                       </p>
                     </CardContent>
                   </Card>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🎯 Significados Rápidos dos Números de Vida</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🎯 Quick Meanings of Life Numbers</h2>
                   <div className="grid md:grid-cols-2 gap-4">
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">1 - O Pioneiro</h4>
-                        <p className="text-sm text-muted-foreground">Liderança, independência, inovação</p>
+                        <h4 className="font-bold text-primary mb-2">1 - The Pioneer</h4>
+                        <p className="text-sm text-muted-foreground">Leadership, independence, innovation</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">2 - O Cooperador</h4>
-                        <p className="text-sm text-muted-foreground">Parceria, diplomacia, sensibilidade</p>
+                        <h4 className="font-bold text-primary mb-2">2 - The Cooperator</h4>
+                        <p className="text-sm text-muted-foreground">Partnership, diplomacy, sensitivity</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">3 - O Comunicador</h4>
-                        <p className="text-sm text-muted-foreground">Criatividade, expressão, alegria</p>
+                        <h4 className="font-bold text-primary mb-2">3 - The Communicator</h4>
+                        <p className="text-sm text-muted-foreground">Creativity, expression, joy</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">4 - O Construtor</h4>
-                        <p className="text-sm text-muted-foreground">Estabilidade, organização, trabalho</p>
+                        <h4 className="font-bold text-primary mb-2">4 - The Builder</h4>
+                        <p className="text-sm text-muted-foreground">Stability, organization, work</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">5 - O Aventureiro</h4>
-                        <p className="text-sm text-muted-foreground">Liberdade, versatilidade, experiência</p>
+                        <h4 className="font-bold text-primary mb-2">5 - The Adventurer</h4>
+                        <p className="text-sm text-muted-foreground">Freedom, versatility, experience</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">6 - O Cuidador</h4>
-                        <p className="text-sm text-muted-foreground">Responsabilidade, família, cura</p>
+                        <h4 className="font-bold text-primary mb-2">6 - The Caregiver</h4>
+                        <p className="text-sm text-muted-foreground">Responsibility, family, healing</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">7 - O Buscador</h4>
-                        <p className="text-sm text-muted-foreground">Espiritualidade, análise, sabedoria</p>
+                        <h4 className="font-bold text-primary mb-2">7 - The Seeker</h4>
+                        <p className="text-sm text-muted-foreground">Spirituality, analysis, wisdom</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">8 - O Realizador</h4>
-                        <p className="text-sm text-muted-foreground">Poder, sucesso material, autoridade</p>
+                        <h4 className="font-bold text-primary mb-2">8 - The Achiever</h4>
+                        <p className="text-sm text-muted-foreground">Power, material success, authority</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">9 - O Humanitário</h4>
-                        <p className="text-sm text-muted-foreground">Compaixão, serviço, finalização</p>
+                        <h4 className="font-bold text-primary mb-2">9 - The Humanitarian</h4>
+                        <p className="text-sm text-muted-foreground">Compassion, service, completion</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">11 - O Iluminador</h4>
-                        <p className="text-sm text-muted-foreground">Intuição, inspiração, elevação</p>
+                        <h4 className="font-bold text-primary mb-2">11 - The Illuminator</h4>
+                        <p className="text-sm text-muted-foreground">Intuition, inspiration, elevation</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">22 - O Mestre Construtor</h4>
-                        <p className="text-sm text-muted-foreground">Visão, manifestação, legado</p>
+                        <h4 className="font-bold text-primary mb-2">22 - The Master Builder</h4>
+                        <p className="text-sm text-muted-foreground">Vision, manifestation, legacy</p>
                       </CardContent>
                     </Card>
                     
                     <Card className="bg-muted/30 border border-primary/20">
                       <CardContent className="p-4">
-                        <h4 className="font-bold text-primary mb-2">33 - O Mestre Curador</h4>
-                        <p className="text-sm text-muted-foreground">Compaixão, cura, ensino superior</p>
+                        <h4 className="font-bold text-primary mb-2">33 - The Master Healer</h4>
+                        <p className="text-sm text-muted-foreground">Compassion, healing, higher teaching</p>
                       </CardContent>
                     </Card>
                   </div>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">💫 Exercício Prático</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">💫 Practical Exercise</h2>
                   <Card className="bg-gradient-to-br from-cosmic/5 to-luxury/5 border border-primary/20">
                     <CardContent className="p-6">
-                      <h3 className="text-lg font-bold text-primary mb-3">Descubra seu Número de Vida agora:</h3>
+                      <h3 className="text-lg font-bold text-primary mb-3">Discover your Life Number now:</h3>
                       <ol className="list-decimal list-inside space-y-2 text-muted-foreground mb-4">
-                        <li>Escreva sua data de nascimento completa</li>
-                        <li>Some todos os dígitos</li>
-                        <li>Continue somando até chegar a um único dígito (ou 11, 22, 33)</li>
-                        <li>Leia o significado acima</li>
-                        <li>Reflita: isso ressoa com sua experiência de vida?</li>
+                        <li>Write your complete birth date</li>
+                        <li>Add all digits</li>
+                        <li>Continue adding until you get a single digit (or 11, 22, 33)</li>
+                        <li>Read the meaning above</li>
+                        <li>Reflect: does this resonate with your life experience?</li>
                       </ol>
                       <p className="text-sm text-muted-foreground italic">
-                        Lembre-se: a numerologia é um espelho, não uma prisão. Use os insights para florescer, nunca para se limitar.
+                        Remember: numerology is a mirror, not a prison. Use the insights to flourish, never to limit yourself.
                       </p>
                     </CardContent>
                   </Card>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-primary mb-4">🌟 Conclusão</h2>
+                  <h2 className="text-2xl font-bold text-primary mb-4">🌟 Conclusion</h2>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Sua missão de alma é única e sagrada. A numerologia é apenas uma das linguagens que o Universo usa para sussurrar segredos ao seu coração.
+                    Your soul mission is unique and sacred. Numerology is just one of the languages the Universe uses to whisper secrets to your heart.
                   </p>
                   <p className="text-muted-foreground leading-relaxed mb-4">
-                    Confie no processo. Honre seus números. E principalmente: permita-se brilhar na sua verdade mais autêntica.
+                    Trust the process. Honor your numbers. And most importantly: allow yourself to shine in your most authentic truth.
                   </p>
                   <p className="text-muted-foreground leading-relaxed">
-                    Que estes números sejam faróis que iluminem seu caminho de volta para casa — para dentro de si mesmo.
+                    May these numbers be lighthouses that illuminate your path back home — within yourself.
                   </p>
                 </section>
 
                 <section className="bg-gradient-to-br from-primary/5 to-purple-500/5 p-6 rounded-lg border border-primary/20">
-                  <h3 className="text-xl font-bold text-primary mb-3">✨ Próximos Passos</h3>
+                  <h3 className="text-xl font-bold text-primary mb-3">✨ Next Steps</h3>
                   <p className="text-muted-foreground mb-4">
-                    Pronto para aprofundar ainda mais sua jornada de autoconhecimento? Explore nossos outros produtos:
+                    Ready to deepen your self-discovery journey even further? Explore our other products:
                   </p>
                   <div className="space-y-2">
                     <Link to="/celestia-primeiros-passos" className="block text-primary hover:text-primary/80 font-medium">
-                      → Celestia - Primeiros Passos no Autoconhecimento
+                      → Celestia - First Steps in Self-Knowledge
                     </Link>
                     <Link to="/analise-compatibilidade-amorosa" className="block text-primary hover:text-primary/80 font-medium">
-                      → Análise de Compatibilidade Amorosa
+                      → Love Compatibility Analysis
                     </Link>
                     <Link to="/mapa-prosperidade-desbloqueio" className="block text-primary hover:text-primary/80 font-medium">
-                      → Mapa de Prosperidade e Desbloqueio
+                      → Spiritual Prosperity Map & Financial Unlock
                     </Link>
                   </div>
                 </section>
