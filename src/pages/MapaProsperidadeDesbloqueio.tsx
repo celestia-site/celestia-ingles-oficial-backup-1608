@@ -136,7 +136,7 @@ const MapaProsperidadeDesbloqueio = () => {
     },
     {
       text: "I discovered talents I didn't even know I had! The prosperity number completely changed my view on money.",
-      author: "Lucia Oliveira"
+      author: "Lucia O."
     },
     {
       text: "The mantras and rituals are powerful. I felt an immediate energetic shift in my relationship with abundance.",
