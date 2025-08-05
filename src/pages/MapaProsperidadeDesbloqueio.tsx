@@ -140,7 +140,7 @@ const MapaProsperidadeDesbloqueio = () => {
     },
     {
       text: "The mantras and rituals are powerful. I felt an immediate energetic shift in my relationship with abundance.",
-      author: "Fernando Costa"
+      author: "Fernanda C."
     }
   ];
 
