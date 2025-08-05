@@ -73,9 +73,11 @@ const BlogSection = () => {
                 <span className="text-foreground/60 text-sm">📅 {featuredPost.date}</span>
               </div>
               
-              <h3 className="text-2xl lg:text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent mb-4 leading-tight">
-                {featuredPost.title}
-              </h3>
+              <Link to={featuredPost.link}>
+                <h3 className="text-2xl lg:text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent mb-4 leading-tight hover:opacity-80 transition-opacity cursor-pointer">
+                  {featuredPost.title}
+                </h3>
+              </Link>
               
               <p className="text-foreground/80 text-lg leading-relaxed mb-6">
                 {featuredPost.excerpt}
