@@ -321,7 +321,7 @@ const CelestiaPrimeirosPassos = () => {
               <Card className="bg-card/10 border-purple-500/30 backdrop-blur-sm max-w-md mx-auto mb-12">
                 <CardContent className="p-6 text-center">
                   <div className="text-3xl font-bold text-purple-400 mb-2">US$ 19.7</div>
-                  <div className="text-gray-300 mb-4">or $9.99 one time</div>
+                  <div className="text-gray-300 mb-4">One time</div>
                   <div className="inline-flex items-center bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-2">
                     40% OFF
                   </div>
