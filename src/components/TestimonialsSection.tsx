@@ -19,7 +19,7 @@ const TestimonialsSection = () => {
     },
     {
       text: "The Esoteric Ascension Plan is incredible! The content is deep and the live mentorships are pure gold. My spiritual evolution accelerated exponentially.",
-      name: "Ana Beatriz",
+      name: "A.B.",
       role: "Spiritual Coach",
       initials: "AB",
       color: "bg-indigo-500"
