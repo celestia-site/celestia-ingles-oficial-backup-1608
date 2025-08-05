@@ -71,7 +71,7 @@ const ProductCard = ({
         {/* Pricing */}
         <div className="mb-4">
           <div className="text-lg font-bold text-foreground mb-1">{installments}</div>
-          <div className="text-sm text-muted-foreground">ou {price} à vista</div>
+          <div className="text-sm text-muted-foreground"> {price} </div>
         </div>
       </CardContent>
 
