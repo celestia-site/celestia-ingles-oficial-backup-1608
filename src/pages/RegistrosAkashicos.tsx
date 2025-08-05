@@ -20,23 +20,23 @@ const RegistrosAkashicos = () => {
             className="inline-flex items-center gap-2 text-primary hover:text-primary-dark transition-colors mb-8"
           >
             <ArrowLeft size={20} />
-            Voltar ao Blog
+            Back to Blog
           </Link>
 
           {/* Article Header */}
           <header className="mb-8">
             <h1 className="text-4xl md:text-5xl font-bold text-primary mb-4">
-              Registros Akáshicos: Portal para Vidas Passadas
+              Akashic Records: Portal to Past Lives
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              Entenda como acessar as memórias da sua alma e curar traumas ancestrais através dos registros cósmicos
+              Understand how to access your soul's memories and heal ancestral traumas through cosmic records
             </p>
             <div className="flex items-center gap-4 mt-6 text-sm text-muted-foreground">
-              <span>Por Celestia</span>
+              <span>By Celestia</span>
               <span>•</span>
-              <span>15 min de leitura</span>
+              <span>15 min read</span>
               <span>•</span>
-              <span>Espiritualidade</span>
+              <span>Spirituality</span>
             </div>
           </header>
 
@@ -44,151 +44,151 @@ const RegistrosAkashicos = () => {
           <article className="prose prose-lg max-w-none">
             
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">✨ O que são Registros Akáshicos?</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">✨ What are Akashic Records?</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Imagine uma biblioteca invisível que contém todas as experiências da sua alma — não só desta vida, mas de todas as encarnações. Esse é o conceito dos Registros Akáshicos: um campo sutil onde está gravada a história espiritual de cada ser.
+                Imagine an invisible library that contains all the experiences of your soul — not just from this life, but from all incarnations. This is the concept of Akashic Records: a subtle field where the spiritual history of each being is recorded.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
-                O termo vem do sânscrito Akasha, que significa "éter" ou "substância primordial". Segundo tradições esotéricas, esse plano vibracional armazena informações sobre:
+                The term comes from the Sanskrit Akasha, which means "ether" or "primordial substance." According to esoteric traditions, this vibrational plane stores information about:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground">
-                <li>Quem você foi em vidas passadas</li>
-                <li>Quais padrões espirituais ainda se repetem</li>
-                <li>Seus dons esquecidos</li>
-                <li>Lições não resolvidas</li>
-                <li>A missão que sua alma escolheu</li>
+                <li>Who you were in past lives</li>
+                <li>Which spiritual patterns still repeat</li>
+                <li>Your forgotten gifts</li>
+                <li>Unresolved lessons</li>
+                <li>The mission your soul chose</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🧭 Por que acessar os Registros Akáshicos?</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🧭 Why access the Akashic Records?</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Acessar os Registros Akáshicos não é apenas curiosidade espiritual. É uma ferramenta poderosa de cura, libertação e realinhamento com sua missão de alma.
+                Accessing the Akashic Records is not just spiritual curiosity. It's a powerful tool for healing, liberation and realignment with your soul mission.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
-                Ao compreender suas vivências passadas, você:
+                By understanding your past experiences, you:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground">
-                <li>Libera traumas ancestrais</li>
-                <li>Interrompe ciclos repetitivos de sofrimento</li>
-                <li>Reconhece dons e talentos esquecidos</li>
-                <li>Entende melhor os desafios atuais</li>
-                <li>Reencontra pessoas importantes de jornadas anteriores</li>
+                <li>Release ancestral traumas</li>
+                <li>Break repetitive cycles of suffering</li>
+                <li>Recognize forgotten gifts and talents</li>
+                <li>Better understand current challenges</li>
+                <li>Reconnect with important people from previous journeys</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🔑 Como os Registros influenciam sua vida hoje?</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🔑 How do the Records influence your life today?</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Os padrões emocionais, medos e desafios que você vive podem ter raízes em outras vidas. Por exemplo:
+                The emotional patterns, fears and challenges you experience may have roots in other lives. For example:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground mb-4">
-                <li><strong>Medo de falar em público</strong> → pode vir de uma encarnação onde foi punido por se expressar</li>
-                <li><strong>Dificuldade com prosperidade</strong> → pode refletir votos de pobreza do passado</li>
-                <li><strong>Relações tóxicas</strong> → podem ser reconexões com laços cármicos mal resolvidos</li>
+                <li><strong>Fear of public speaking</strong> → may come from an incarnation where you were punished for expressing yourself</li>
+                <li><strong>Difficulty with prosperity</strong> → may reflect past vows of poverty</li>
+                <li><strong>Toxic relationships</strong> → may be reconnections with unresolved karmic bonds</li>
               </ul>
               <p className="text-foreground leading-relaxed">
-                Esses registros vibram no seu campo energético atual até que sejam reconhecidos e transmutados.
+                These records vibrate in your current energy field until they are recognized and transmuted.
               </p>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🌀 Como acessar os Registros Akáshicos?</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🌀 How to access the Akashic Records?</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Existem várias formas, e nenhuma exige mediunidade especial. Basta intenção, respeito e treinamento adequado.
+                There are several ways, and none require special mediumship. Just intention, respect and proper training.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
-                <strong>Métodos comuns:</strong>
+                <strong>Common methods:</strong>
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground mb-4">
-                <li>Meditação guiada específica para Akasha</li>
-                <li>Leitura intuitiva com um terapeuta akáshico</li>
-                <li>Oráculos conectados ao campo espiritual</li>
-                <li>Visualizações com mantras e símbolos de abertura</li>
-                <li>Técnicas de escrita automática com proteção</li>
+                <li>Guided meditation specific to Akasha</li>
+                <li>Intuitive reading with an akashic therapist</li>
+                <li>Oracles connected to the spiritual field</li>
+                <li>Visualizations with mantras and opening symbols</li>
+                <li>Automatic writing techniques with protection</li>
               </ul>
               <p className="text-foreground leading-relaxed">
-                A leitura pode ser feita por você mesmo ou com auxílio de alguém treinado. No caso da Celestia, usamos uma combinação de tarô arquetípico, astrologia, numerologia e canalização intuitiva.
+                The reading can be done by yourself or with the help of someone trained. In Celestia's case, we use a combination of archetypal tarot, astrology, numerology and intuitive channeling.
               </p>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🧬 O que pode ser revelado?</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🧬 What can be revealed?</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Ao acessar seus registros, você pode descobrir:
+                By accessing your records, you can discover:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground">
-                <li>Datas aproximadas de encarnações passadas</li>
-                <li>Locais geográficos recorrentes (ex: Egito, Índia, Europa medieval)</li>
-                <li>Papéis que desempenhou (sacerdote, guerreiro, mãe, curandeira…)</li>
-                <li>Padrões kármicos com parceiros, familiares ou colegas</li>
-                <li>Promessas feitas que ainda estão ativas</li>
-                <li>Ciclos de aprendizado ainda não finalizados</li>
+                <li>Approximate dates of past incarnations</li>
+                <li>Recurring geographical locations (e.g. Egypt, India, medieval Europe)</li>
+                <li>Roles you played (priest, warrior, mother, healer...)</li>
+                <li>Karmic patterns with partners, family or colleagues</li>
+                <li>Promises made that are still active</li>
+                <li>Learning cycles not yet completed</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🔮 O que é uma Leitura Akáshica com a Celestia?</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🔮 What is an Akashic Reading with Celestia?</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Nossa abordagem une:
+                Our approach combines:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground">
-                <li><strong>Numerologia:</strong> revelando padrões de nascimento</li>
-                <li><strong>Astrologia kármica:</strong> nodos lunares, casas espirituais</li>
-                <li><strong>Tarot terapêutico:</strong> arquétipos em movimento</li>
-                <li><strong>Canalização de mensagens</strong> do Eu Superior</li>
-                <li><strong>Linha do tempo</strong> com no mínimo 4 vidas passadas</li>
-                <li><strong>Ritual sugerido</strong> de reconexão espiritual</li>
+                <li><strong>Numerology:</strong> revealing birth patterns</li>
+                <li><strong>Karmic astrology:</strong> lunar nodes, spiritual houses</li>
+                <li><strong>Therapeutic tarot:</strong> archetypes in motion</li>
+                <li><strong>Channeling messages</strong> from the Higher Self</li>
+                <li><strong>Timeline</strong> with at least 4 past lives</li>
+                <li><strong>Suggested ritual</strong> for spiritual reconnection</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">⚖️ Limpeza e Reconexão</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">⚖️ Cleansing and Reconnection</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Só acessar o registro não basta — é preciso purificar e reequilibrar os campos energéticos afetados.
+                Just accessing the record is not enough — you need to purify and rebalance the affected energy fields.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
-                Você receberá sugestões de:
+                You will receive suggestions for:
               </p>
               <ul className="list-disc pl-6 space-y-2 text-foreground">
-                <li>Cristais específicos</li>
-                <li>Banhos de limpeza ancestral</li>
-                <li>Ativações com mantras e mudras</li>
-                <li>Meditações para cortar laços cármicos</li>
-                <li>Diário espiritual para registrar insights</li>
+                <li>Specific crystals</li>
+                <li>Ancestral cleansing baths</li>
+                <li>Activations with mantras and mudras</li>
+                <li>Meditations to cut karmic bonds</li>
+                <li>Spiritual journal to record insights</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🛑 Avisos Importantes</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🛑 Important Warnings</h2>
               <ul className="list-disc pl-6 space-y-2 text-foreground">
-                <li>Não buscamos "fama" de vidas passadas, e sim padrões</li>
-                <li>O foco é sempre cura e aprendizado, não adivinhação</li>
-                <li>O acesso deve ser feito com ética e amorosidade</li>
-                <li>Nem todas as vidas são reveladas de uma vez</li>
-                <li>Você só acessa aquilo que está pronto para curar</li>
+                <li>We don't seek "fame" from past lives, but patterns</li>
+                <li>The focus is always healing and learning, not fortune telling</li>
+                <li>Access must be done with ethics and love</li>
+                <li>Not all lives are revealed at once</li>
+                <li>You only access what you are ready to heal</li>
               </ul>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🧘 Prática Rápida: Meditação para Acessar o Campo Akáshico</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🧘 Quick Practice: Meditation to Access the Akashic Field</h2>
               <ol className="list-decimal pl-6 space-y-2 text-foreground">
-                <li>Encontre um lugar silencioso</li>
-                <li>Inspire profundamente 3 vezes</li>
-                <li>Visualize uma biblioteca de luz dourada</li>
-                <li>Mentalize: "Peço acesso amoroso aos meus registros, para curar e evoluir"</li>
-                <li>Deixe imagens, palavras ou sensações surgirem</li>
-                <li>Anote tudo em seu diário espiritual</li>
+                <li>Find a quiet place</li>
+                <li>Take 3 deep breaths</li>
+                <li>Visualize a golden light library</li>
+                <li>Mentally say: "I ask for loving access to my records, to heal and evolve"</li>
+                <li>Let images, words or sensations arise</li>
+                <li>Write everything in your spiritual journal</li>
               </ol>
             </section>
 
             <section className="mb-8">
-              <h2 className="text-3xl font-semibold text-primary mb-4">🙌 Conclusão</h2>
+              <h2 className="text-3xl font-semibold text-primary mb-4">🙌 Conclusion</h2>
               <p className="text-foreground leading-relaxed mb-4">
-                Os Registros Akáshicos são o livro secreto da sua alma. A cada página acessada com sabedoria, você se liberta, se reconhece, se cura.
+                The Akashic Records are your soul's secret book. With each page accessed with wisdom, you free yourself, recognize yourself, heal yourself.
               </p>
               <p className="text-foreground leading-relaxed mb-4">
-                Não se trata de "voltar ao passado", mas de trazer luz ao presente. E quanto mais você cura, mais perto chega da sua verdadeira missão.
+                It's not about "going back to the past," but bringing light to the present. And the more you heal, the closer you get to your true mission.
               </p>
             </section>
 
@@ -197,16 +197,16 @@ const RegistrosAkashicos = () => {
           {/* Call to Action */}
           <div className="mt-12 p-8 bg-primary/10 rounded-lg border border-primary/20">
             <h3 className="text-2xl font-semibold text-primary mb-4">
-              Descubra suas Vidas Passadas
+              Discover Your Past Lives
             </h3>
             <p className="text-foreground mb-6">
-              Agende uma consulta personalizada e acesse seus Registros Akáshicos com segurança e orientação profissional.
+              Schedule a personalized consultation and access your Akashic Records with safety and professional guidance.
             </p>
             <Link 
               to="/"
               className="inline-block bg-primary text-primary-foreground px-6 py-3 rounded-lg hover:bg-primary-dark transition-colors"
             >
-              Agendar Consulta
+              Schedule Consultation
             </Link>
           </div>
         </div>
