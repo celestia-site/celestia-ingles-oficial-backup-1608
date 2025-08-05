@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
     },
     {
       text: "The numerology + astrology combo showed me my personal cycles and how to make better use of them. My business took off after the guidance!",
-      name: "Felipe Oliveira",
+      name: "F.O.",
       role: "Entrepreneur",
       initials: "FO",
       color: "bg-cyan-500"
