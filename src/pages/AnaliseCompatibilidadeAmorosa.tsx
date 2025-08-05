@@ -63,7 +63,7 @@ const AnaliseCompatibilidadeAmorosa = () => {
         partner_birth_city: formData.partnerBirthCity,
         partner_birth_state: formData.partnerBirthState,
         partner_birth_country: formData.partnerBirthCountry,
-        produto: 'Análise de Compatibilidade Amorosa Espiritual',
+        produto: 'Spiritual Love Compatibility Analysis',
         status: 'pending',
         created_at: new Date().toISOString()
       };
@@ -76,7 +76,7 @@ const AnaliseCompatibilidadeAmorosa = () => {
 
       if (error) {
         console.error('Supabase error:', error);
-        toast.error("Erro ao processar pedido. Tente novamente.");
+        toast.error("Error processing request. Please try again.");
         return;
       }
 
@@ -89,7 +89,7 @@ const AnaliseCompatibilidadeAmorosa = () => {
         console.error('Export error:', exportError);
       }
 
-      toast.success("Pedido realizado com sucesso! Você receberá sua análise em até 24 horas.");
+      toast.success("Order placed successfully! You'll receive your analysis within 24 hours.");
       
       // Reset form
       setFormData({
@@ -111,7 +111,7 @@ const AnaliseCompatibilidadeAmorosa = () => {
 
     } catch (error) {
       console.error('Submission error:', error);
-      toast.error("Erro ao processar pedido. Tente novamente.");
+      toast.error("Error processing request. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
@@ -129,35 +129,35 @@ const AnaliseCompatibilidadeAmorosa = () => {
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <div className="mb-6">
             <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/20 text-white text-sm font-medium">
-              ← Voltar para início
+              ← Back to home
               <Heart className="w-4 h-4" />
-              Compatibilidade Espiritual Autêntica
+              Authentic Spiritual Compatibility
             </span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight">
             <span className="bg-gradient-to-r from-yellow-300 via-amber-400 to-accent bg-clip-text text-transparent">
-              Desvende o Código
+              Unlock the Code
             </span>
             <br />
             <span className="bg-gradient-to-r from-accent via-yellow-400 to-divine bg-clip-text text-transparent">
-              do Amor
+              of Love
             </span>
             <br />
             <span className="bg-gradient-to-r from-divine via-amber-300 to-yellow-400 bg-clip-text text-transparent">
-              entre suas Almas.
+              between your Souls.
             </span>
           </h1>
           
           <p className="text-xl text-white mb-12 max-w-2xl mx-auto leading-relaxed">
-            Descubra a missão espiritual do seu relacionamento, os karmas 
-            compartilhados e como vocês podem crescer juntos no amor divino.
+            Discover your relationship's spiritual mission, shared karmas,
+            and how you can grow together in divine love.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
             <Button size="lg" variant="celestial" className="text-lg px-8 py-4">
               <Heart className="w-5 h-5 mr-2" />
-              Descobrir Nossa Missão
+              Discover Our Mission
             </Button>
           </div>
           
@@ -165,15 +165,15 @@ const AnaliseCompatibilidadeAmorosa = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
             <div className="text-center">
               <div className="text-4xl font-bold text-primary mb-2">+1000</div>
-              <div className="text-white">Casais Unidos</div>
+              <div className="text-white">Couples United</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-accent mb-2">+1200</div>
-              <div className="text-white">Análises Realizadas</div>
+              <div className="text-white">Analyses Completed</div>
             </div>
             <div className="text-center">
               <div className="text-4xl font-bold text-divine mb-2">98%</div>
-              <div className="text-white">Satisfação</div>
+              <div className="text-white">Satisfaction</div>
             </div>
           </div>
         </div>
@@ -185,15 +185,15 @@ const AnaliseCompatibilidadeAmorosa = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                O que sua Análise
+                What your Analysis
               </span>
               <br />
               <span className="bg-gradient-to-r from-accent to-divine bg-clip-text text-transparent">
-                irá revelar
+                will reveal
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Uma jornada profunda pela conexão espiritual de vocês dois
+              A deep journey through your spiritual connection
             </p>
           </div>
 
@@ -203,9 +203,9 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div className="w-16 h-16 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-4">
                   <Heart className="w-6 h-6 text-primary fill-primary/30" />
                 </div>
-                <h3 className="text-lg font-bold text-foreground mb-3">Sinastria Completa</h3>
+                <h3 className="text-lg font-bold text-foreground mb-3">Complete Synastry</h3>
                 <p className="text-sm text-muted-foreground">
-                  Análise astrológica e numerológica das duas almas para descobrir afinidades profundas e desafios espirituais.
+                  Astrological and numerological analysis of both souls to discover deep affinities and spiritual challenges.
                 </p>
               </CardContent>
             </Card>
@@ -215,9 +215,9 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div className="w-16 h-16 rounded-full bg-accent/20 flex items-center justify-center mx-auto mb-4">
                   <Infinity className="w-8 h-8 text-accent" />
                 </div>
-                <h3 className="text-lg font-bold text-foreground mb-3">Missão Espiritual do Casal</h3>
+                <h3 className="text-lg font-bold text-foreground mb-3">Couple's Spiritual Mission</h3>
                 <p className="text-sm text-muted-foreground">
-                  Desvende qual é o propósito superior que trouxe vocês dois para esta vida e como fortalecer essa união sagrada.
+                  Uncover the higher purpose that brought you together in this lifetime and how to strengthen this sacred union.
                 </p>
               </CardContent>
             </Card>
@@ -227,9 +227,9 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div className="w-16 h-16 rounded-full bg-divine/20 flex items-center justify-center mx-auto mb-4">
                   <Star className="w-8 h-8 text-divine" />
                 </div>
-                <h3 className="text-lg font-bold text-foreground mb-3">Lições e Débitos Kármicos</h3>
+                <h3 className="text-lg font-bold text-foreground mb-3">Karmic Lessons & Debts</h3>
                 <p className="text-sm text-muted-foreground">
-                  Identifique karmas compartilhados, lições a serem aprendidas e como transformar desafios em crescimento.
+                  Identify shared karmas, lessons to be learned, and how to transform challenges into growth.
                 </p>
               </CardContent>
             </Card>
@@ -239,9 +239,9 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div className="w-16 h-16 rounded-full bg-mystic/20 flex items-center justify-center mx-auto mb-4">
                   <Users className="w-8 h-8 text-mystic" />
                 </div>
-                <h3 className="text-lg font-bold text-foreground mb-3">Previsões Amorosas</h3>
+                <h3 className="text-lg font-bold text-foreground mb-3">Love Predictions</h3>
                 <p className="text-sm text-muted-foreground">
-                  Visão detalhada do futuro da relação com insights para os próximos 6 a 12 meses no amor.
+                  Detailed vision of your relationship's future with insights for the next 6 to 12 months in love.
                 </p>
               </CardContent>
             </Card>
@@ -251,34 +251,34 @@ const AnaliseCompatibilidadeAmorosa = () => {
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-8">
               <span className="bg-gradient-to-r from-divine to-mystic bg-clip-text text-transparent">
-                🌸 Sua análise completa inclui:
+                🌸 Your complete analysis includes:
               </span>
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 max-w-4xl mx-auto text-left">
               <div className="flex items-center gap-3">
                 <Sparkles className="w-5 h-5 text-primary" />
-                <span className="text-foreground">Sinastria astrológica e numerológica detalhada</span>
+                <span className="text-foreground">Detailed astrological and numerological synastry</span>
               </div>
               <div className="flex items-center gap-3">
                 <Sparkles className="w-5 h-5 text-accent" />
-                <span className="text-foreground">Previsões amorosas para os próximos meses</span>
+                <span className="text-foreground">Love predictions for the coming months</span>
               </div>
               <div className="flex items-center gap-3">
                 <Sparkles className="w-5 h-5 text-divine" />
-                <span className="text-foreground">Missão espiritual e propósito do relacionamento</span>
+                <span className="text-foreground">Spiritual mission and relationship purpose</span>
               </div>
               <div className="flex items-center gap-3">
                 <Sparkles className="w-5 h-5 text-mystic" />
-                <span className="text-foreground">Rituais e práticas de ativação do amor</span>
+                <span className="text-foreground">Love activation rituals and practices</span>
               </div>
               <div className="flex items-center gap-3">
                 <Sparkles className="w-5 h-5 text-primary" />
-                <span className="text-foreground">Lições kármicas e débitos a serem resolvidos</span>
+                <span className="text-foreground">Karmic lessons and debts to be resolved</span>
               </div>
               <div className="flex items-center gap-3">
                 <Sparkles className="w-5 h-5 text-accent" />
-                <span className="text-foreground">Orientações para fortalecer a união sagrada</span>
+                <span className="text-foreground">Guidance to strengthen your sacred union</span>
               </div>
             </div>
           </div>
@@ -291,10 +291,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-                Casais que transformaram
+                Couples who transformed
               </span>
             </h2>
-            <p className="text-muted-foreground">Descobrindo o verdadeiro propósito de suas uniões</p>
+            <p className="text-muted-foreground">Discovering the true purpose of their unions</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -306,10 +306,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 italic">
-                  "A análise revelou coisas que eu sentia mas não conseguia explicar. 
-                  Agora entendemos nossa missão juntos!"
+                  "The analysis revealed things I felt but couldn't explain. 
+                  Now we understand our mission together!"
                 </p>
-                <p className="font-semibold text-foreground">— Mariana Silva</p>
+                <p className="font-semibold text-foreground">— Maria Silva</p>
               </CardContent>
             </Card>
 
@@ -321,8 +321,8 @@ const AnaliseCompatibilidadeAmorosa = () => {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 italic">
-                  "Incrível como os aspectos kármicos fizeram tanto sentido. Nossa relação 
-                  nunca foi tão forte."
+                  "Amazing how the karmic aspects made so much sense. Our relationship 
+                  has never been stronger."
                 </p>
                 <p className="font-semibold text-foreground">— Carlos Eduardo</p>
               </CardContent>
@@ -336,8 +336,8 @@ const AnaliseCompatibilidadeAmorosa = () => {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 italic">
-                  "Os rituais de ativação do amor transformaram completamente nossa 
-                  conexão. Recomendo muito!"
+                  "The love activation rituals completely transformed our 
+                  connection. Highly recommend it!"
                 </p>
                 <p className="font-semibold text-foreground">— Ana Paula</p>
               </CardContent>
@@ -351,31 +351,31 @@ const AnaliseCompatibilidadeAmorosa = () => {
         <div className="absolute inset-0 bg-black/60"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-            Descubra a verdade espiritual do seu relacionamento
+            Discover the spiritual truth of your relationship
           </h2>
           <p className="text-xl text-white mb-12 max-w-2xl mx-auto">
-            Entenda se esse amor é destino, missão de alma ou um reencontro de vidas passadas
+            Understand if this love is destiny, soul mission, or a reunion from past lives
           </p>
           
           <Card className="bg-card/20 backdrop-blur-md border-primary/30 p-8 max-w-md mx-auto">
             <CardContent className="p-0 text-center">
-              <div className="text-2xl text-muted-foreground line-through mb-2">R$ 127</div>
+              <div className="text-2xl text-muted-foreground line-through mb-2">$97.00</div>
               
               <div className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6">
                 24% OFF
               </div>
               
               <div className="text-4xl font-bold text-primary mb-2">
-                12x de R$ 11,28
+                12x $6.25
               </div>
               
               <div className="text-lg text-muted-foreground mb-6">
-                ou R$ 97,00 à vista
+                or $74.99 one-time payment
               </div>
               
               <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
                 <Shield className="w-4 h-4" />
-                <span>Investimento único para toda a vida</span>
+                <span>One-time investment for lifetime guidance</span>
               </div>
             </CardContent>
           </Card>
@@ -388,16 +388,16 @@ const AnaliseCompatibilidadeAmorosa = () => {
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">
               <span className="bg-gradient-to-r from-primary to-divine bg-clip-text text-transparent">
-                Descubra o Destino
+                Discover the Destiny
               </span>
               <br />
               <span className="bg-gradient-to-r from-divine to-accent bg-clip-text text-transparent">
-                do seu Amor
+                of your Love
               </span>
             </h2>
             <p className="text-muted-foreground">
-              Preencha os dados abaixo para receber sua análise de compatibilidade amorosa 
-              espiritual completa
+              Fill out the form below to receive your complete spiritual love compatibility 
+              analysis
             </p>
           </div>
 
@@ -405,10 +405,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
             <CardContent className="p-0">
               <div className="text-center mb-8">
                 <h3 className="text-2xl font-bold mb-2 text-primary">
-                  Solicite Seu Análise de Compatibilidade Amorosa Espiritual
+                  Request Your Spiritual Love Compatibility Analysis
                 </h3>
                 <p className="text-muted-foreground">
-                  Preencha seus dados para receber seu mapa personalizado
+                  Fill out your information to receive your personalized reading
                 </p>
               </div>
 
@@ -417,15 +417,15 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-6">
                     <Sparkles className="w-5 h-5 text-primary" />
-                    <h4 className="text-lg font-semibold text-primary">Informações Pessoais</h4>
+                    <h4 className="text-lg font-semibold text-primary">Personal Information</h4>
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div>
-                      <Label htmlFor="fullName" className="text-foreground mb-2 block">Nome Completo *</Label>
+                      <Label htmlFor="fullName" className="text-foreground mb-2 block">Full Name *</Label>
                       <Input
                         id="fullName"
-                        placeholder="Seu nome completo"
+                        placeholder="Your full name"
                         value={formData.fullName}
                         onChange={(e) => handleInputChange('fullName', e.target.value)}
                         required
@@ -433,11 +433,11 @@ const AnaliseCompatibilidadeAmorosa = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="email" className="text-foreground mb-2 block">E-mail *</Label>
+                      <Label htmlFor="email" className="text-foreground mb-2 block">Email *</Label>
                       <Input
                         id="email"
                         type="email"
-                        placeholder="seu@email.com"
+                        placeholder="your@email.com"
                         value={formData.email}
                         onChange={(e) => handleInputChange('email', e.target.value)}
                         required
@@ -447,10 +447,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
                   </div>
                   
                   <div className="mb-4">
-                    <Label htmlFor="whatsapp" className="text-foreground mb-2 block">WhatsApp *</Label>
+                    <Label htmlFor="whatsapp" className="text-foreground mb-2 block">Phone *</Label>
                     <Input
                       id="whatsapp"
-                      placeholder="(11) 99999-9999"
+                      placeholder="+1 (555) 123-4567"
                       value={formData.whatsapp}
                       onChange={(e) => handleInputChange('whatsapp', e.target.value)}
                       required
@@ -463,12 +463,12 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-6">
                     <Star className="w-5 h-5 text-accent" />
-                    <h4 className="text-lg font-semibold text-accent">Informações de Nascimento</h4>
+                    <h4 className="text-lg font-semibold text-accent">Birth Information</h4>
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div>
-                      <Label htmlFor="birthDate" className="text-foreground mb-2 block">Data de Nascimento *</Label>
+                      <Label htmlFor="birthDate" className="text-foreground mb-2 block">Birth Date *</Label>
                       <Input
                         id="birthDate"
                         type="date"
@@ -479,7 +479,7 @@ const AnaliseCompatibilidadeAmorosa = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="birthTime" className="text-foreground mb-2 block">Hora de Nascimento (opcional)</Label>
+                      <Label htmlFor="birthTime" className="text-foreground mb-2 block">Birth Time (optional)</Label>
                       <Input
                         id="birthTime"
                         type="time"
@@ -489,17 +489,17 @@ const AnaliseCompatibilidadeAmorosa = () => {
                         className="bg-background/50"
                       />
                       <p className="text-xs text-muted-foreground mt-1">
-                        Se souber, isso tornará sua análise mais precisa
+                        If known, this will make your analysis more accurate
                       </p>
                     </div>
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                     <div>
-                      <Label htmlFor="birthCity" className="text-foreground mb-2 block">Cidade *</Label>
+                      <Label htmlFor="birthCity" className="text-foreground mb-2 block">City *</Label>
                       <Input
                         id="birthCity"
-                        placeholder="São Paulo"
+                        placeholder="New York"
                         value={formData.birthCity}
                         onChange={(e) => handleInputChange('birthCity', e.target.value)}
                         required
@@ -507,10 +507,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="birthState" className="text-foreground mb-2 block">Estado *</Label>
+                      <Label htmlFor="birthState" className="text-foreground mb-2 block">State *</Label>
                       <Input
                         id="birthState"
-                        placeholder="SP"
+                        placeholder="NY"
                         value={formData.birthState}
                         onChange={(e) => handleInputChange('birthState', e.target.value)}
                         required
@@ -518,10 +518,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="birthCountry" className="text-foreground mb-2 block">País *</Label>
+                      <Label htmlFor="birthCountry" className="text-foreground mb-2 block">Country *</Label>
                       <Input
                         id="birthCountry"
-                        placeholder="Brasil"
+                        placeholder="United States"
                         value={formData.birthCountry}
                         onChange={(e) => handleInputChange('birthCountry', e.target.value)}
                         required
@@ -535,15 +535,15 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div>
                   <div className="flex items-center gap-2 mb-6">
                     <Heart className="w-5 h-5 text-divine" />
-                    <h4 className="text-lg font-semibold text-divine">Dados do(a) Parceiro(a)</h4>
+                    <h4 className="text-lg font-semibold text-divine">Partner Information</h4>
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                     <div>
-                      <Label htmlFor="partnerName" className="text-foreground mb-2 block">Nome Completo do(a) Parceiro(a) *</Label>
+                      <Label htmlFor="partnerName" className="text-foreground mb-2 block">Partner's Full Name *</Label>
                       <Input
                         id="partnerName"
-                        placeholder="Nome completo"
+                        placeholder="Full name"
                         value={formData.partnerName}
                         onChange={(e) => handleInputChange('partnerName', e.target.value)}
                         required
@@ -551,7 +551,7 @@ const AnaliseCompatibilidadeAmorosa = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="partnerBirthDate" className="text-foreground mb-2 block">Data de Nascimento *</Label>
+                      <Label htmlFor="partnerBirthDate" className="text-foreground mb-2 block">Birth Date *</Label>
                       <Input
                         id="partnerBirthDate"
                         type="date"
@@ -565,7 +565,7 @@ const AnaliseCompatibilidadeAmorosa = () => {
                   
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                      <Label htmlFor="partnerBirthTime" className="text-foreground mb-2 block">Hora de Nascimento (opcional)</Label>
+                      <Label htmlFor="partnerBirthTime" className="text-foreground mb-2 block">Birth Time (optional)</Label>
                       <Input
                         id="partnerBirthTime"
                         type="time"
@@ -574,17 +574,17 @@ const AnaliseCompatibilidadeAmorosa = () => {
                         className="bg-background/50"
                       />
                       <p className="text-xs text-muted-foreground mt-1">
-                        Se souber, isso tornará sua análise mais precisa
+                        If known, this will make your analysis more accurate
                       </p>
                     </div>
                   </div>
                   
                   <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-4">
                     <div>
-                      <Label htmlFor="partnerBirthCity" className="text-foreground mb-2 block">Cidade de Nascimento *</Label>
+                      <Label htmlFor="partnerBirthCity" className="text-foreground mb-2 block">Birth City *</Label>
                       <Input
                         id="partnerBirthCity"
-                        placeholder="São Paulo"
+                        placeholder="New York"
                         value={formData.partnerBirthCity}
                         onChange={(e) => handleInputChange('partnerBirthCity', e.target.value)}
                         required
@@ -592,10 +592,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="partnerBirthState" className="text-foreground mb-2 block">Estado *</Label>
+                      <Label htmlFor="partnerBirthState" className="text-foreground mb-2 block">State *</Label>
                       <Input
                         id="partnerBirthState"
-                        placeholder="SP"
+                        placeholder="NY"
                         value={formData.partnerBirthState}
                         onChange={(e) => handleInputChange('partnerBirthState', e.target.value)}
                         required
@@ -603,10 +603,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="partnerBirthCountry" className="text-foreground mb-2 block">País *</Label>
+                      <Label htmlFor="partnerBirthCountry" className="text-foreground mb-2 block">Country *</Label>
                       <Input
                         id="partnerBirthCountry"
-                        placeholder="Brasil"
+                        placeholder="United States"
                         value={formData.partnerBirthCountry}
                         onChange={(e) => handleInputChange('partnerBirthCountry', e.target.value)}
                         required
@@ -620,10 +620,10 @@ const AnaliseCompatibilidadeAmorosa = () => {
                 <div className="flex items-start gap-3 p-4 bg-primary/10 rounded-lg">
                   <Shield className="w-5 h-5 text-primary mt-0.5" />
                   <div>
-                    <h5 className="font-semibold text-foreground mb-1">Seus dados estão seguros</h5>
+                    <h5 className="font-semibold text-foreground mb-1">Your data is secure</h5>
                     <p className="text-sm text-muted-foreground">
-                      Todas as informações são criptografadas e utilizadas apenas para a criação do seu 
-                      relatório personalizado.
+                      All information is encrypted and used only for creating your 
+                      personalized report.
                     </p>
                   </div>
                 </div>
@@ -635,11 +635,11 @@ const AnaliseCompatibilidadeAmorosa = () => {
                   disabled={isSubmitting}
                 >
                   <Sparkles className="w-5 h-5 mr-2" />
-                  {isSubmitting ? "Processando..." : "Solicitar Meu Mapa Agora"}
+                  {isSubmitting ? "Processing..." : "Get My Reading Now"}
                 </Button>
 
                 <p className="text-center text-sm text-muted-foreground">
-                  ⏰ Entrega em até 24 horas no seu e-mail
+                  ⏰ Delivered within 24 hours to your email
                 </p>
               </form>
             </CardContent>
