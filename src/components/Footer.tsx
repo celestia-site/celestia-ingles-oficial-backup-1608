@@ -142,8 +142,17 @@ const Footer = () => {
           </div>
         </div>
 
+        {/* Disclaimer */}
+        <div className="border-t border-white/10 mt-12 pt-8">
+          <div className="bg-slate-800/30 rounded-lg p-6 mb-8">
+            <p className="text-gray-400 text-xs leading-relaxed text-center">
+              <strong>Disclaimer:</strong> Under no circumstances do Celestia's services and reports constitute legal, psychological, medical, business, financial, or any other type of guidance. Additionally, they do not represent financial advice, diagnosis, or treatment of any nature, whether medical, mental, spiritual, relationship-related, or any other. The content is exclusively informational, spiritual, and reflective, intended for self-knowledge and personal development purposes.
+            </p>
+          </div>
+        </div>
+
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-400 text-sm">
             © 2024 Celestia. All rights reserved.
           </p>
