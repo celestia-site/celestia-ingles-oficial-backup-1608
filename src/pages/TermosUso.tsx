@@ -38,7 +38,7 @@ const TermosUso = () => {
                     📝 1. Personalized Digital Products
                   </h2>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    Celestia offers personalized digital spiritual reports, created based on the information you provide in the post-purchase form. These reports include analyses in Numerology, Astrology, Tarot, Akashic Records, and other spiritual practices described on each product page.
+                    Celestia offers personalized digital spiritual reports, created based on the information you provide in the pre or post-purchase form. These reports include analyses in Numerology, Astrology, Tarot, Akashic Records, and other spiritual practices described on each product page.
                   </p>
                   <p className="text-gray-300 leading-relaxed">
                     Each report is custom-made based on your spiritual and personal data.
