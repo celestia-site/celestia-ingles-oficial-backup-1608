@@ -137,10 +137,6 @@ const Footer = () => {
                   help@celestia.guru
                 </a>
               </div>
-              <div className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 text-purple-400" />
-                <span className="text-gray-300 text-sm">São Paulo, Brazil</span>
-              </div>
             </div>
 
           </div>
