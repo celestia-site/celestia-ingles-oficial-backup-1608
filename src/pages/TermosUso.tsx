@@ -18,51 +18,51 @@ const TermosUso = () => {
           <div className="text-center mb-12">
             <div className="flex items-center justify-center gap-2 mb-4">
               <Sparkles className="w-8 h-8 text-purple-400" />
-              <h1 className="text-4xl font-bold text-white">Termos de Uso</h1>
+              <h1 className="text-4xl font-bold text-white">Terms of Use</h1>
             </div>
             <p className="text-gray-300 text-lg">Celestia</p>
-            <p className="text-gray-400 text-sm mt-2">Última atualização: 01 de Agosto de 2025</p>
+            <p className="text-gray-400 text-sm mt-2">Last updated: August 1st, 2025</p>
           </div>
 
           {/* Content */}
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl border border-white/10 p-8 md:p-12">
             <div className="prose prose-invert max-w-none">
               <p className="text-gray-300 leading-relaxed mb-8">
-                Bem-vindo(a) à Celestia Guru. Ao adquirir nossos produtos espirituais digitais, você concorda com os termos, condições e políticas descritas abaixo. Por favor, leia atentamente.
+                Welcome to Celestia Guru. By purchasing our digital spiritual products, you agree to the terms, conditions, and policies described below. Please read carefully.
               </p>
 
               <div className="space-y-12">
                 {/* Section 1 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    📝 1. Produtos Digitais Personalizados
+                    📝 1. Personalized Digital Products
                   </h2>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    A Celestia oferece relatórios espirituais digitais personalizados, elaborados com base nas informações fornecidas por você no formulário pós-compra. Esses relatórios incluem análises em Numerologia, Astrologia, Tarô, Registros Akáshicos e outras práticas espirituais descritas na página de cada produto.
+                    Celestia offers personalized digital spiritual reports, created based on the information you provide in the post-purchase form. These reports include analyses in Numerology, Astrology, Tarot, Akashic Records, and other spiritual practices described on each product page.
                   </p>
                   <p className="text-gray-300 leading-relaxed">
-                    Cada relatório é feito sob medida, com base em seus dados espirituais e pessoais.
+                    Each report is custom-made based on your spiritual and personal data.
                   </p>
                 </div>
 
                 {/* Section 2 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    💳 2. Pagamento e Confirmação
+                    💳 2. Payment and Confirmation
                   </h2>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    O pagamento é realizado no momento da compra, através das plataformas de pagamento integradas ao nosso site. Após a confirmação do pagamento, você será redirecionado para preencher um <strong>formulário exclusivo</strong>, onde deverá inserir seus dados completos para que o relatório seja elaborado corretamente.
+                    Payment is processed at the time of purchase through the payment platforms integrated into our website. After payment confirmation, you will be redirected to fill out an <strong>exclusive form</strong>, where you must enter your complete data so that the report can be prepared correctly.
                   </p>
                   
                   <div className="bg-yellow-900/20 border border-yellow-500/30 rounded-lg p-4 mb-4">
-                    <h3 className="text-yellow-400 font-bold mb-3">⚠️ Importante:</h3>
+                    <h3 className="text-yellow-400 font-bold mb-3">⚠️ Important:</h3>
                     <ul className="space-y-2 text-gray-300">
-                      <li>• O relatório <strong>somente será iniciado</strong> após o preenchimento completo e correto do formulário.</li>
-                      <li>• <strong>Caso o formulário contenha algum erro ou falta de informação</strong>, tentaremos o contato através dos dados fornecidos pelo cliente para correção antes do início da elaboração do relatório.</li>
-                      <li>• Os <strong>dados fornecidos devem ser completos e verdadeiros</strong>, incluindo <strong>nomes por extenso</strong>, datas e locais de nascimento corretos.</li>
+                      <li>• The report <strong>will only be started</strong> after complete and correct form completion.</li>
+                      <li>• <strong>If the form contains any errors or missing information</strong>, we will attempt contact through the data provided by the client for correction before beginning report preparation.</li>
+                      <li>• The <strong>provided data must be complete and truthful</strong>, including <strong>full names</strong>, correct birth dates and places.</li>
                     </ul>
                     <p className="text-yellow-300 mt-3 font-medium">
-                      ⚠️ <strong>Nomes abreviados, siglas ou informações incompletas podem comprometer a precisão das leituras e resultados dos relatórios</strong>, sendo de responsabilidade do cliente garantir o preenchimento adequado.
+                      ⚠️ <strong>Abbreviated names, acronyms, or incomplete information may compromise the accuracy of readings and report results</strong>, being the client's responsibility to ensure adequate completion.
                     </p>
                   </div>
                 </div>
@@ -70,88 +70,88 @@ const TermosUso = () => {
                 {/* Section 3 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    📦 3. Processo de Entrega
+                    📦 3. Delivery Process
                   </h2>
-                  <p className="text-gray-300 leading-relaxed mb-4">Após o preenchimento do formulário:</p>
+                  <p className="text-gray-300 leading-relaxed mb-4">After form completion:</p>
                   <ul className="space-y-2 text-gray-300 ml-4">
-                    <li>• O relatório será gerado automaticamente por nossos <strong>sistemas automatizados</strong>, com base nos prompts personalizados e técnicas descritas na página de cada produto.</li>
-                    <li>• O tempo de entrega padrão é de até <strong>24 horas</strong>, podendo variar conforme o volume de pedidos ou falhas no preenchimento dos dados.</li>
-                    <li>• O relatório será enviado por e-mail em formato PDF (e, em alguns casos, com áudios anexos ou links de acesso).</li>
+                    <li>• The report will be automatically generated by our <strong>automated systems</strong>, based on personalized prompts and techniques described on each product page.</li>
+                    <li>• Standard delivery time is up to <strong>24 hours</strong>, which may vary according to order volume or data completion issues.</li>
+                    <li>• The report will be sent by email in PDF format (and, in some cases, with attached audio or access links).</li>
                   </ul>
                 </div>
 
                 {/* Section 4 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    🔁 4. Política de Reembolso
+                    🔁 4. Refund Policy
                   </h2>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    <strong>Você tem direito a reembolso total em até 7 dias corridos após a compra</strong>, conforme previsto no Código de Defesa do Consumidor (Art. 49 da Lei nº 8.078/1990), <strong>desde que:</strong>
+                    <strong>You have the right to a full refund within 7 calendar days after purchase</strong>, as provided by Consumer Protection regulations, <strong>provided that:</strong>
                   </p>
                   <ul className="space-y-2 text-gray-300 ml-4 mb-4">
-                    <li>• Ainda <strong>não tenha preenchido o formulário com seus dados</strong>; ou</li>
-                    <li>• Ainda <strong>não tenha recebido o relatório.</strong></li>
+                    <li>• You have <strong>not yet filled out the form with your data</strong>; or</li>
+                    <li>• You have <strong>not yet received the report.</strong></li>
                   </ul>
                   
                   <div className="bg-red-900/20 border border-red-500/30 rounded-lg p-4 mb-4">
                     <p className="text-red-300">
-                      ⚠️ <strong>Atenção:</strong> Por se tratar de um <strong>produto digital e personalizado</strong>, conforme exceção prevista no Decreto nº 7.962/2013, <strong>não será possível solicitar reembolso após o início da elaboração do relatório</strong> (que ocorre a partir do envio dos seus dados no formulário).
+                      ⚠️ <strong>Attention:</strong> As this is a <strong>digital and personalized product</strong>, as per consumer protection regulations for customized goods, <strong>it will not be possible to request a refund after report preparation begins</strong> (which occurs upon submitting your data in the form).
                     </p>
                   </div>
                   
                   <p className="text-gray-300 leading-relaxed">
-                    Solicitações de reembolso devem ser feitas através do e-mail: <strong>help@celestia.guru</strong>
+                    Refund requests must be made through email: <strong>help@celestia.guru</strong>
                   </p>
                 </div>
 
                 {/* Section 5 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    🔐 5. Privacidade e Dados Pessoais
+                    🔐 5. Privacy and Personal Data
                   </h2>
                   <p className="text-gray-300 leading-relaxed">
-                    Todos os dados fornecidos por você são tratados com confidencialidade e utilizados exclusivamente para a elaboração do seu relatório. Respeitamos integralmente a <strong>LGPD (Lei Geral de Proteção de Dados – Lei nº 13.709/2018)</strong> e não compartilhamos suas informações com terceiros.
+                    All data provided by you is treated with confidentiality and used exclusively for preparing your report. We fully respect <strong>data protection regulations</strong> and do not share your information with third parties.
                   </p>
                 </div>
 
                 {/* Section 6 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    ❌ 6. Condições de Cancelamento
+                    ❌ 6. Cancellation Conditions
                   </h2>
                   <p className="text-gray-300 leading-relaxed">
-                    Reservamo-nos o direito de cancelar qualquer pedido cujo formulário tenha sido preenchido com informações falsas, incompletas ou ofensivas.
+                    We reserve the right to cancel any order whose form has been filled out with false, incomplete, or offensive information.
                   </p>
                 </div>
 
                 {/* Section 7 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    📧 7. Suporte
+                    📧 7. Support
                   </h2>
                   <p className="text-gray-300 leading-relaxed mb-4">
-                    Para dúvidas, suporte ou esclarecimentos, entre em contato com nossa equipe pelo e-mail: <strong>help@celestia.guru</strong>.
+                    For questions, support, or clarifications, contact our team at: <strong>help@celestia.guru</strong>.
                   </p>
                   <div className="flex items-center gap-2 text-gray-300">
                     <Clock className="w-4 h-4 text-purple-400" />
-                    <span>Horário de atendimento: <strong>segunda a sexta, das 10h às 17h (horário de Brasília).</strong></span>
+                    <span>Support hours: <strong>Monday to Friday, 10 AM to 5 PM (EST).</strong></span>
                   </div>
                 </div>
 
                 {/* Section 8 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    📌 8. Isenção de Responsabilidade
+                    📌 8. Disclaimer
                   </h2>
                   <div className="bg-blue-900/20 border border-blue-500/30 rounded-lg p-4">
                     <p className="text-blue-300 leading-relaxed mb-3">
-                      <strong>Em hipótese alguma, os serviços e relatórios da Celestia constituem orientações legais, psicológicas, médicas, empresariais, financeiras ou de qualquer outro tipo.</strong>
+                      <strong>Under no circumstances do Celestia's services and reports constitute legal, psychological, medical, business, financial, or any other type of guidance.</strong>
                     </p>
                     <p className="text-blue-300 leading-relaxed mb-3">
-                      Além disso, <strong>não representam indicação financeira, diagnóstico ou tratamento de qualquer natureza</strong>, seja ela <strong>médica, mental, espiritual, de relacionamento ou qualquer outra</strong>.
+                      Additionally, they <strong>do not represent financial advice, diagnosis, or treatment of any nature</strong>, whether <strong>medical, mental, spiritual, relationship-related, or any other</strong>.
                     </p>
                     <p className="text-blue-300 leading-relaxed">
-                      O conteúdo é exclusivamente informativo, espiritual e reflexivo, destinado a fins de autoconhecimento e desenvolvimento pessoal.
+                      The content is exclusively informational, spiritual, and reflective, intended for self-knowledge and personal development purposes.
                     </p>
                   </div>
                 </div>
@@ -159,10 +159,10 @@ const TermosUso = () => {
                 {/* Section 9 */}
                 <div>
                   <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-2">
-                    ✅ 9. Aceite dos Termos
+                    ✅ 9. Acceptance of Terms
                   </h2>
                   <p className="text-gray-300 leading-relaxed">
-                    Ao realizar a compra em nosso site, você declara estar de acordo com estes Termos de Uso, compreende a natureza dos produtos oferecidos e consente com a política de reembolso para produtos digitais personalizados.
+                    By making a purchase on our website, you declare that you agree with these Terms of Use, understand the nature of the products offered, and consent to the refund policy for personalized digital products.
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ const TermosUso = () => {
                 <div className="flex items-center justify-center gap-2 mb-4">
                   <Mail className="w-5 h-5 text-purple-400" />
                   <span className="text-gray-300">
-                    Dúvidas? Entre em contato: <strong>help@celestia.guru</strong>
+                    Questions? Contact us: <strong>help@celestia.guru</strong>
                   </span>
                 </div>
               </div>
