@@ -12,7 +12,7 @@ const TestimonialsSection = () => {
     },
     {
       text: "The Akashic Records reading was a transformative experience. I was able to heal old traumas and awaken gifts I didn't even know I had. Eternal gratitude!",
-      name: "Carlos Mendes",
+      name: "C.M.",
       role: "Therapist",
       initials: "CM",
       color: "bg-blue-500"
