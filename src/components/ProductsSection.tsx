@@ -45,7 +45,7 @@ const ProductsSection = () => {
               "Dominant chakra",
               "Intuitive channeled message"
             ]}
-            price="$19.70"
+            price="ONLY $19.70"
             badgeColor="primary"
             link="/celestia-first-steps"
           />
