@@ -33,7 +33,7 @@ const TestimonialsSection = () => {
     },
     {
       text: "The tarot consultations guided me through the most challenging moments. The accuracy and love in the guidance are impressive. Celestia is pure light!",
-      name: "Luciana Costa",
+      name: "L.C.",
       role: "Artist",
       initials: "LC",
       color: "bg-pink-500"
