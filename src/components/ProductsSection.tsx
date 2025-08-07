@@ -45,7 +45,7 @@ const ProductsSection = () => {
               "Dominant chakra",
               "Intuitive channeled message"
             ]}
-            price="<span className='text-9xl font-bold text-yellow-400' style='font-size: 300%'>ONLY US$ 19.70</span>"
+            price="<span className='text-6xl font-bold' style='font-size: 150%; color: hsl(45, 100%, 60%)'>ONLY US$ 19.70</span>"
             badgeColor="primary"
             link="/celestia-first-steps"
           />
