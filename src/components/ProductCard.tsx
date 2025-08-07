@@ -10,7 +10,7 @@ interface ProductCardProps {
   description: string;
   features: string[];
   price: string;
-  installments: string;
+  installments?: string;
   badgeColor?: "primary" | "accent" | "divine" | "mystic";
   link?: string;
 }
@@ -70,7 +70,7 @@ const ProductCard = ({
 
         {/* Pricing */}
         <div className="mb-4">
-          <div className="text-lg font-bold text-foreground mb-1">{installments}</div>
+          {installments && <div className="text-lg font-bold text-foreground mb-1">{installments}</div>}
           <div className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{__html: price}}></div>
         </div>
       </CardContent>

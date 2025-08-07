@@ -46,7 +46,6 @@ const ProductsSection = () => {
               "Intuitive channeled message"
             ]}
             price="<span className='text-6xl font-bold text-yellow-400'>ONLY $19.70</span>"
-            installments="No installments"
             badgeColor="primary"
             link="/celestia-first-steps"
           />
@@ -64,7 +63,6 @@ const ProductsSection = () => {
               "Strengthening rituals"
             ]}
             price="ONLY UD$ 29.7"
-            installments="No installments"
             badgeColor="mystic"
             link="/love-compatibility-analysis"
           />
@@ -82,7 +80,6 @@ const ProductsSection = () => {
               "Daily prosperity plan"
             ]}
             price="ONLY UD$ 37.7"
-            installments="No installments"
             badgeColor="divine"
             link="/prosperity-unlock-map"
           />
