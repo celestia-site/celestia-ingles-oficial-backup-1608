@@ -62,7 +62,7 @@ const ProductsSection = () => {
               "Love predictions",
               "Strengthening rituals"
             ]}
-            price="ONLY UD$ 29.7"
+            price="<span className='text-6xl font-bold' style='font-size: 150%; color: hsl(45, 100%, 60%)'>ONLY US$ 29.70</span>"
             badgeColor="mystic"
             link="/love-compatibility-analysis"
           />
@@ -79,7 +79,7 @@ const ProductsSection = () => {
               "Financial activation mantras and rituals",
               "Daily prosperity plan"
             ]}
-            price="ONLY UD$ 37.7"
+            price="<span className='text-6xl font-bold' style='font-size: 150%; color: hsl(45, 100%, 60%)'>ONLY US$ 37.70</span>"
             badgeColor="divine"
             link="/prosperity-unlock-map"
           />
