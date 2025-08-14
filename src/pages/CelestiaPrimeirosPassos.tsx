@@ -148,7 +148,7 @@ const CelestiaPrimeirosPassos = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
                   <div className="text-center sm:text-left">
-                    <div className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$19.7</div>
+                    <div className="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-500 bg-clip-text text-transparent">$19.7</div>
                     <div className="text-sm text-muted-foreground">one time</div>
                   </div>
                   <div className="text-center sm:text-left">
@@ -329,7 +329,7 @@ const CelestiaPrimeirosPassos = () => {
               {/* Pricing Box */}
               <Card className="bg-card/10 border-purple-500/30 backdrop-blur-sm max-w-md mx-auto mb-12">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold text-purple-400 mb-2">US$ 19.7</div>
+                  <div className="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-500 bg-clip-text text-transparent mb-2">US$ 19.7</div>
                   <div className="text-gray-300 mb-4">One time</div>
                   <div className="inline-flex items-center bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-2">
                     40% OFF
