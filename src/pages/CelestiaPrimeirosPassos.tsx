@@ -281,7 +281,7 @@ const CelestiaPrimeirosPassos = () => {
                 },
                 {
                   text: "I recommend it for anyone starting their self-discovery journey. It's a complete and very accurate guide.",
-                  name: "Emma Wilson",
+                  name: "Emma W.",
                   initials: "EW"
                 }
               ].map((testimonial, index) => (
