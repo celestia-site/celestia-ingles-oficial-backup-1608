@@ -347,7 +347,7 @@ const CelestiaPrimeirosPassos = () => {
               <CardContent className="p-8">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-purple-400 mb-2">
-                    Request Your Celestia - First Steps
+                    Request Your Destiny Awakening Blueprint
                   </h3>
                   <p className="text-gray-300">
                     Fill in your details to receive your personalized map

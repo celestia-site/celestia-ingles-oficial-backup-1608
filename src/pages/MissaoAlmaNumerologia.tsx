@@ -347,7 +347,7 @@ const MissaoAlmaNumerologia = () => {
                   </p>
                   <div className="space-y-2">
                     <Link to="/celestia-primeiros-passos" className="block text-primary hover:text-primary/80 font-medium">
-                      → Celestia - First Steps in Self-Knowledge
+                      → Destiny Awakening Blueprint in Self-Knowledge
                     </Link>
                     <Link to="/analise-compatibilidade-amorosa" className="block text-primary hover:text-primary/80 font-medium">
                       → Love Compatibility Analysis

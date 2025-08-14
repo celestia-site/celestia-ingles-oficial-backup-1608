@@ -359,7 +359,7 @@ const LimpezaEnergetica = () => {
                       → Akashic Records: Portal to Past Lives
                     </Link>
                     <Link to="/celestia-primeiros-passos" className="block text-primary hover:text-primary/80 font-medium">
-                      → Celestia - First Steps in Self-Knowledge
+                      → Destiny Awakening Blueprint in Self-Knowledge
                     </Link>
                   </div>
                 </section>

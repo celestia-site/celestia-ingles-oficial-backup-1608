@@ -36,7 +36,7 @@ const ProductsSection = () => {
           <ProductCard
             image="/lovable-uploads/b9812cd9-93b7-47ac-b9e4-73ebd9268137.png"
             badge="BEGINNER"
-            title="Celestia - First Steps"
+            title="Destiny Awakening Blueprint"
             description="Your spiritual map at first sight. Discover your soul's essential codes based on your name and birth date. A quick, powerful and revealing diagnosis to start your spiritual journey."
             features={[
               "Birth number",
