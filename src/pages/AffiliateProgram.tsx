@@ -101,6 +101,7 @@ const AffiliateProgram = () => {
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-primary">💰 US$ 19.70</div>
+                    <div className="text-sm text-muted-foreground mt-1">50% commission after fees and taxes</div>
                   </div>
                 </CardContent>
               </Card>
@@ -144,6 +145,7 @@ const AffiliateProgram = () => {
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-accent">💰 US$ 39.70</div>
+                    <div className="text-sm text-muted-foreground mt-1">50% commission after fees and taxes</div>
                   </div>
                 </CardContent>
               </Card>
@@ -187,6 +189,7 @@ const AffiliateProgram = () => {
                   </div>
                   <div className="text-center">
                     <div className="text-2xl font-bold text-divine">💰 US$ 29.70</div>
+                    <div className="text-sm text-muted-foreground mt-1">50% commission after fees and taxes</div>
                   </div>
                 </CardContent>
               </Card>
