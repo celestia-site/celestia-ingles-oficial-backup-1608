@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { personalFormSchema, sanitizeFormData, type PersonalFormData } from "@/lib/validation";
 import Header from "@/components/Header";
 // Image will be referenced directly from public folder
 
@@ -108,9 +109,14 @@ const CelestiaPrimeirosPassos = () => {
         window.open('https://pay.cakto.com.br/xybdvtr_483604', '_blank');
       }, 2000);
 
-    } catch (error) {
+    } catch (error: any) {
       console.error('Error:', error);
-      toast.error("Unexpected error. Please try again.");
+      if (error.name === 'ZodError') {
+        const firstError = error.errors[0];
+        toast.error(`Validation error: ${firstError.message}`);
+      } else {
+        toast.error("Unexpected error. Please try again.");
+      }
     } finally {
       setIsSubmitting(false);
     }

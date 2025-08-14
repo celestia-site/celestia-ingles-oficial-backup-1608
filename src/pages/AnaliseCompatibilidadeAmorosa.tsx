@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Heart, Infinity, Star, Users, Sparkles, Shield } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
+import { loveCompatibilityFormSchema, sanitizeFormData, type LoveCompatibilityFormData } from "@/lib/validation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 const loveCompatibilityBg = "/lovable-uploads/57029799-fb2b-4976-82b7-f29b72a53957.png";
