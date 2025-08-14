@@ -271,7 +271,7 @@ const CelestiaPrimeirosPassos = () => {
               {[
                 {
                   text: "Celestia helped me finally understand who I am. The channeled message came at the perfect time in my life!",
-                  name: "Sarah Johnson",
+                  name: "Sarah J.",
                   initials: "SJ"
                 },
                 {
