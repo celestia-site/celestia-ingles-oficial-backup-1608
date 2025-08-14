@@ -276,7 +276,7 @@ const CelestiaPrimeirosPassos = () => {
                 },
                 {
                   text: "Amazing how everything made sense. The report is very detailed and gave me clarity about my purpose.",
-                  name: "Michael Davis",
+                  name: "Michael D. Jr",
                   initials: "MD"
                 },
                 {
