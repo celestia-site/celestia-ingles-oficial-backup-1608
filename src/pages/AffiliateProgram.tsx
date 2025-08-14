@@ -270,6 +270,10 @@ const AffiliateProgram = () => {
                         <XCircle className="w-4 h-4 text-destructive mt-1 flex-shrink-0" />
                         <span className="text-muted-foreground text-sm">Promote in channels or countries where spiritual products are legally restricted</span>
                       </div>
+                      <div className="flex items-start gap-2">
+                        <XCircle className="w-4 h-4 text-destructive mt-1 flex-shrink-0" />
+                        <span className="text-muted-foreground text-sm">Use AI and deepfake simulating personalities and famous people talking about Celestia and its products</span>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
