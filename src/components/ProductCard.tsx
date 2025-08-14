@@ -79,12 +79,12 @@ const ProductCard = ({
         {link ? (
           <Link to={link} className="w-full">
             <Button variant="celestial" className="w-full">
-              Adquirir Agora
+              Order Now
             </Button>
           </Link>
         ) : (
           <Button variant="celestial" className="w-full">
-            Adquirir Agora
+            Order Now
           </Button>
         )}
       </CardFooter>
