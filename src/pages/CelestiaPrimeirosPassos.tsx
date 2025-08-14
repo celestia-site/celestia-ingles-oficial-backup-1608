@@ -157,7 +157,10 @@ const CelestiaPrimeirosPassos = () => {
                   </div>
                 </div>
 
-                <Button className="w-full sm:w-auto h-14 px-8 text-lg font-semibold bg-blue-600 hover:bg-blue-700 transition-colors text-white border-0">
+                <Button 
+                  onClick={() => document.getElementById('celestia-form')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="w-full sm:w-auto h-14 px-8 text-lg font-semibold bg-blue-600 hover:bg-blue-700 transition-colors text-white border-0"
+                >
                   <Gift className="w-5 h-5 mr-2" />
                   Get Now
                 </Button>
@@ -340,7 +343,7 @@ const CelestiaPrimeirosPassos = () => {
             </div>
 
             {/* Form */}
-            <Card className="bg-card/10 border-purple-500/30 backdrop-blur-sm max-w-2xl mx-auto">
+            <Card id="celestia-form" className="bg-card/10 border-purple-500/30 backdrop-blur-sm max-w-2xl mx-auto">
               <CardContent className="p-8">
                 <div className="text-center mb-8">
                   <h3 className="text-2xl font-bold text-purple-400 mb-2">
