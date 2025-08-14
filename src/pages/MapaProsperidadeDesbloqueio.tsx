@@ -193,10 +193,8 @@ const MapaProsperidadeDesbloqueio = () => {
           
           <Card className="bg-card/50 border-primary/30 max-w-md mx-auto mb-8">
             <CardContent className="p-6 text-center">
-              <div className="text-sm text-muted-foreground line-through mb-1">$97.00</div>
-              <Badge variant="destructive" className="mb-2">24% OFF</Badge>
-              <div className="text-2xl font-bold text-primary mb-1">12x $6.25</div>
-              <div className="text-sm text-muted-foreground">or $74.99 one-time payment</div>
+              <div className="text-2xl font-bold text-primary mb-1">$29.70</div>
+              <div className="text-sm text-muted-foreground">One-time payment</div>
               <div className="text-xs text-muted-foreground mt-2">
                 🛡️ One-time investment for lifetime guidance
               </div>
@@ -288,10 +286,8 @@ const MapaProsperidadeDesbloqueio = () => {
           
           <Card className="bg-card border-primary/30 max-w-sm mx-auto">
             <CardContent className="p-4 text-center">
-              <div className="text-sm text-muted-foreground line-through mb-1">$97.00</div>
-              <Badge variant="destructive" className="mb-2 text-xs">24% OFF</Badge>
-              <div className="text-xl font-bold text-primary mb-1">12x $6.25</div>
-              <div className="text-sm text-muted-foreground mb-2">or $74.99 one-time payment</div>
+              <div className="text-xl font-bold text-primary mb-1">$29.70</div>
+              <div className="text-sm text-muted-foreground mb-2">One-time payment</div>
               <div className="text-xs text-muted-foreground flex items-center justify-center gap-1">
                 <Shield className="w-3 h-3" />
                 One-time investment for lifetime guidance
