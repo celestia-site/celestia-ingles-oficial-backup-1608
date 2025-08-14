@@ -491,12 +491,12 @@ const CelestiaPrimeirosPassos = () => {
 
                   {/* Submit Button */}
                   <Button 
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors disabled:opacity-50"
+                    type="button"
+                    onClick={() => window.open('https://celestiagu.pay.clickbank.net/?cbitems=C001', '_blank')}
+                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors"
                   >
                     <Sparkles className="w-5 h-5 mr-2" />
-                    {isSubmitting ? 'Sending...' : 'Request My Celestia Now'}
+                    Request My Celestia Now
                   </Button>
 
                   {/* Delivery Note */}
