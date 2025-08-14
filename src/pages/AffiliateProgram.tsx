@@ -322,7 +322,8 @@ const AffiliateProgram = () => {
                   <CardContent className="p-6 text-center">
                     <Shield className="w-12 h-12 text-primary mx-auto mb-4" />
                     <h3 className="text-xl font-bold text-foreground mb-2">Knowledge Base</h3>
-                    <p className="text-muted-foreground">Media kit and guidelines access</p>
+                    <p className="text-muted-foreground">*Media kit and guidelines access</p>
+                    <p className="text-xs text-muted-foreground mt-1">*Link will be provided through ClickBank platform</p>
                   </CardContent>
                 </Card>
               </div>
