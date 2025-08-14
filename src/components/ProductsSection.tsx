@@ -79,7 +79,7 @@ const ProductsSection = () => {
               "Financial activation mantras and rituals",
               "Daily prosperity plan"
             ]}
-            price="<span className='text-6xl font-bold' style='font-size: 150%; color: hsl(45, 100%, 60%)'>ONLY US$ 37.70</span>"
+            price="<span className='text-6xl font-bold' style='font-size: 150%; color: hsl(45, 100%, 60%)'>ONLY US$ 29.70</span>"
             badgeColor="divine"
             link="/prosperity-unlock-map"
           />
