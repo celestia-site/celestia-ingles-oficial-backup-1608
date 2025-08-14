@@ -53,7 +53,7 @@ const ProductsSection = () => {
           <ProductCard
             image={loveCompatibilityImage}
             badge="RELATIONSHIPS"
-            title="Spiritual Love Compatibility Analysis"
+            title="Soulmate Destiny Blueprint"
             description="A deep spiritual reading of the relationship between two souls: compatibilities, lessons, karmas and joint mission."
             features={[
               "Astrological and numerological synastry",
