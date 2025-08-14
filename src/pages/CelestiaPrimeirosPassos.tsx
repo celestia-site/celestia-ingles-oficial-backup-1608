@@ -499,7 +499,7 @@ const CelestiaPrimeirosPassos = () => {
                     className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors"
                   >
                     <Sparkles className="w-5 h-5 mr-2" />
-                    Request My Celestia Now
+                    Yes, I Want My Soul Map Now
                   </Button>
 
                   {/* Delivery Note */}
