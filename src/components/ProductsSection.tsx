@@ -34,7 +34,7 @@ const ProductsSection = () => {
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           <ProductCard
-            image="/lovable-uploads/b9812cd9-93b7-47ac-b9e4-73ebd9268137.png"
+            image="/lovable-uploads/94547418-cd2e-4b81-9c12-3bbe8621a339.png"
             badge="BEGINNER"
             title="Destiny Awakening Blueprint"
             description="Your spiritual map at first sight. Discover your soul's essential codes based on your name and birth date. A quick, powerful and revealing diagnosis to start your spiritual journey."
