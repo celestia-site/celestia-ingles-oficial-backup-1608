@@ -629,15 +629,16 @@ const AnaliseCompatibilidadeAmorosa = () => {
                   </div>
                 </div>
 
-                <Button 
-                  type="submit" 
-                  size="lg" 
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4"
-                  disabled={isSubmitting}
-                >
-                  <Sparkles className="w-5 h-5 mr-2" />
-                  {isSubmitting ? "Processing..." : "Get My Reading Now"}
-                </Button>
+                <a href="https://celestiagu.pay.clickbank.net/?cbitems=C002" target="_blank" rel="noopener noreferrer" className="w-full">
+                  <Button 
+                    type="button" 
+                    size="lg" 
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-4"
+                  >
+                    <Sparkles className="w-5 h-5 mr-2" />
+                    Get My Reading Now
+                  </Button>
+                </a>
 
                 <p className="text-center text-sm text-muted-foreground">
                   ⏰ Delivered within 24 hours to your email
