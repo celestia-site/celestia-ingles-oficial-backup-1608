@@ -62,7 +62,7 @@ const ProductsSection = () => {
               "Love predictions",
               "Strengthening rituals"
             ]}
-            price="<span className='text-6xl font-bold' style='font-size: 150%; color: hsl(45, 100%, 60%)'>ONLY US$ 29.70</span>"
+            price="<span className='text-6xl font-bold' style='font-size: 150%; color: hsl(45, 100%, 60%)'>ONLY US$ 39.70</span>"
             badgeColor="mystic"
             link="/love-compatibility-analysis"
           />
