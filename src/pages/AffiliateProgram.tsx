@@ -234,6 +234,10 @@ const AffiliateProgram = () => {
                         <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
                         <span className="text-muted-foreground text-sm">Promote via paid ads, SEO, email marketing (respecting platform laws and policies)</span>
                       </div>
+                      <div className="flex items-start gap-2">
+                        <CheckCircle className="w-4 h-4 text-primary mt-1 flex-shrink-0" />
+                        <span className="text-muted-foreground text-sm">Can be promoted using Celestia and product keywords without restriction on Google, Meta, TikTok, YouTube and others</span>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
