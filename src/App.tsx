@@ -16,6 +16,7 @@ import PoliticaPrivacidade from "./pages/PoliticaPrivacidade";
 import TermosUso from "./pages/TermosUso";
 import ComoFunciona from "./pages/ComoFunciona";
 import Obrigado from "./pages/Obrigado";
+import AffiliateProgram from "./pages/AffiliateProgram";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -43,6 +44,7 @@ const App = () => (
           <Route path="/terms-of-use" element={<TermosUso />} />
           <Route path="/how-it-works" element={<ComoFunciona />} />
           <Route path="/thank-you" element={<Obrigado />} />
+          <Route path="/affiliate-program" element={<AffiliateProgram />} />
           
           {/* Portuguese routes (legacy) */}
           <Route path="/celestia-primeiros-passos" element={<CelestiaPrimeirosPassos />} />
