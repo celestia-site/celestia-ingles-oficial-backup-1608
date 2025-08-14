@@ -449,11 +449,11 @@ const MapaProsperidadeDesbloqueio = () => {
                 </div>
 
                 <Button 
-                  type="submit" 
+                  type="button"
                   className="w-full bg-gradient-cosmic hover:opacity-90 text-white font-semibold py-3 rounded-lg"
-                  disabled={isSubmitting}
+                  onClick={() => window.open('https://celestiagu.pay.clickbank.net/?cbitems=C003', '_blank')}
                 >
-                  {isSubmitting ? "Sending..." : "✨ Get My Map Now"}
+                  ✨ Get My Map Now
                 </Button>
 
                 <div className="text-center">
