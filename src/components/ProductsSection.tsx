@@ -54,7 +54,7 @@ const ProductsSection = () => {
             image={loveCompatibilityImage}
             badge="RELATIONSHIPS"
             title="Soulmate Destiny Blueprint"
-            description="A deep spiritual reading of the relationship between two souls: compatibilities, lessons, karmas and joint mission. Discover the hidden energies shaping your bond and the spiritual keys to strengthen it. Step into a deeper connection and shared destiny."
+            description="A deep spiritual reading of the relationship between two souls: compatibilities, lessons, karmas and joint mission. Discover the hidden energies shaping your bond and the spiritual keys to strengthen it."
             features={[
               "Astrological and numerological synastry",
               "Couple's spiritual mission",
