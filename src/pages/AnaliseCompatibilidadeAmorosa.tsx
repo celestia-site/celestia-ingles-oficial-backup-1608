@@ -363,15 +363,15 @@ const AnaliseCompatibilidadeAmorosa = () => {
               <div className="text-2xl text-muted-foreground line-through mb-2">$97.00</div>
               
               <div className="inline-block bg-gradient-to-r from-red-500 to-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-6">
-                24% OFF
+                59% OFF
               </div>
               
               <div className="text-4xl font-bold text-primary mb-2">
-                12x $6.25
+                $39.70
               </div>
               
               <div className="text-lg text-muted-foreground mb-6">
-                or $74.99 one-time payment
+                One-time payment
               </div>
               
               <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
