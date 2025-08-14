@@ -69,7 +69,7 @@ const ProductCard = ({
         </div>
 
         {/* Pricing */}
-        <div className="mb-4">
+        <div className="mb-4 text-center">
           {installments && <div className="text-lg font-bold text-foreground mb-1">{installments}</div>}
           <div className="text-sm text-muted-foreground" dangerouslySetInnerHTML={{__html: price}}></div>
         </div>
