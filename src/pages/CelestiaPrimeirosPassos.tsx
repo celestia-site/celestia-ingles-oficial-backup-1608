@@ -169,8 +169,8 @@ const CelestiaPrimeirosPassos = () => {
               <div className="relative">
                 <div className="relative overflow-hidden rounded-2xl shadow-luxury">
                   <img 
-                    src="/lovable-uploads/b9812cd9-93b7-47ac-b9e4-73ebd9268137.png" 
-                    alt="Chakras and meditation - First steps in the spiritual journey"
+                    src="/lovable-uploads/f33273f2-8495-4046-8f0b-05a368304135.png" 
+                    alt="Mystical tree portal with ancient wisdom - Destiny Awakening Blueprint"
                     className="w-full h-96 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
