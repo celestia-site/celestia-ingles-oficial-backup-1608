@@ -85,7 +85,10 @@ export type Database = {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      export_to_google_sheets: {
+        Args: { record_data: Json }
+        Returns: boolean
+      }
     }
     Enums: {
       [_ in never]: never
