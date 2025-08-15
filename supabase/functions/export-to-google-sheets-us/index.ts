@@ -11,7 +11,7 @@ interface RequestBody {
 }
 
 serve(async (req) => {
-  console.log('🚀 Export to Google Sheets US function called - v2');
+  console.log('🚀 Export to Google Sheets US function called - v3');
   
   // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
