@@ -11,7 +11,7 @@ interface RequestBody {
 }
 
 serve(async (req) => {
-  console.log('🚀 Export to Google Sheets US function called - v3');
+  console.log('🚀 Export to Google Sheets US function called - v4');
   
   // Handle CORS preflight requests
   if (req.method === 'OPTIONS') {
@@ -19,7 +19,7 @@ serve(async (req) => {
   }
 
   try {
-    // Validate environment variables (usando os mesmos secrets da função brasileira)
+    // Validate environment variables
     const serviceAccountEmail = Deno.env.get('GOOGLE_SERVICE_ACCOUNT_EMAIL');
     const privateKey = Deno.env.get('GOOGLE_PRIVATE_KEY');
     const spreadsheetId = Deno.env.get('GOOGLE_SPREADSHEET_ID_US');
@@ -30,7 +30,8 @@ serve(async (req) => {
       hasSpreadsheetId: !!spreadsheetId,
       serviceAccountEmailLength: serviceAccountEmail?.length || 0,
       privateKeyLength: privateKey?.length || 0,
-      spreadsheetIdLength: spreadsheetId?.length || 0
+      spreadsheetIdLength: spreadsheetId?.length || 0,
+      serviceAccountEmailValue: serviceAccountEmail || 'MISSING',
     });
 
     if (!serviceAccountEmail || !privateKey || !spreadsheetId) {
@@ -42,6 +43,7 @@ serve(async (req) => {
             hasServiceAccount: !!serviceAccountEmail,
             hasPrivateKey: !!privateKey,
             hasSpreadsheetId: !!spreadsheetId,
+            serviceAccountEmail: serviceAccountEmail || 'MISSING',
             debug: {
               emailLength: serviceAccountEmail?.length || 0,
               keyLength: privateKey?.length || 0,
@@ -134,9 +136,21 @@ serve(async (req) => {
     // Import private key and sign JWT
     const pemHeader = "-----BEGIN PRIVATE KEY-----";
     const pemFooter = "-----END PRIVATE KEY-----";
-    // Handle both escaped newlines (\n) and actual newlines
-    const cleanedKey = privateKey.replace(/\\n/g, '\n');
-    const pemContents = cleanedKey.replace(pemHeader, "").replace(pemFooter, "").replace(/\s/g, "");
+    
+    // Clean the private key properly
+    let cleanedKey = privateKey.replace(/\\n/g, '\n');
+    
+    // Ensure proper PEM format
+    if (!cleanedKey.includes(pemHeader)) {
+      cleanedKey = `${pemHeader}\n${cleanedKey}\n${pemFooter}`;
+    }
+    
+    const pemContents = cleanedKey
+      .replace(pemHeader, "")
+      .replace(pemFooter, "")
+      .replace(/\s/g, "");
+    
+    console.log('🔑 Private key length after cleaning:', pemContents.length);
     
     const binaryDer = Uint8Array.from(atob(pemContents), c => c.charCodeAt(0));
     
