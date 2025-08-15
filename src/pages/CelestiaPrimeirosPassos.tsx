@@ -43,8 +43,8 @@ const CelestiaPrimeirosPassos = () => {
         return;
       }
 
-      // Inserir no Supabase
-      const { error } = await supabase.from('celestia_orders').insert({
+      // Inserir no Supabase - nova tabela US
+      const { error } = await supabase.from('celestia_orders_us').insert({
         full_name: formData.fullName,
         email: formData.email,
         whatsapp: formData.whatsapp,
@@ -52,7 +52,8 @@ const CelestiaPrimeirosPassos = () => {
         birth_time: formData.birthTime || null,
         birth_city: formData.birthCity,
         birth_state: formData.birthState,
-        birth_country: formData.birthCountry
+        birth_country: formData.birthCountry,
+        produto: 'Celestia First Steps'
       });
 
       if (error) {
@@ -77,7 +78,7 @@ const CelestiaPrimeirosPassos = () => {
           created_at: new Date().toISOString()
         };
 
-        const { error: exportError } = await supabase.functions.invoke('export-to-google-sheets', {
+        const { error: exportError } = await supabase.functions.invoke('export-to-google-sheets-us', {
           body: { record: recordData }
         });
 
@@ -104,9 +105,9 @@ const CelestiaPrimeirosPassos = () => {
         birthCountry: ''
       });
 
-      // Redirect to Cakto payment link after 2 seconds
+      // Redirect to US payment link after 2 seconds
       setTimeout(() => {
-        window.open('https://pay.cakto.com.br/xybdvtr_483604', '_blank');
+        window.open('https://celestiagu.pay.clickbank.net/?cbitems=C001', '_blank');
       }, 2000);
 
     } catch (error: any) {
@@ -494,12 +495,12 @@ const CelestiaPrimeirosPassos = () => {
 
                   {/* Submit Button */}
                   <Button 
-                    type="button"
-                    onClick={() => window.open('https://celestiagu.pay.clickbank.net/?cbitems=C001', '_blank')}
-                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors"
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors disabled:opacity-50"
                   >
                     <Sparkles className="w-5 h-5 mr-2" />
-                    Yes, I Want My Soul Map Now
+                    {isSubmitting ? 'Processing...' : 'Yes, I Want My Soul Map Now'}
                   </Button>
 
                   {/* Delivery Note */}
