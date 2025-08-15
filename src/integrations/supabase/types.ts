@@ -7,7 +7,7 @@ export type Json =
   | Json[]
 
 export type Database = {
-  // Allows to automatically instanciate createClient with right options
+  // Allows to automatically instantiate createClient with right options
   // instead of createClient<Database, { PostgrestVersion: 'XX' }>(URL, KEY)
   __InternalSupabase: {
     PostgrestVersion: "12.2.3 (519615d)"
@@ -80,12 +80,81 @@ export type Database = {
         }
         Relationships: []
       }
+      celestia_orders_us: {
+        Row: {
+          birth_city: string
+          birth_country: string
+          birth_date: string
+          birth_state: string
+          birth_time: string | null
+          created_at: string
+          email: string
+          full_name: string
+          id: string
+          partner_birth_city: string | null
+          partner_birth_country: string | null
+          partner_birth_date: string | null
+          partner_birth_state: string | null
+          partner_birth_time: string | null
+          partner_name: string | null
+          produto: string
+          status: string | null
+          updated_at: string
+          whatsapp: string
+        }
+        Insert: {
+          birth_city: string
+          birth_country: string
+          birth_date: string
+          birth_state: string
+          birth_time?: string | null
+          created_at?: string
+          email: string
+          full_name: string
+          id?: string
+          partner_birth_city?: string | null
+          partner_birth_country?: string | null
+          partner_birth_date?: string | null
+          partner_birth_state?: string | null
+          partner_birth_time?: string | null
+          partner_name?: string | null
+          produto?: string
+          status?: string | null
+          updated_at?: string
+          whatsapp: string
+        }
+        Update: {
+          birth_city?: string
+          birth_country?: string
+          birth_date?: string
+          birth_state?: string
+          birth_time?: string | null
+          created_at?: string
+          email?: string
+          full_name?: string
+          id?: string
+          partner_birth_city?: string | null
+          partner_birth_country?: string | null
+          partner_birth_date?: string | null
+          partner_birth_state?: string | null
+          partner_birth_time?: string | null
+          partner_name?: string | null
+          produto?: string
+          status?: string | null
+          updated_at?: string
+          whatsapp?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
     }
     Functions: {
-      [_ in never]: never
+      export_to_google_sheets: {
+        Args: { record_data: Json }
+        Returns: boolean
+      }
     }
     Enums: {
       [_ in never]: never
