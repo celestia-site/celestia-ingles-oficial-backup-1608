@@ -120,7 +120,9 @@ serve(async (req) => {
     // Import private key and sign JWT
     const pemHeader = "-----BEGIN PRIVATE KEY-----";
     const pemFooter = "-----END PRIVATE KEY-----";
-    const pemContents = privateKey.replace(pemHeader, "").replace(pemFooter, "").replace(/\s/g, "");
+    // Handle both escaped newlines (\n) and actual newlines
+    const cleanedKey = privateKey.replace(/\\n/g, '\n');
+    const pemContents = cleanedKey.replace(pemHeader, "").replace(pemFooter, "").replace(/\s/g, "");
     
     const binaryDer = Uint8Array.from(atob(pemContents), c => c.charCodeAt(0));
     
