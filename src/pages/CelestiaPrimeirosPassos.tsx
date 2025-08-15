@@ -43,8 +43,8 @@ const CelestiaPrimeirosPassos = () => {
         return;
       }
 
-      // Inserir no Supabase - nova tabela US
-      const { error } = await supabase.from('celestia_orders_us').insert({
+      // Inserir no Supabase
+      const { error } = await supabase.from('celestia_orders').insert({
         full_name: formData.fullName,
         email: formData.email,
         whatsapp: formData.whatsapp,
@@ -52,8 +52,7 @@ const CelestiaPrimeirosPassos = () => {
         birth_time: formData.birthTime || null,
         birth_city: formData.birthCity,
         birth_state: formData.birthState,
-        birth_country: formData.birthCountry,
-        produto: 'Celestia First Steps'
+        birth_country: formData.birthCountry
       });
 
       if (error) {
@@ -78,7 +77,7 @@ const CelestiaPrimeirosPassos = () => {
           created_at: new Date().toISOString()
         };
 
-        const { error: exportError } = await supabase.functions.invoke('export-to-google-sheets-us', {
+        const { error: exportError } = await supabase.functions.invoke('export-to-google-sheets', {
           body: { record: recordData }
         });
 
@@ -105,9 +104,9 @@ const CelestiaPrimeirosPassos = () => {
         birthCountry: ''
       });
 
-      // Redirect to US payment link after 2 seconds
+      // Redirect to Cakto payment link after 2 seconds
       setTimeout(() => {
-        window.open('https://celestiagu.pay.clickbank.net/?cbitems=C001', '_blank');
+        window.open('https://pay.cakto.com.br/xybdvtr_483604', '_blank');
       }, 2000);
 
     } catch (error: any) {
@@ -139,8 +138,8 @@ const CelestiaPrimeirosPassos = () => {
                 </div>
                 
                 <h1 className="text-5xl md:text-6xl font-bold mb-6">
-                  <span className="bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">Destiny Awakening </span>
-                  <span className="bg-gradient-to-r from-blue-800 to-purple-500 bg-clip-text text-transparent">Blueprint</span>
+                  <span className="bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">Celestia - </span>
+                  <span className="bg-gradient-to-r from-blue-800 to-purple-500 bg-clip-text text-transparent">First Steps</span>
                 </h1>
                 
                 <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
@@ -149,7 +148,7 @@ const CelestiaPrimeirosPassos = () => {
 
                 <div className="flex flex-col sm:flex-row gap-4 mb-8">
                   <div className="text-center sm:text-left">
-                    <div className="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-500 bg-clip-text text-transparent">$19.7</div>
+                    <div className="text-3xl font-bold bg-gradient-text-primary bg-clip-text text-transparent">$19.7</div>
                     <div className="text-sm text-muted-foreground">one time</div>
                   </div>
                   <div className="text-center sm:text-left">
@@ -163,15 +162,15 @@ const CelestiaPrimeirosPassos = () => {
                   className="w-full sm:w-auto h-14 px-8 text-lg font-semibold bg-blue-600 hover:bg-blue-700 transition-colors text-white border-0"
                 >
                   <Gift className="w-5 h-5 mr-2" />
-                  Begin Your Journey
+                  Get Now
                 </Button>
               </div>
 
               <div className="relative">
                 <div className="relative overflow-hidden rounded-2xl shadow-luxury">
                   <img 
-                    src="/lovable-uploads/f33273f2-8495-4046-8f0b-05a368304135.png" 
-                    alt="Mystical tree portal with ancient wisdom - Destiny Awakening Blueprint"
+                    src="/lovable-uploads/b9812cd9-93b7-47ac-b9e4-73ebd9268137.png" 
+                    alt="Chakras and meditation - First steps in the spiritual journey"
                     className="w-full h-96 object-cover"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
@@ -186,7 +185,7 @@ const CelestiaPrimeirosPassos = () => {
           <div className="container mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold mb-6">
-                <span className="bg-gradient-to-r from-yellow-400 via-amber-500 to-yellow-600 bg-clip-text text-transparent">What's included in your Celestia Blueprint</span>
+                <span className="bg-gradient-text-primary bg-clip-text text-transparent">What's included in your Celestia</span>
               </h2>
             </div>
 
@@ -272,17 +271,17 @@ const CelestiaPrimeirosPassos = () => {
               {[
                 {
                   text: "Celestia helped me finally understand who I am. The channeled message came at the perfect time in my life!",
-                  name: "Sarah J.",
+                  name: "Sarah Johnson",
                   initials: "SJ"
                 },
                 {
                   text: "Amazing how everything made sense. The report is very detailed and gave me clarity about my purpose.",
-                  name: "Michael D. Jr",
+                  name: "Michael Davis",
                   initials: "MD"
                 },
                 {
                   text: "I recommend it for anyone starting their self-discovery journey. It's a complete and very accurate guide.",
-                  name: "Emma W.",
+                  name: "Emma Wilson",
                   initials: "EW"
                 }
               ].map((testimonial, index) => (
@@ -330,7 +329,7 @@ const CelestiaPrimeirosPassos = () => {
               {/* Pricing Box */}
               <Card className="bg-card/10 border-purple-500/30 backdrop-blur-sm max-w-md mx-auto mb-12">
                 <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-bold bg-gradient-to-r from-yellow-400 via-yellow-500 to-amber-500 bg-clip-text text-transparent mb-2">US$ 19.7</div>
+                  <div className="text-3xl font-bold text-purple-400 mb-2">US$ 19.7</div>
                   <div className="text-gray-300 mb-4">One time</div>
                   <div className="inline-flex items-center bg-red-500 text-white px-3 py-1 rounded-full text-sm font-bold mb-2">
                     40% OFF
@@ -495,12 +494,12 @@ const CelestiaPrimeirosPassos = () => {
 
                   {/* Submit Button */}
                   <Button 
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors disabled:opacity-50"
+                    type="button"
+                    onClick={() => window.open('https://celestiagu.pay.clickbank.net/?cbitems=C001', '_blank')}
+                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors"
                   >
                     <Sparkles className="w-5 h-5 mr-2" />
-                    {isSubmitting ? 'Processing...' : 'Yes, I Want My Soul Map Now'}
+                    Yes, I Want My Soul Map Now
                   </Button>
 
                   {/* Delivery Note */}

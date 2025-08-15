@@ -2,6 +2,3 @@ project_id = "gxlhclhlvtcoypzvtvsh"
 
 [functions.export-to-google-sheets]
 verify_jwt = false
-
-[functions.export-to-google-sheets-us]
-verify_jwt = false

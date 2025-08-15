@@ -270,10 +270,6 @@ const AffiliateProgram = () => {
                         <XCircle className="w-4 h-4 text-destructive mt-1 flex-shrink-0" />
                         <span className="text-muted-foreground text-sm">Promote in channels or countries where spiritual products are legally restricted</span>
                       </div>
-                      <div className="flex items-start gap-2">
-                        <XCircle className="w-4 h-4 text-destructive mt-1 flex-shrink-0" />
-                        <span className="text-muted-foreground text-sm">Use AI and deepfake simulating personalities and famous people talking about Celestia and its products</span>
-                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -326,8 +322,7 @@ const AffiliateProgram = () => {
                   <CardContent className="p-6 text-center">
                     <Shield className="w-12 h-12 text-primary mx-auto mb-4" />
                     <h3 className="text-xl font-bold text-foreground mb-2">Knowledge Base</h3>
-                    <p className="text-muted-foreground">*Media kit and guidelines access</p>
-                    <p className="text-xs text-muted-foreground mt-1">*Link will be provided through ClickBank platform</p>
+                    <p className="text-muted-foreground">Media kit and guidelines access</p>
                   </CardContent>
                 </Card>
               </div>
