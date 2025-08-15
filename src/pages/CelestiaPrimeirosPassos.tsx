@@ -52,7 +52,8 @@ const CelestiaPrimeirosPassos = () => {
         birth_time: formData.birthTime || null,
         birth_city: formData.birthCity,
         birth_state: formData.birthState,
-        birth_country: formData.birthCountry
+        birth_country: formData.birthCountry,
+        produto: 'Celestia First Steps'
       });
 
       if (error) {
@@ -494,12 +495,12 @@ const CelestiaPrimeirosPassos = () => {
 
                   {/* Submit Button */}
                   <Button 
-                    type="button"
-                    onClick={() => window.open('https://celestiagu.pay.clickbank.net/?cbitems=C001', '_blank')}
-                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors"
+                    type="submit"
+                    disabled={isSubmitting}
+                    className="w-full h-14 text-lg font-semibold bg-blue-600 hover:bg-blue-700 text-white border-0 transition-colors disabled:opacity-50"
                   >
                     <Sparkles className="w-5 h-5 mr-2" />
-                    Yes, I Want My Soul Map Now
+                    {isSubmitting ? 'Processing...' : 'Yes, I Want My Soul Map Now'}
                   </Button>
 
                   {/* Delivery Note */}
