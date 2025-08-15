@@ -1,1 +1,4 @@
 project_id = "gxlhclhlvtcoypzvtvsh"
+
+[functions.export-to-google-sheets]
+verify_jwt = false
