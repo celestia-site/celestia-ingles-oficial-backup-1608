@@ -2,8 +2,11 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Clock, ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useNavigateBlog } from "@/hooks/use-navigate-blog";
 
 const BlogSection = () => {
+  const navigateToBlog = useNavigateBlog();
+  
   const featuredPost = {
     title: "How to Discover Your Soul Mission through Numerology",
     excerpt: "Learn to calculate and interpret your personal numbers to understand what your true mission is in this life.",
@@ -149,14 +152,13 @@ const BlogSection = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <Link to="/blog">
-            <Button 
-              size="lg"
-              variant="celestial"
-            >
-              📚 View All Articles
-            </Button>
-          </Link>
+          <Button 
+            size="lg"
+            variant="celestial"
+            onClick={navigateToBlog}
+          >
+            📚 View All Articles
+          </Button>
         </div>
       </div>
     </section>
