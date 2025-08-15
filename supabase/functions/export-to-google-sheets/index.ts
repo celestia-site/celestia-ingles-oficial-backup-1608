@@ -97,7 +97,7 @@ serve(async (req) => {
 
     // Get environment variables
     const serviceAccountKey = Deno.env.get('GOOGLE_SERVICE_ACCOUNT_KEY');
-    const spreadsheetId = Deno.env.get('GOOGLE_SPREADSHEET_ID') || '1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms'; // Default spreadsheet ID
+    const spreadsheetId = Deno.env.get('GOOGLE_SPREADSHEET_ID') || '1V4Lg_i5JPWMLM5rCO_0X4MwXZ0Nx9-qLlDKQeTws_Wo'; // Your Portuguese spreadsheet ID
 
     if (!serviceAccountKey) {
       throw new Error('GOOGLE_SERVICE_ACCOUNT_KEY is not configured');
