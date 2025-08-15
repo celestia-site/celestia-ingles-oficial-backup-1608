@@ -21,7 +21,7 @@ serve(async (req) => {
   try {
     // Validate environment variables (usando os mesmos secrets da função brasileira)
     const serviceAccountEmail = Deno.env.get('GOOGLE_SERVICE_ACCOUNT_EMAIL');
-    const privateKey = Deno.env.get('GOOGLE_SERVICE_ACCOUNT_KEY'); // Corrigido para usar o secret existente
+    const privateKey = Deno.env.get('GOOGLE_PRIVATE_KEY');
     const spreadsheetId = Deno.env.get('GOOGLE_SPREADSHEET_ID_US');
 
     if (!serviceAccountEmail || !privateKey || !spreadsheetId) {
