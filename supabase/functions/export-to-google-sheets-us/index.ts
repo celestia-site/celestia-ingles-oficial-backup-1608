@@ -24,6 +24,15 @@ serve(async (req) => {
     const privateKey = Deno.env.get('GOOGLE_PRIVATE_KEY');
     const spreadsheetId = Deno.env.get('GOOGLE_SPREADSHEET_ID_US');
 
+    console.log('🔍 Debug secrets:', {
+      hasServiceAccountEmail: !!serviceAccountEmail,
+      hasPrivateKey: !!privateKey,
+      hasSpreadsheetId: !!spreadsheetId,
+      serviceAccountEmailLength: serviceAccountEmail?.length || 0,
+      privateKeyLength: privateKey?.length || 0,
+      spreadsheetIdLength: spreadsheetId?.length || 0
+    });
+
     if (!serviceAccountEmail || !privateKey || !spreadsheetId) {
       console.error('❌ Missing environment variables');
       return new Response(
@@ -32,7 +41,12 @@ serve(async (req) => {
           details: {
             hasServiceAccount: !!serviceAccountEmail,
             hasPrivateKey: !!privateKey,
-            hasSpreadsheetId: !!spreadsheetId
+            hasSpreadsheetId: !!spreadsheetId,
+            debug: {
+              emailLength: serviceAccountEmail?.length || 0,
+              keyLength: privateKey?.length || 0,
+              sheetIdLength: spreadsheetId?.length || 0
+            }
           }
         }),
         { 
